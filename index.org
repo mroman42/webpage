@@ -1,0 +1,50 @@
+#+Title: Mario Román
+#+Author: Mario Román
+#+Date: 26 December 2019
+#+options: toc:nil date:t num:nil html-style:nil html-postamble:t
+#+export_file_name: index.html
+
+I am currently a PhD at [[https://www.ttu.ee/][Tallinn University of Technology]] under the supervision of [[https://www.ioc.ee/~pawel/][Pawel Sobociński]]; my main interests being [[https://en.wikipedia.org/wiki/Category_theory][category theory]] and [[https://en.wikipedia.org/wiki/Functional_programming][functional programming]] ([[https://github.com/mroman42][GitHub]], [[https://mroman42.github.io/friggeri-cv-a4/cv.pdf][CV]]).
+
+#+attr_html: :align center
+#+attr_html: :width 200px
+[[./mario.jpeg]]
+
+* Publications
+
+ * [[file:publications/opendiagrams.pdf][Coend Calculus and Open Diagrams]]. /Mario Román/. ArXiv preprint
+   [[https://arxiv.org/abs/2004.04526][2004.04526]], April 2020.
+
+ * [[file:publications/combdiagramsfeedback.pdf][Comb Diagrams for Discrete-Time Feedback]]. /Mario Román/. ArXiv preprint
+   [[https://arxiv.org/abs/2003.06214][2003.06214]], March 2020.
+
+ * [[file:publications/profunctoropticsacategoricalupdate.pdf][Profunctor optics, a categorical update]]. /Bryce Clarke/, /Derek/
+   /Elkins/, /Jeremy Gibbons/, /Fosco Loregian/, /Bartosz Milewski/, /Emily/
+   /Pillmore/, /Mario Román/. ArXiv preprint [[https://arxiv.org/abs/2001.07488][2001.07488]], January 2020.
+
+ * [[file:publications/profunctoropticsandtraversals.pdf][Profunctor optics and traversals]]. /Mario Román/. ArXiv preprint [[https://arxiv.org/abs/2001.08045][2001.08045]],
+   January 2020. MSc Dissertation at the University of Oxford, supervised by
+   Prof. [[https://www.cs.ox.ac.uk/people/jeremy.gibbons/][Jeremy Gibbons]].
+
+ * [[file:publications/mikrokosmos.pdf][Mikrokosmos: an educational lambda interpreter]]. /Mario Román/. The
+   [[http://jose.theoj.org/papers/8324e9aa1019760e987673f55e335f34][Journal of Open Source Education]], 2018.
+
+* Talks
+
+ * [[https://mroman42.github.io/nwpt19-optics-talk/slides.pdf][Profunctor optics: a categorical update]]. NWPT'19 /(15th November 2019, Taltech)/.
+ * [[file:talks/profunctoroptics-syco5.pdf][Profunctor optics: a categorical update]]. SYCO5 /(5th September 2019, Birmingham)/.
+ * [[file:talks/profunctoroptics-mfocs.pdf][Profunctor optics: a categorical update]]. MFoCS dissertation proposals (/14th June 2019, University of Oxford/).
+ * [[https://mroman42.github.io/ctlc-slides/slides.pdf][Category Theory and Lambda Calculus]]. BSc dissertation defense. /(24th June 2018, [[https://fciencias.ugr.es/en/][Universidad de Granada]])/.
+ * [[https://mroman42.github.io/cosmoi/monoidescoloreadosbimonoidescoloreados.pdf][Monoides coloreados, bi(monoides coloreados)]]. /(26th April 2019, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
+ * [[https://mroman42.github.io/libreim-constructiva/constructiva.pdf][Ideas sobre constructivismo y computabilidad]]. (21st September 2018, [[https://wpd.ugr.es/~iemath/][IEMath]]).
+ * [[https://github.com/mroman42/lambda.notes][Lógica intuicionista y cálculo lambda]]. /(19th January 2018, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
+ * [[https://github.com/mroman42/lambda.notes][Categorías, funtores y transformaciones naturales]]. /(18th November 2017, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
+ 
+* Notes
+
+ * [[file:notes/kleislioptics.pdf][Kleisli Diagrams for Optics]], March 2020.
+ * [[file:notes/initializedfeedback.pdf][Initialized feedback categories]], March 2020.
+ * [[file:notes/opticsformacategory.pdf][Optics form a category, graphically]], March 2020.
+ * [[https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html][Profunctor optics: the categorical view]], on the /n-Category Café, January 2020/.
+ * [[file:notes/opticembedsint.pdf][Optic embeds into the Int construction]], joint with Elena Di Lavore, October 2019.
+ * [[file:notes/tannakiantambara.pdf][Tannakian reconstruction of Tambara modules]], September 2019.
