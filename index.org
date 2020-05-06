@@ -42,6 +42,7 @@ I am currently a PhD at [[https://www.ttu.ee/][Tallinn University of Technology]
  
 * Notes
 
+ * [[file:notes/composingopticswithfeedback.pdf][Composing optics with feedback]], joint with Elena Di Lavore, May 2020.
  * [[file:notes/diagrammatic-optics.pdf][Towards Diagrammatic Tambara theory]], April 2020.
  * [[file:notes/kleislioptics.pdf][Kleisli Diagrams for Optics]], March 2020.
  * [[file:notes/initializedfeedback.pdf][Initialized feedback categories]], March 2020.
