@@ -12,6 +12,9 @@ I am currently a PhD at [[https://www.ttu.ee/][Tallinn University of Technology]
 
 * Publications
 
+ * [[file:notes/functoriallanguagegames.pdf][Functorial Language Games for Question Answering.]] /Giovanni de Felice/, /Elena
+   Di Lavore/, /Mario Román/, /Alexis Toumi/. ArXiv preprint [[https://arxiv.org/abs/2005.09439][2005.09439]], May 2020.
+
  * [[file:publications/opendiagrams.pdf][Coend Calculus and Open Diagrams]]. /Mario Román/. ArXiv preprint
    [[https://arxiv.org/abs/2004.04526][2004.04526]], April 2020.
 
