@@ -45,6 +45,7 @@ I am currently a PhD at [[https://www.ttu.ee/][Tallinn University of Technology]
  
 * Notes
 
+ * [[file:notes/double-relations-for-negation.pdf][Double Rel and Peircean negation]], May 2020.
  * [[file:notes/composingopticswithfeedback.pdf][Composing optics with feedback]], joint with Elena Di Lavore, May 2020.
  * [[file:notes/diagrammatic-optics.pdf][Towards Diagrammatic Tambara theory]], April 2020.
  * [[file:notes/kleislioptics.pdf][Kleisli Diagrams for Optics]], March 2020.
