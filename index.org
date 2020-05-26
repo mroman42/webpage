@@ -51,6 +51,7 @@ I am currently a PhD at [[https://www.ttu.ee/][Tallinn University of Technology]
  * [[file:notes/kleislioptics.pdf][Kleisli Diagrams for Optics]], March 2020.
  * [[file:notes/initializedfeedback.pdf][Initialized feedback categories]], March 2020.
  * [[file:notes/opticsformacategory.pdf][Optics form a category, graphically]], March 2020.
+ * [[file:notes/composingoptics.pdf][Composing optics]], a note submitted for SYCO7, February 2020.
  * [[https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html][Profunctor optics: the categorical view]], on the /n-Category Café, January 2020/.
  * [[file:notes/opticembedsint.pdf][Optic embeds into the Int construction]], joint with Elena Di Lavore, October 2019.
  * [[file:notes/tannakiantambara.pdf][Tannakian reconstruction of Tambara modules]], September 2019.
