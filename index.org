@@ -28,6 +28,8 @@ I am currently a PhD at [[https://www.ttu.ee/][Tallinn University of Technology]
    /Elkins/, /Jeremy Gibbons/, /Fosco Loregian/, /Bartosz Milewski/, /Emily/
    /Pillmore/, /Mario Román/. ArXiv preprint [[https://arxiv.org/abs/2001.07488][2001.07488]], January 2020.
 
+   * [[file:publications/profunctoropticsacategoricalupdateAbstract.pdf][Extended abstract]] for Applied Category Theory 2020.
+
  * [[file:publications/profunctoropticsandtraversals.pdf][Profunctor optics and traversals]]. /Mario Román/. ArXiv preprint [[https://arxiv.org/abs/2001.08045][2001.08045]],
    January 2020. MSc Dissertation at the University of Oxford, supervised by
    Prof. [[https://www.cs.ox.ac.uk/people/jeremy.gibbons/][Jeremy Gibbons]].
