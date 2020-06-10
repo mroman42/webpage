@@ -18,7 +18,7 @@ I am currently a PhD at [[https://www.ttu.ee/][Tallinn University of Technology]
  * [[file:notes/functoriallanguagegames.pdf][Functorial Language Games for Question Answering.]] /Giovanni de Felice/, /Elena
    Di Lavore/, /Mario Román/, /Alexis Toumi/. ArXiv preprint [[https://arxiv.org/abs/2005.09439][2005.09439]], May 2020.
 
- * [[file:publications/opendiagrams.pdf][Coend Calculus and Open Diagrams]]. /Mario Román/. ArXiv preprint
+ * [[file:publications/opendiagrams.pdf][Open Diagrams via Coend Calculus]]. /Mario Román/. ArXiv preprint
    [[https://arxiv.org/abs/2004.04526][2004.04526]], April 2020.
 
  * [[file:publications/combdiagramsfeedback.pdf][Comb Diagrams for Discrete-Time Feedback]]. /Mario Román/. ArXiv preprint
@@ -28,7 +28,7 @@ I am currently a PhD at [[https://www.ttu.ee/][Tallinn University of Technology]
    /Elkins/, /Jeremy Gibbons/, /Fosco Loregian/, /Bartosz Milewski/, /Emily/
    /Pillmore/, /Mario Román/. ArXiv preprint [[https://arxiv.org/abs/2001.07488][2001.07488]], January 2020.
 
-   * [[file:publications/profunctoropticsacategoricalupdateAbstract.pdf][Extended abstract]] for Applied Category Theory 2020.
+   * [[file:publications/profunctoropticsacategoricalupdateAbstract.pdf][Extended abstract]] for [[http://act2020.mit.edu/][Applied Category Theory 2020]].
 
  * [[file:publications/profunctoropticsandtraversals.pdf][Profunctor optics and traversals]]. /Mario Román/. ArXiv preprint [[https://arxiv.org/abs/2001.08045][2001.08045]],
    January 2020. MSc Dissertation at the University of Oxford, supervised by
@@ -49,6 +49,7 @@ I am currently a PhD at [[https://www.ttu.ee/][Tallinn University of Technology]
  * [[https://github.com/mroman42/lambda.notes][Categorías, funtores y transformaciones naturales]]. /(18th November 2017, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
  
 * Notes
+I upload notes on ideas that did not made into a publication. These are not meant to be definitive, but if you want to use them or cite them, please let me know. I will probably be happy to discuss about them and it is likely that I will be working on expanding them.
 
  * [[file:notes/double-relations-for-negation.pdf][Double Rel and Peircean negation]], May 2020.
  * [[file:notes/traversables-as-coalgebras.pdf][Traversables as Coalgebras]], May 2020.
