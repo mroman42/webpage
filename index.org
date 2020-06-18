@@ -49,8 +49,9 @@ I am currently a PhD at [[https://www.ttu.ee/][Tallinn University of Technology]
  * [[https://github.com/mroman42/lambda.notes][Categorías, funtores y transformaciones naturales]]. /(18th November 2017, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
  
 * Notes
-I upload notes on ideas that did not made into a publication. These are not meant to be definitive, but if you want to use them or cite them, please let me know. I will probably be happy to discuss about them and it is likely that I will be working on expanding them.
+I upload notes on ideas that did not made into a publication. These are not meant to be definitive, but if you want to use them or cite them in a more definite form, please let me know. I will probably be happy to discuss about them and it is likely that I will be working on expanding them.
 
+ * [[file:notes/graphical-tambara-theory.pdf][Formal Tambara Theory]], June 2020.
  * [[file:notes/double-relations-for-negation.pdf][Double Rel and Peircean negation]], May 2020.
  * [[file:notes/traversables-as-coalgebras.pdf][Traversables as Coalgebras]], May 2020.
  * [[file:notes/composingopticswithfeedback.pdf][Composing optics with feedback]], joint with Elena Di Lavore, May 2020.
