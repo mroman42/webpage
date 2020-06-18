@@ -7,7 +7,7 @@
  - mroman@ttu.ee
  - mromang08@gmail.com
 
-I am currently a PhD at [[https://www.ttu.ee/][Tallinn University of Technology]] under the supervision of [[https://www.ioc.ee/~pawel/][Pawel Sobociński]]; my main interests being [[https://en.wikipedia.org/wiki/Category_theory][category theory]] and [[https://en.wikipedia.org/wiki/Functional_programming][functional programming]] ([[https://github.com/mroman42][GitHub]], [[https://mroman42.github.io/friggeri-cv-a4/cv.pdf][CV]]).
+I am currently a PhD student at [[https://www.ttu.ee/][Tallinn University of Technology]] under the supervision of [[https://www.ioc.ee/~pawel/][Pawel Sobociński]]; my main interests being [[https://en.wikipedia.org/wiki/Category_theory][category theory]] and [[https://en.wikipedia.org/wiki/Functional_programming][functional programming]] ([[https://github.com/mroman42][GitHub]], [[https://mroman42.github.io/friggeri-cv-a4/cv.pdf][CV]]).
 
 #+attr_html: :align center
 #+attr_html: :width 200px
@@ -49,7 +49,7 @@ I am currently a PhD at [[https://www.ttu.ee/][Tallinn University of Technology]
  * [[https://github.com/mroman42/lambda.notes][Categorías, funtores y transformaciones naturales]]. /(18th November 2017, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
  
 * Notes
-I upload notes on ideas that did not made into a publication. These are not meant to be definitive, but if you want to use them or cite them in a more definite form, please let me know. I will probably be happy to discuss about them and it is likely that I will be working on expanding them.
+I upload notes on ideas that have not made into an article yet. These are not meant to be definitive, but if you want to use them or cite them in a more final form, please let me know. I will probably be happy to discuss about them and it is likely that I have been working on expanding them.
 
  * [[file:notes/graphical-tambara-theory.pdf][Formal Tambara Theory]], June 2020.
  * [[file:notes/double-relations-for-negation.pdf][Double Rel and Peircean negation]], May 2020.
