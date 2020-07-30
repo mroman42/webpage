@@ -53,6 +53,7 @@ I am currently a PhD student at [[https://www.ttu.ee/][Tallinn University of Tec
 * Notes
 I upload notes on ideas that have not made into an article yet. These are not meant to be definitive, but if you want to use them or cite them in a more final form, please let me know. I will probably be happy to discuss about them and it is likely that I have been working on expanding them.
 
+ * [[file:notes/game-equilibria.pdf][Game Equilibria as Fixed-Point Semantics]], joint with Elena Di Lavore, July 2020.
  * [[file:notes/graphical-tambara-theory.pdf][Formal Tambara Theory]], June 2020.
  * [[file:notes/double-relations-for-negation.pdf][Double Rel and Peircean negation]], May 2020.
  * [[file:notes/traversables-as-coalgebras.pdf][Traversables as Coalgebras]], May 2020.
@@ -62,6 +63,6 @@ I upload notes on ideas that have not made into an article yet. These are not me
  * [[file:notes/initializedfeedback.pdf][Initialized feedback categories]], March 2020.
  * [[file:notes/opticsformacategory.pdf][Optics form a category, graphically]], March 2020.
  * [[file:notes/composingoptics.pdf][Composing optics]], a note submitted for SYCO7, February 2020.
- * [[https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html][Profunctor optics: the categorical view]], on the /n-Category Café, January 2020/.
+ * [[https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html][Profunctor optics: the categorical view]], joint with Emily Pillmore on the /n-Category Café, January 2020/.
  * [[file:notes/opticembedsint.pdf][Optic embeds into the Int construction]], joint with Elena Di Lavore, October 2019.
  * [[file:notes/tannakiantambara.pdf][Tannakian reconstruction of Tambara modules]], September 2019.
