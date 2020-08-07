@@ -53,6 +53,7 @@ I am currently a PhD student at [[https://www.ttu.ee/][Tallinn University of Tec
 * Notes
 I upload notes on ideas that have not made into an article yet. These are not meant to be definitive, but if you want to use them or cite them in a more final form, please let me know. I will probably be happy to discuss about them and it is likely that I have been working on expanding them.
 
+ * [[file:notes/distributive-laws-of-data-accessors.pdf][Distributive laws of data accessors]], August 2020.
  * [[file:notes/initialized-feedback-for-nonempty-lists.pdf][Initialized feedback for nonempty lists]], August 2020.
  * [[file:notes/game-equilibria.pdf][Game Equilibria as Fixed-Point Semantics]], joint with Elena Di Lavore, July 2020.
  * [[file:notes/graphical-tambara-theory.pdf][Formal Tambara Theory]], June 2020.
