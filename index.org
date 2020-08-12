@@ -29,6 +29,9 @@ I am currently a PhD student at [[https://www.ttu.ee/][Tallinn University of Tec
    /Pillmore/, /Mario Román/. ArXiv preprint [[https://arxiv.org/abs/2001.07488][2001.07488]], January 2020.
 
    * [[file:publications/profunctoropticsacategoricalupdateAbstract.pdf][Extended abstract]] for [[http://act2020.mit.edu/][Applied Category Theory 2020]].
+   * [[file:talks/profunctoroptics-act20.pdf][Slides]] for [[http://act2020.mit.edu/][Applied Category Theory 2020]] /(7th July 2020, MIT, online)/.
+   * [[file:talks/profunctoroptics-nwpt19.pdf][Slides]] for NWPT'19 /(15th November 2019, Taltech)/.
+   * [[file:talks/profunctoroptics-syco5.pdf][Slides]] for SYCO5 /(5th September 2019, Birmingham)/.
 
  * [[file:publications/profunctoropticsandtraversals.pdf][Profunctor optics and traversals]]. /Mario Román/. ArXiv preprint [[https://arxiv.org/abs/2001.08045][2001.08045]],
    January 2020. MSc Dissertation at the University of Oxford, supervised by
@@ -53,8 +56,8 @@ I am currently a PhD student at [[https://www.ttu.ee/][Tallinn University of Tec
 * Notes
 I upload notes on ideas that have not made into an article yet. These are not meant to be definitive, but if you want to use them or cite them in a more final form, please let me know. I will probably be happy to discuss about them and it is likely that I have been working on expanding them.
 
- * [[file:notes/distributive-laws-of-data-accessors.pdf][Distributive laws of data accessors]], August 2020.
- * [[file:notes/initialized-feedback-for-nonempty-lists.pdf][Initialized feedback for nonempty lists]], August 2020.
+ * [[file:notes/distributive-laws-of-data-accessors.pdf][Distributive laws of data accessors]], 7 August 2020.
+ * [[file:notes/initialized-feedback-for-nonempty-lists.pdf][Initialized feedback for nonempty lists]], 3 August 2020.
  * [[file:notes/game-equilibria.pdf][Game Equilibria as Fixed-Point Semantics]], joint with Elena Di Lavore, July 2020.
  * [[file:notes/graphical-tambara-theory.pdf][Formal Tambara Theory]], June 2020.
  * [[file:notes/double-relations-for-negation.pdf][Double Rel and Peircean negation]], May 2020.
