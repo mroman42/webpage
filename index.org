@@ -37,6 +37,8 @@ I am currently a PhD student at [[https://www.ttu.ee/][Tallinn University of Tec
    January 2020. MSc Dissertation at the University of Oxford, supervised by
    Prof. [[https://www.cs.ox.ac.uk/people/jeremy.gibbons/][Jeremy Gibbons]].
 
+    * [[file:talks/profunctoroptics-mfocs.pdf][Slides]] for MFoCS dissertation proposals (/14th June 2019, University of Oxford/).
+
  * [[file:publications/mikrokosmos.pdf][Mikrokosmos: an educational lambda interpreter]]. /Mario Román/. The
    [[http://jose.theoj.org/papers/8324e9aa1019760e987673f55e335f34][Journal of Open Source Education]], 2018.
 
