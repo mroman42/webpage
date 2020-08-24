@@ -58,6 +58,7 @@ I am currently a PhD student at [[https://www.ttu.ee/][Tallinn University of Tec
 * Notes
 I upload notes on ideas that have not made into an article yet. These are not meant to be definitive, but if you want to use them or cite them in a more final form, please let me know. I will probably be happy to discuss about them and it is likely that I have been working on expanding them.
 
+ * [[file:notes/notes-on-categories-with-feedback.pdf][Notes on Categories with Feedback]], 24 August 2020.
  * [[file:notes/distributive-laws-of-data-accessors.pdf][Distributive laws of data accessors]], 7 August 2020.
  * [[file:notes/timing-processes.pdf][Timing processes (the naive way)]], joint with Elena Di Lavore, 5 August 2020.
  * [[file:notes/initialized-feedback-for-nonempty-lists.pdf][Initialized feedback for nonempty lists]], 3 August 2020.
