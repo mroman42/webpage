@@ -15,6 +15,10 @@ I am currently a PhD student at [[https://www.ttu.ee/][Tallinn University of Tec
 
 * Publications
 
+ * [[file:publications/opentransitionsystems.pdf][A Canonical Algebra of Open Transition Systems]]. /Elena Di Lavore, Alessandro
+   Gianola, Mario Román, Nicoletta Sabadini, Paweł Sobociński/.  ArXiv preprint
+   [[https://arxiv.org/abs/2010.10069][2010.10069]], Oct 2020.
+
  * [[file:notes/functoriallanguagegames.pdf][Functorial Language Games for Question Answering.]] /Giovanni de Felice/, /Elena
    Di Lavore/, /Mario Román/, /Alexis Toumi/. ArXiv preprint [[https://arxiv.org/abs/2005.09439][2005.09439]], May 2020.
 
