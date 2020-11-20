@@ -50,6 +50,7 @@ supervision of [[https://www.ioc.ee/~pawel/][Pawel Sobociński]]; my main intere
 
 * Talks
 
+ * [[file:talks/picturing-multivariable-adjunctions-and-the-2-chu-construction.pdf][Picturing Multivariable Adjunctions, and the 2-Chu Construction]]. TallCat Chu Construction Seminar /(20th November, Tallinn, online)/.
  * [[file:talks/opendiagrams-act20.pdf][Open Diagrams via Coend Calculus]]. ACT'20 /(7th July 2020, MIT, online)/.
  * [[file:talks/profunctoroptics-act20.pdf][Profunctor optics: a categorical update]]. ACT'20 /(7th July 2020, MIT, online)/.
  * [[https://mroman42.github.io/nwpt19-optics-talk/slides.pdf][Profunctor optics: a categorical update]]. NWPT'19 /(15th November 2019, Taltech)/.
@@ -63,6 +64,7 @@ supervision of [[https://www.ioc.ee/~pawel/][Pawel Sobociński]]; my main intere
  
 * Notes
 I upload notes on ideas that have not made into an article yet. These are not meant to be definitive, but if you want to use them or cite them in a more final form, please let me know. I will probably be happy to discuss about them and it is likely that I have been working on expanding them.
+
 
  * [[file:notes/wiringdiagramsfeedback.pdf][Wiring diagrams and feedback]], 5 November 2020.
  * [[file:notes/notes-on-categories-with-feedback.pdf][Notes on Categories with Feedback]], 24 August 2020.

@@ -3,32 +3,30 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-11-05 Thu 18:11 -->
+<!-- 2020-11-20 Fri 16:27 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Mario Román</title>
 <meta name="generator" content="Org mode" />
 <meta name="author" content="Mario Román" />
 <script type="text/javascript">
-// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
      function CodeHighlightOn(elem, id)
      {
        var target = document.getElementById(id);
        if(null != target) {
-         elem.cacheClassElem = elem.className;
-         elem.cacheClassTarget = target.className;
-         target.className = "code-highlighted";
-         elem.className   = "code-highlighted";
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
        }
      }
      function CodeHighlightOff(elem, id)
      {
        var target = document.getElementById(id);
-       if(elem.cacheClassElem)
-         elem.className = elem.cacheClassElem;
-       if(elem.cacheClassTarget)
-         target.className = elem.cacheClassTarget;
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
      }
     /*]]>*///-->
 // @license-end
@@ -49,14 +47,14 @@ supervision of <a href="https://www.ioc.ee/~pawel/">Pawel Sobociński</a>; my ma
 </p>
 
 
-<div class="figure">
+<div id="orga3cf371" class="figure">
 <p><img src="./mario.jpeg" alt="mario.jpeg" width="200px" align="center" />
 </p>
 </div>
 
-<div id="outline-container-orgc47809a" class="outline-2">
-<h2 id="orgc47809a">Publications</h2>
-<div class="outline-text-2" id="text-orgc47809a">
+<div id="outline-container-org8a6a06c" class="outline-2">
+<h2 id="org8a6a06c">Publications</h2>
+<div class="outline-text-2" id="text-org8a6a06c">
 <ul class="org-ul">
 <li><a href="publications/opentransitionsystems.pdf">A Canonical Algebra of Open Transition Systems</a>. <i>Elena Di Lavore, Alessandro
 Gianola, Mario Román, Nicoletta Sabadini, Paweł Sobociński</i>.  ArXiv preprint
@@ -96,10 +94,11 @@ Prof. <a href="https://www.cs.ox.ac.uk/people/jeremy.gibbons/">Jeremy Gibbons</a
 </div>
 </div>
 
-<div id="outline-container-org96e0e2b" class="outline-2">
-<h2 id="org96e0e2b">Talks</h2>
-<div class="outline-text-2" id="text-org96e0e2b">
+<div id="outline-container-org3ad30af" class="outline-2">
+<h2 id="org3ad30af">Talks</h2>
+<div class="outline-text-2" id="text-org3ad30af">
 <ul class="org-ul">
+<li><a href="talks/picturing-multivariable-adjunctions-and-the-2-chu-construction.pdf">Picturing Multivariable Adjunctions, and the 2-Chu Construction</a>. TallCat Chu Construction Seminar <i>(20th November, Tallinn, online)</i>.</li>
 <li><a href="talks/opendiagrams-act20.pdf">Open Diagrams via Coend Calculus</a>. ACT&rsquo;20 <i>(7th July 2020, MIT, online)</i>.</li>
 <li><a href="talks/profunctoroptics-act20.pdf">Profunctor optics: a categorical update</a>. ACT&rsquo;20 <i>(7th July 2020, MIT, online)</i>.</li>
 <li><a href="https://mroman42.github.io/nwpt19-optics-talk/slides.pdf">Profunctor optics: a categorical update</a>. NWPT&rsquo;19 <i>(15th November 2019, Taltech)</i>.</li>
@@ -114,12 +113,13 @@ Prof. <a href="https://www.cs.ox.ac.uk/people/jeremy.gibbons/">Jeremy Gibbons</a
 </div>
 </div>
 
-<div id="outline-container-org5f22831" class="outline-2">
-<h2 id="org5f22831">Notes</h2>
-<div class="outline-text-2" id="text-org5f22831">
+<div id="outline-container-org2d86dd5" class="outline-2">
+<h2 id="org2d86dd5">Notes</h2>
+<div class="outline-text-2" id="text-org2d86dd5">
 <p>
 I upload notes on ideas that have not made into an article yet. These are not meant to be definitive, but if you want to use them or cite them in a more final form, please let me know. I will probably be happy to discuss about them and it is likely that I have been working on expanding them.
 </p>
+
 
 <ul class="org-ul">
 <li><a href="notes/wiringdiagramsfeedback.pdf">Wiring diagrams and feedback</a>, 5 November 2020.</li>
@@ -147,7 +147,7 @@ I upload notes on ideas that have not made into an article yet. These are not me
 <div id="postamble" class="status">
 <p class="author">Author: Mario Román (<a href="mailto:mromang08@gmail.com">mromang08@gmail.com</a>)</p>
 <p class="date">Date: 26 December 2019</p>
-<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4)</p>
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.5)</p>
 <p class="validation"></p>
 </div>
 </body>
