@@ -57,11 +57,8 @@ supervision of [[https://www.ioc.ee/~pawel/][Pawel Sobociński]]; my main intere
  * [[file:talks/profunctoroptics-syco5.pdf][Profunctor optics: a categorical update]]. SYCO5 /(5th September 2019, Birmingham)/.
  * [[file:talks/profunctoroptics-mfocs.pdf][Profunctor optics: a categorical update]]. MFoCS dissertation proposals (/14th June 2019, University of Oxford/).
  * [[https://mroman42.github.io/ctlc-slides/slides.pdf][Category Theory and Lambda Calculus]]. BSc dissertation defense. /(24th June 2018, [[https://fciencias.ugr.es/en/][Universidad de Granada]])/.
- * [[https://mroman42.github.io/cosmoi/monoidescoloreadosbimonoidescoloreados.pdf][Monoides coloreados, bi(monoides coloreados)]]. /(26th April 2019, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
- * [[https://mroman42.github.io/libreim-constructiva/constructiva.pdf][Ideas sobre constructivismo y computabilidad]]. (21st September 2018, [[https://wpd.ugr.es/~iemath/][IEMath]]).
- * [[https://github.com/mroman42/lambda.notes][Lógica intuicionista y cálculo lambda]]. /(19th January 2018, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
- * [[https://github.com/mroman42/lambda.notes][Categorías, funtores y transformaciones naturales]]. /(18th November 2017, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
- 
+
+
 * Notes
 I upload notes on ideas that have not made into an article yet. These are not meant to be definitive, but if you want to use them or cite them in a more final form, please let me know. I will probably be happy to discuss about them and it is likely that I have been working on expanding them.
 
@@ -84,3 +81,7 @@ I upload notes on ideas that have not made into an article yet. These are not me
  * [[https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html][Profunctor optics: the categorical view]], joint with Emily Pillmore on the /n-Category Café, January 2020/.
  * [[file:notes/opticembedsint.pdf][Optic embeds into the Int construction]], joint with Elena Di Lavore, October 2019.
  * [[file:notes/tannakiantambara.pdf][Tannakian reconstruction of Tambara modules]], September 2019.
+ * [[https://mroman42.github.io/cosmoi/monoidescoloreadosbimonoidescoloreados.pdf][Monoides coloreados, bi(monoides coloreados)]]. /(26th April 2019, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
+ * [[https://mroman42.github.io/libreim-constructiva/constructiva.pdf][Ideas sobre constructivismo y computabilidad]]. (21st September 2018, [[https://wpd.ugr.es/~iemath/][IEMath]]).
+ * [[https://github.com/mroman42/lambda.notes][Lógica intuicionista y cálculo lambda]]. /(19th January 2018, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
+ * [[https://github.com/mroman42/lambda.notes][Categorías, funtores y transformaciones naturales]]. /(18th November 2017, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
