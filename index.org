@@ -107,3 +107,17 @@ These are pieces of paper I collect and write while studying some topic. They ar
  * [[file:pieces/constructive-mathematics.jpg][Constructive mathematics]]. #constructive #diaconescu #excludedmiddle
  * [[file:pieces/constructivism-in-computer-science-and-category-theory.jpg][Constructivism in Computer Science and category theory]]. #constructive #math
  * [[file:pieces/towards-linear-mathematics.jpg][Towards linear mathematics]]. #constructive #doublenegation #glivenko #linearlogic
+
+** Traversables as coalgebras
+
+ * [[file:pieces/putting-an-end-to-parameters-i.jpg][Putting an end to parameters I]]. #ends #parameterisedmonad
+ * [[file:pieces/putting-an-end-to-parameters-ii.jpg][Putting an end to parameters II]]. #ends #parameterisedmonad
+ * [[file:pieces/putting-an-end-to-parameters-iii.jpg][Putting an end to parameters III]]. #ends #parameterisedmonad
+ * [[file:pieces/putting-an-end-to-parameters-iv.jpg][Putting an end to parameters IV]]. #ends #parameterisedmonad
+ * [[file:pieces/end-preserving-functors.jpg][End-preserving functors]]. #ends #limits
+ * [[file:pieces/parameterised-monads.jpg][Parameterised monads]]. #parameterisedmonad
+ * [[file:pieces/iteration.jpg][Iteration]]. #programming #traversable #iteration
+ * [[file:pieces/the-idea-of-shape-contents.jpg][The idea of shape-contents]]. #traversable #programming
+ * [[file:pieces/parameterised-comonads-coalgebras.jpg][Parameterised comonad, coalgebras]]. #parameterisedmonad #algebra
+ * [[file:pieces/shape-and-contents-comonad.jpg][Shape and contents comonad]]. #traversable
+ * [[file:pieces/coalgebras-of-shape-and-contents.jpg][Coalgebras of shape and contents.]] #traversable
