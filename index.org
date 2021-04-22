@@ -108,7 +108,7 @@ These are pieces of paper I collect and write while studying some topic. They ar
  * [[file:pieces/constructivism-in-computer-science-and-category-theory.jpg][Constructivism in Computer Science and category theory]]. #constructive #math
  * [[file:pieces/towards-linear-mathematics.jpg][Towards linear mathematics]]. #constructive #doublenegation #glivenko #linearlogic
 
-** Traversables as coalgebras
+*** Traversables as coalgebras
 
  * [[file:pieces/putting-an-end-to-parameters-i.jpg][Putting an end to parameters I]]. #ends #parameterisedmonad
  * [[file:pieces/putting-an-end-to-parameters-ii.jpg][Putting an end to parameters II]]. #ends #parameterisedmonad
@@ -121,3 +121,18 @@ These are pieces of paper I collect and write while studying some topic. They ar
  * [[file:pieces/parameterised-comonads-coalgebras.jpg][Parameterised comonad, coalgebras]]. #parameterisedmonad #algebra
  * [[file:pieces/shape-and-contents-comonad.jpg][Shape and contents comonad]]. #traversable
  * [[file:pieces/coalgebras-of-shape-and-contents.jpg][Coalgebras of shape and contents.]] #traversable
+
+*** Quantum combs and coend combs
+
+ * [[file:pieces/incomplete-diagrams.jpg][Incomplete diagrams.]] #combs #opendiagrams
+ * [[file:pieces/combs-for-feedback-contributions.jpg][Combs for feedback: contributions]]. #combs
+ * [[file:pieces/choi-jamiolkowski-and-the-link-product.jpg][Choi-Jamiolkowski and the link product]]. #quantum
+ * [[file:pieces/quantum-teleportation.jpg][Quantum teleportation]]. #quantum
+ * [[file:pieces/positive-maps-in-dagger-compact-categories.jpg][Positive maps in dagger compact categories]]. #quantum #dagger
+ * [[file:pieces/completely-positive-maps.jpg][Completely positive maps]]. #quantum #dagger
+
+** Diagrams for closed categories
+
+ * [[file:pieces/star-autonomous-category.jpg][Star-autonomous category]]. #linearlogic #starautonomous
+ * [[file:pieces/switching-criterion.jpg][Switching criterion]]. #girard #switching #starautonomous
+ * [[file:pieces/drawing-the-church-booleans.jpg][Drawing the Church booleans]]. #linearlogic #starautonomous
