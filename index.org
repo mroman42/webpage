@@ -91,10 +91,14 @@ These are pieces of paper I collect and write while studying some topic. They ar
 
 *** Automata and bicategories of processes
 
- * [[file:pieces/quotient-of-io-transition-systems.jpg][Quotient of IO transition systems]]. #nov20 #automata #bicategory
+ * [[file:pieces/quotient-of-io-transition-systems.jpg][Quotient of IO transitiion systems]]. #nov20 #automata #bicategory
  * [[file:pieces/bicategories-of-processes-and-lax-dinaturality.jpg][Bicategories of processes and lax dinaturality]]. #nov20 #automata #bicategory
  * [[file:pieces/loop-space-of-a-bicategory.jpg][Loop space of a bicategory]]. #nov20 #automata #bicategory
  * [[file:pieces/decorating-bicategories-of-processes.jpg][Decorating bicategories of processes]]. #nov20 #automata #bicategory
+ * [[file:pieces/simulation-simplifies-bisimulation.jpg][Simulation simplifies bisimulation]]. #bisimulation #automata
+ * [[file:pieces/closure-of-simulation-relation.jpg][Closure of simulation relation]]. #bisimulation #automata
+ * [[file:pieces/quotient-transition-system.jpg][Quotient transition system]]. #bisimulation #automata
+ * [[file:pieces/surjections-of-automata-are-quotients.jpg][Surjections of automata are quotients]]. #bisimulation #automata
 
 *** Philosophy of Science: pluralism in foundations
 
@@ -131,7 +135,7 @@ These are pieces of paper I collect and write while studying some topic. They ar
  * [[file:pieces/positive-maps-in-dagger-compact-categories.jpg][Positive maps in dagger compact categories]]. #quantum #dagger
  * [[file:pieces/completely-positive-maps.jpg][Completely positive maps]]. #quantum #dagger
 
-** Diagrams for closed categories
+*** Diagrams for closed categories
 
  * [[file:pieces/star-autonomous-category.jpg][Star-autonomous category]]. #linearlogic #starautonomous
  * [[file:pieces/switching-criterion.jpg][Switching criterion]]. #girard #switching #starautonomous
