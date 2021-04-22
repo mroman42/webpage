@@ -85,3 +85,25 @@ I upload notes on ideas that have not made into an article yet. These are not me
  * [[https://mroman42.github.io/libreim-constructiva/constructiva.pdf][Ideas sobre constructivismo y computabilidad]]. (21st September 2018, [[https://wpd.ugr.es/~iemath/][IEMath]]).
  * [[https://github.com/mroman42/lambda.notes][Lógica intuicionista y cálculo lambda]]. /(19th January 2018, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
  * [[https://github.com/mroman42/lambda.notes][Categorías, funtores y transformaciones naturales]]. /(18th November 2017, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
+
+* Working notes
+These are pieces of paper I collect and write while studying some topic. They are not meant to be definitive and many of them do not contain original material. Think of these as atomic ideas.
+
+*** Automata and bicategories of processes
+
+ * [[file:pieces/quotient-of-io-transition-systems.jpg][Quotient of IO transition systems]]. #nov20 #automata #bicategory
+ * [[file:pieces/bicategories-of-processes-and-lax-dinaturality.jpg][Bicategories of processes and lax dinaturality]]. #nov20 #automata #bicategory
+ * [[file:pieces/loop-space-of-a-bicategory.jpg][Loop space of a bicategory]]. #nov20 #automata #bicategory
+ * [[file:pieces/decorating-bicategories-of-processes.jpg][Decorating bicategories of processes]]. #nov20 #automata #bicategory
+
+*** Philosophy of Science: pluralism in foundations
+
+ * [[file:pieces/lukasiewicz-logic.jpg][Lukasiewicz logic]]. #feb21 #linearlogic
+ * [[file:pieces/three-criteria-for-truth.jpg][Three criteria for truth.]] #feb21 #philosophy #constructive #linearlogic
+ * [[file:pieces/presenting-linear-mathematics-i.jpg][Presenting linear mathematics I]]. #linearlogic
+ * [[file:pieces/presenting-linear-mathematics-ii.jpg][Presenting linear mathematics II]]. #linearlogic
+ * [[file:pieces/linear-solution-for-the-barber.jpg][Linear solution for the barber]]. #linearlogic
+ * [[file:pieces/has-constructivism-failed.jpg][Has constructivism failed?]]. #constructive #philosophy
+ * [[file:pieces/constructive-mathematics.jpg][Constructive mathematics]]. #constructive #diaconescu #excludedmiddle
+ * [[file:pieces/constructivism-in-computer-science-and-category-theory.jpg][Constructivism in Computer Science and category theory]]. #constructive #math
+ * [[file:pieces/towards-linear-mathematics.jpg][Towards linear mathematics]]. #constructive #doublenegation #glivenko #linearlogic
