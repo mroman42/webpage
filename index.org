@@ -86,6 +86,9 @@ I upload notes on ideas that have not made into an article yet. These are not me
  * [[https://github.com/mroman42/lambda.notes][Lógica intuicionista y cálculo lambda]]. /(19th January 2018, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
  * [[https://github.com/mroman42/lambda.notes][Categorías, funtores y transformaciones naturales]]. /(18th November 2017, [[https://wpd.ugr.es/~iemath/][IEMath]])/.
 
+# * Reviewing
+# I have acted as reviewer for SYCO and Compositionality. I have acted as subreviewer for LiCS.
+
 * Working notes
 These are pieces of paper I collect and write while studying some topic. They are not meant to be definitive and many of them do not contain original material. Think of these as atomic ideas.
 
@@ -102,7 +105,6 @@ These are pieces of paper I collect and write while studying some topic. They ar
 
 *** Philosophy of Science: pluralism in foundations
 
- * [[file:pieces/lukasiewicz-logic.jpg][Lukasiewicz logic]]. #feb21 #linearlogic
  * [[file:pieces/three-criteria-for-truth.jpg][Three criteria for truth.]] #feb21 #philosophy #constructive #linearlogic
  * [[file:pieces/presenting-linear-mathematics-i.jpg][Presenting linear mathematics I]]. #linearlogic
  * [[file:pieces/presenting-linear-mathematics-ii.jpg][Presenting linear mathematics II]]. #linearlogic
@@ -140,3 +142,68 @@ These are pieces of paper I collect and write while studying some topic. They ar
  * [[file:pieces/star-autonomous-category.jpg][Star-autonomous category]]. #linearlogic #starautonomous
  * [[file:pieces/switching-criterion.jpg][Switching criterion]]. #girard #switching #starautonomous
  * [[file:pieces/drawing-the-church-booleans.jpg][Drawing the Church booleans]]. #linearlogic #starautonomous
+
+** Basic category theory
+
+ * [[file:pieces/bimodule-on-a-bicategory.jpg][Bimodule on a bicategory]]. #bicategory #distributivelaw
+ * [[file:pieces/on-syntax-and-free-objects.jpg][On syntax and free objects]]. #typetheory #categoricallogic
+ * [[file:pieces/interaction-laws.jpg][Interaction laws]]. #monad #comonad
+ * [[file:pieces/binoidal-and-premonoidal-categories.jpg][Binoidal and premonoidal categories]]. #monoidal #premonoidal
+ * [[file:pieces/unnatural-transformations.jpg][Unnatural transformations]]. #funnytensor #functoriality
+ * [[file:pieces/essentially-algebraic-theories.jpg][Essentially algebraic theories]]. #algebraic #theory
+ * [[file:pieces/convolution-and-coconvolution.jpg][Convolution and coconvolution]]. #convolution
+ * [[file:pieces/lukasiewicz-logic.jpg][Lukasiewicz logic]]. #linearlogic
+ * [[file:pieces/category-enriched-in-a-bicategory.jpg][Category enriched in a bicategory]]. #enrichement
+ * [[file:pieces/slice-categories-as-categories-of-coalgebras.jpg][Slice categories as categories of coalgebras]]. #coalgebra
+ * [[file:pieces/some-dependent-lenses.jpg][Some dependent lenses]]. #lens #optic
+ * [[file:pieces/hacking-dependent-lenses-as-mixed-optics.jpg][Hacking dependent lenses as mixed optics]]. #lens #optic
+ * [[file:pieces/bayes-rare-illness-testing.jpg][Bayes: rare illness testing]]. #probability #bayes
+ * [[file:pieces/coalgebra-of-the-real-interval.jpg][Coalgebra of the real interval]]. #coalgebra #analysis
+ * [[file:pieces/automata-as-functors.jpg][Automata as functors]]. #automata
+ * Definitions of topology. #topology #comonad
+ * Beck-Chevalley condition. #categoricallogic #adjoint
+
+** Monoidal categories lesson
+
+ * [[file:pieces/1-dimensional-calculus.jpg][1-dimensional calculus]]
+ * [[file:pieces/motivating-monoidal-categories.jpg][Motivating monoidal categories]]
+ * [[file:pieces/interchange-law.jpg][Interchange law]]
+ * [[file:pieces/coherence-for-monoidal-categories.jpg][Coherence for monoidal categories]]
+ * [[file:pieces/sets-is-a-monoidal-category.jpg][Sets is a monoidal category]]
+ * [[file:pieces/cartesian-categories-are-monoidal.jpg][Cartesian categories are monoidal]]
+ * [[file:pieces/cartesian-categories-and-comonoids.jpg][Cartesian categories and comonoids]]
+ * [[file:pieces/strict-monoidal-categories-and-coherence.jpg][Strict monoidal categories and coherence]]
+ * [[file:pieces/braided-monoidal-categories.jpg][Braided monoidal categories]]
+ * [[file:pieces/duals-and-compact-closed-categories.jpg][Duals and compact closed categories]]
+ * [[file:pieces/uniform-copy-delete.jpg][Uniform copy-delete]]
+ * [[file:pieces/refining-fox-theorem.jpg][Refining Fox's theorem]]
+ * [[file:pieces/monoids-and-comonoids.jpg][Monoids and comonoids]]
+ * [[file:pieces/hopf-algebras.jpg][Hopf algebras]]
+ * [[file:pieces/examples-of-monoidal-category.jpg][Examples of monoidal category]]
+ * [[file:pieces/string-diagrams-for-category-theory.jpg][String diagrams for category theory]]
+ * [[file:pieces/dualities.jpg][Dualities]]
+ * [[file:pieces/string-diagrams-for-distributive-laws.jpg][String diagrams for distributive laws]]
+ * [[file:pieces/string-diagrams-for-monad-and-monad-algebras.jpg][String diagrams for monad and monad algebras]]
+ * [[file:pieces/motivating-bicategories.jpg][Motivating bicategories]]
+
+** Markov processes, combs and games
+
+ * Building distributions that are marginally independent of the parameter. #distribution #probability
+ * Independent marginalization for a strong monad. #distribution #strongmonad #donotation
+ * Do-notation for strong monads. #donotation
+ * Monad properties via do-notation. #donotation #discardablemonad #commutativemonad #copyablemonad #strongmonad
+ * Discardable monads and marginalization. #discardablemonad
+
+* Videos
+
+** Open Diagrams via Coend calculus (ACT 2020, MIT)
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qnkDtBkHdHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+** Profunctor optics, a categorical update (ACT 2020, MIT)
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SsS7ZBYRcw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
