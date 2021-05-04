@@ -188,11 +188,11 @@ These are pieces of paper I collect and write while studying some topic. They ar
 
 ** Markov processes, combs and games
 
- * Building distributions that are marginally independent of the parameter. #distribution #probability
- * Independent marginalization for a strong monad. #distribution #strongmonad #donotation
- * Do-notation for strong monads. #donotation
- * Monad properties via do-notation. #donotation #discardablemonad #commutativemonad #copyablemonad #strongmonad
- * Discardable monads and marginalization. #discardablemonad
+ * [[file:pieces/building-distributions-that-are-marginally-independent-of-the-parameter.jpg][Building distributions that are marginally independent of the parameter]]. #distribution #probability
+ * [[file:pieces/independent-marginalization-for-a-strong-monad.jpg][Independent marginalization for a strong monad]]. #distribution #strongmonad #donotation
+ * [[file:pieces/do-notation-for-strong-monads.jpg][Do-notation for strong monads]]. #donotation
+ * [[file:pieces/monad-properties-via-do-notation.jpg][Monad properties via do-notation]]. #donotation #discardablemonad #commutativemonad #copyablemonad #strongmonad
+ * [[file:pieces/discardable-monads-and-marginalization.jpg][Discardable monads and marginalization]]. #discardablemonad
 
 * Videos
 
