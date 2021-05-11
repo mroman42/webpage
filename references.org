@@ -1,0 +1,1718 @@
+#+TITLE: References
+
+This is a list of papers with their bibtex references. It is sometimes very time-consuming to look for the correct way to reference a paper, so I try to keep them organized here. They are not sorted in any particular way.
+
+#+begin_src bibtex
+@misc{erbele14,
+    title={Categories in Control},
+    author={John C. Baez and Jason Erbele},
+    year={2014},
+    eprint={1405.6881},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+
+@article{sprits15,
+  author    = {Jules Hedges and
+               Paulo Oliva and
+               Evguenia Sprits and
+               Viktor Winschel and
+               Philipp Zahn},
+  title     = {Higher-Order Game Theory},
+  journal   = {CoRR},
+  volume    = {abs/1506.01002},
+  year      = {2015},
+  archivePrefix = {arXiv},
+  eprint    = {1506.01002},
+  timestamp = {Mon, 13 Aug 2018 16:47:19 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/HedgesOSWZ15.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@misc{shulmanCatlog,
+  author = {Michael Shulman},
+  title = {Categorical Logic from a Categorical Point of View},
+  howpublished = {GitHub \url{https://mikeshulman.github.io/catlog/catlog.pdf}},
+  year = {2019}
+}
+
+@inproceedings{uijlen17,
+  author    = {Aleks Kissinger and
+               Sander Uijlen},
+  title     = {A categorical semantics for causal structure},
+  booktitle = {32nd Annual {ACM/IEEE} Symposium on Logic in Computer Science, {LICS}
+               2017, Reykjavik, Iceland, June 20-23, 2017},
+  pages     = {1--12},
+  publisher = {{IEEE} Computer Society},
+  year      = {2017},
+  url       = {https://doi.org/10.1109/LICS.2017.8005095},
+  doi       = {10.1109/LICS.2017.8005095},
+  timestamp = {Sat, 19 Oct 2019 20:00:56 +0200},
+  biburl    = {https://dblp.org/rec/conf/lics/KissingerU17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@misc{milewski17,
+  author = {Bartosz Milewski},
+  title = {Profunctor optics: the categorical view},
+  howpublished = {\url{https://bartoszmilewski.com/2017/07/07/profunctor-optics-the-categorical-view/}},
+  year = {2017}
+}
+@article{carboni2008cartesian,
+  title={Cartesian {Bicategories} {II}},
+  author={Carboni, Aurelio and Kelly, G Max and Walters, Robert FC and Wood, Richard J},
+  journal={Theory and Applications of Categories},
+  volume={19},
+  number={6},
+  pages={93--124},
+  year={2008}
+}
+
+@inproceedings{abbott03,
+  author    = {Michael Gordon Abbott and
+               Thorsten Altenkirch and
+               Neil Ghani},
+  title     = {Categories of Containers},
+  booktitle = {Foundations of Software Science and Computational Structures},
+  longbooktitle = {Foundations of Software Science and Computational Structures, 6th
+               International Conference, {FOSSACS} 2003 Held as Part of the Joint
+               European Conference on Theory and Practice of Software, {ETAPS} 2003,
+               Warsaw, Poland, April 7-11, 2003, Proceedings},
+  pages     = {23--38},
+  year      = {2003},
+  crossref  = {DBLP:conf/fossacs/2003},
+  url       = {https://doi.org/10.1007/3-540-36576-1\_2},
+  doi       = {10.1007/3-540-36576-1\_2},
+  timestamp = {Tue, 14 May 2019 10:00:55 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/fossacs/AbbottAG03},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@unpublished{coecke:discocirc,
+  author  = {Bob Coecke},
+  title   = {The {Mathematics} of {Text} {Structure}},
+  note    = {Unpublished manuscript},
+  year    = {2019}
+}
+
+@incollection{kleene56,
+  added-at = {2008-03-17T11:27:54.000+0100},
+  address = {Princeton, NJ},
+  author = {Kleene, S. C.},
+  biburl = {https://www.bibsonomy.org/bibtex/2cc51c86a4093c3f989db80fb8d7831be/nlp},
+  booktitle = {Automata Studies},
+  editor = {Shannon, Claude and McCarthy, John},
+  interhash = {e9ce8516d977ec88fa380222354b3980},
+  intrahash = {cc51c86a4093c3f989db80fb8d7831be},
+  keywords = {2000 book nlp},
+  pages = {3--41},
+  publisher = {Princeton University Press},
+  timestamp = {2008-03-17T11:32:49.000+0100},
+  title = {Representation of events in nerve nets and finite automata},
+  year = 1956
+}
+
+@article{abramsky14,
+  author    = {Samson Abramsky},
+  title     = {What are the fundamental structures of concurrency? We still don't
+               know!},
+  journal   = {CoRR},
+  volume    = {abs/1401.4973},
+  year      = {2014},
+  url       = {http://arxiv.org/abs/1401.4973},
+  archivePrefix = {arXiv},
+  eprint    = {1401.4973},
+  timestamp = {Mon, 13 Aug 2018 16:45:59 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/Abramsky14a.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{benabou67,
+  title={Introduction to bicategories},
+  author={B{\'e}nabou, Jean},
+  booktitle={Reports of the midwest category seminar},
+  pages={1--77},
+  year={1967},
+  organization={Springer}
+}
+
+@article{boisseau19,
+    title={String {D}iagrams for {O}ptics},
+    author={Guillaume Boisseau},
+    year={2020},
+    eprint={2002.11480},
+    journal={arXiv preprint arXiv:2002.11480},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+
+@article{moeller18,
+  title={Monoidal grothendieck construction},
+  author={Moeller, Joe and Vasilakopoulou, Christina},
+  journal={arXiv preprint arXiv:1809.00727},
+  year={2018}
+}
+
+@book{coecke:picturing,
+  title={Picturing quantum processes},
+  author={Coecke, Bob and Kissinger, Aleks},
+  year={2017},
+  publisher={Cambridge University Press}
+}
+
+@misc{santamaria20,
+    title={A Calculus of Substitution for Dinatural Transformations, I},
+    author={Guy McCusker and Alessio Santamaria},
+    year={2020},
+    eprint={2007.07576},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+
+@inproceedings{ghani18,
+  author    = {Neil Ghani and
+               Jules Hedges and
+               Viktor Winschel and
+               Philipp Zahn},
+  title     = {Compositional Game Theory},
+  booktitle = {Proceedings of the 33rd Annual {ACM/IEEE} Symposium on Logic in Computer
+               Science, {LICS} 2018, Oxford, UK, July 09-12, 2018},
+  pages     = {472--481},
+  year      = {2018},
+  url       = {https://doi.org/10.1145/3209108.3209165},
+  doi       = {10.1145/3209108.3209165},
+  timestamp = {Wed, 21 Nov 2018 12:44:18 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/lics/GhaniHWZ18},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@misc{shulman2018linear,
+    title={Linear logic for constructive mathematics},
+    author={Michael Shulman},
+    year={2018},
+    eprint={1805.07518},
+    archivePrefix={arXiv},
+    primaryClass={math.LO}
+}
+
+@misc{aguiar2017monads,
+    title={Monads on higher monoidal categories},
+    author={Marcelo Aguiar and Mariana Haim and Ignacio Lopez Franco},
+    year={2017},
+    eprint={1701.03028},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+
+@article{street07centres,
+author = {Day, Brian and Street, Ross},
+year = {2007},
+month = {01},
+pages = {},
+title = {Centres of monoidal categories of functors},
+volume = {431},
+journal = {Contemporary Mathematics},
+doi = {10.1090/conm/431/08273}
+}
+
+@article{rivas14,
+  author    = {Exequiel Rivas and
+               Mauro Jaskelioff},
+  title     = {Notions of Computation as Monoids},
+  journal   = {CoRR},
+  volume    = {abs/1406.4823},
+  year      = {2014},
+  url       = {http://arxiv.org/abs/1406.4823},
+  archivePrefix = {arXiv},
+  eprint    = {1406.4823},
+  timestamp = {Mon, 13 Aug 2018 16:48:44 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/RivasJ14.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{hughes00,
+  author    = {John Hughes},
+  title     = {Generalising monads to arrows},
+  journal   = {Sci. Comput. Program.},
+  volume    = {37},
+  number    = {1-3},
+  pages     = {67--111},
+  year      = {2000},
+  url       = {https://doi.org/10.1016/S0167-6423(99)00023-4},
+  doi       = {10.1016/S0167-6423(99)00023-4},
+  timestamp = {Wed, 14 Nov 2018 10:21:27 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/scp/Hughes00},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{bartlett2014quasistrict,
+    title={Quasistrict {Symmetric} {Monoidal} {2-Categories} {Via} {Wire} {Diagrams}},
+    author={Bruce Bartlett},
+    year={2014},
+    journal={arXiv preprint 1409.2148},
+    eprint={1409.2148},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+
+@article{gibbons98,
+author = {Gibbons, Jeremy and Jones, Geraint},
+title = {The Under-Appreciated Unfold},
+year = {1998},
+issue_date = {Jan. 1999},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {34},
+number = {1},
+issn = {0362-1340},
+url = {https://doi.org/10.1145/291251.289455},
+doi = {10.1145/291251.289455},
+journal = {SIGPLAN Not.},
+month = sep,
+pages = {273–279},
+numpages = {7},
+keywords = {breadth-first, co-induction, level-order, program calculation, traversal, unfold, anamorphism, fold, functional programing}
+}
+
+@article{day97,
+  title={Monoidal bicategories and {Hopf} algebroids},
+  author={Day, Brian and Street, Ross},
+  journal={Advances in Mathematics},
+  volume={129},
+  number={1},
+  pages={99--157},
+  year={1997},
+  publisher={Academic Press}
+}
+
+@article{katis2008partita,
+    title={On partita doppia},
+    author={Piergiulio Katis and N. Sabadini and R. F. C. Walters},
+    year={2008},
+    journal={arXiv preprint 0803.2429},
+    url={http://arxiv.org/abs/0803.2429},
+    primaryClass={math.CT}
+}
+
+@incollection{elgot75,
+  title={Monadic computation and iterative algebraic theories},
+  author={Elgot, Calvin C.},
+  booktitle={Studies in Logic and the Foundations of Mathematics},
+  volume={80},
+  pages={175--230},
+  year={1975},
+  publisher={Elsevier}
+}
+
+@article{sabadini18,
+  title={A {P}rocess {A}lgebra for the {S}pan({G}raph) {M}odel of {C}oncurrency},
+  author={Piergiulio Katis and
+               Nicoletta Sabadini and
+               Robert F. C. Walters},
+  journal={arXiv preprint arXiv:0904.3964},
+  year={2009}
+}
+
+@incollection{winskel95,
+  title={Models for {C}oncurrency},
+  author={Winskel, Glynn and Nielsen, Mogens},
+  booktitle={Handbook of {L}ogic in {C}omputer {S}cience (vol. 4) {S}emantic {M}odelling},
+  pages={1--148},
+  year={1995},
+  organization={Oxford University Press, Inc.}
+}
+
+@article{bloom96,
+  author    = {Stephen L. Bloom and
+               Nicoletta Sabadini and
+               Robert F. C. Walters},
+  title     = {Matrices, machines and behaviors},
+  journal   = {Appl. Categorical Struct.},
+  volume    = {4},
+  number    = {4},
+  pages     = {343--360},
+  year      = {1996},
+  url       = {https://doi.org/10.1007/BF00122683},
+  doi       = {10.1007/BF00122683},
+  timestamp = {Tue, 29 Sep 2020 10:59:17 +0200},
+  biburl    = {https://dblp.org/rec/journals/acs/BloomSW96.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@book{bailey16,
+  author = {Bailey, Chris},
+  title = {The productivity project},
+  year = 2016
+}
+@inproceedings{capriotti14,
+  author    = {Paolo Capriotti and
+               Ambrus Kaposi},
+  title     = {Free Applicative Functors},
+  booktitle = {Proceedings 5th Workshop on Mathematically Structured Functional Programming,
+               MSFP@ETAPS 2014, Grenoble, France, 12 April 2014.},
+  pages     = {2--30},
+  year      = {2014},
+  crossref  = {DBLP:journals/corr/LevyK14},
+  url       = {https://doi.org/10.4204/EPTCS.153.2},
+  doi       = {10.4204/EPTCS.153.2},
+  timestamp = {Wed, 12 Sep 2018 01:05:13 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/CapriottiK14},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@misc{roman20opendiagrams,
+    title={Open Diagrams via Coend Calculus},
+    author={Mario Román},
+    year={2020},
+    eprint={2004.04526},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+@article{hansen19,
+  title={Constructing symmetric monoidal bicategories functorially},
+  author={Hansen, Linde Wester and Shulman, Michael},
+  journal={arXiv preprint arXiv:1910.09240},
+  year={2019}
+}
+@misc{buckley2012fibred,
+    title={Fibred 2-categories and bicategories},
+    author={Mitchell Buckley},
+    year={2012},
+    eprint={1212.6283},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+@article{loregian15,
+  title={This is the (co)end, my only (co)friend},
+  author={Loregian, Fosco},
+  journal={arXiv preprint arXiv:1501.02503},
+  year={2015}
+}
+@article{loregian19,
+    title={Coend calculus},
+    author={Fosco Loregian},
+    year={2019},
+    eprint={1501.02503},
+    archivePrefix={arXiv},
+    journal={arXiv preprint arXiv:1501.02503},
+    primaryClass={math.CT}
+}
+@inproceedings{rypacek12,
+  author    = {Mauro Jaskelioff and
+               Ondrej Rypacek},
+  title     = {An Investigation of the Laws of Traversals},
+  booktitle = {Proceedings Fourth Workshop on Mathematically Structured Functional
+               Programming, MSFP@ETAPS 2012, Tallinn, Estonia, 25 March 2012.},
+  pages     = {40--49},
+  year      = {2012},
+  url       = {https://doi.org/10.4204/EPTCS.76.5},
+  doi       = {10.4204/EPTCS.76.5},
+  timestamp = {Wed, 12 Sep 2018 01:05:15 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1202-2919},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@misc{petric00,
+    title={G-dinaturality},
+    author={Z. Petric},
+    year={2000},
+    eprint={math/0012019},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+@MastersThesis{nickhu19,
+  author = {Nick Hu},
+  title = {External Traced Monoidal Categories},
+  school = {University of Oxford},
+  year = 2019}
+@inproceedings{bird13,
+  author    = {Richard S. Bird and
+               Jeremy Gibbons and
+               Stefan Mehner and
+               Janis Voigtl{\"{a}}nder and
+               Tom Schrijvers},
+  title     = {Understanding idiomatic traversals backwards and forwards},
+  booktitle = {Proceedings of the 2013 {ACM} {SIGPLAN} Symposium on Haskell, Boston,
+               MA, USA, September 23-24, 2013},
+  pages     = {25--36},
+  year      = {2013},
+  crossref  = {DBLP:conf/haskell/2013},
+  url       = {https://doi.org/10.1145/2503778.2503781},
+  doi       = {10.1145/2503778.2503781},
+  timestamp = {Tue, 06 Nov 2018 16:58:22 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/haskell/BirdGMVS13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{pronk04,
+  title={Universal properties of {S}pan},
+  author={Dawson, Robert {J}. {M}ac{G}. and Par{\'e}, Robert and Pronk, Dorette {A}.},
+  journal={Theory and Applications of Categories},
+  volume={13},
+  number={4},
+  pages={61--85},
+  year={2004}
+}
+@article{seeber18,
+  author    = {Filippo Bonchi and
+               Jens Seeber and
+               Pawel Sobocinski},
+  title     = {Graphical Conjunctive Queries},
+  journal   = {CoRR},
+  volume    = {abs/1804.07626},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1804.07626},
+  archivePrefix = {arXiv},
+  eprint    = {1804.07626},
+  timestamp = {Tue, 21 Apr 2020 10:56:16 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1804-07626.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@inproceedings{hoshino14,
+  author    = {Naohiko Hoshino and
+               Koko Muroya and
+               Ichiro Hasuo},
+  editor    = {Thomas A. Henzinger and
+               Dale Miller},
+  title     = {Memoryful geometry of interaction: from coalgebraic components to
+               algebraic effects},
+  booktitle = {Joint Meeting of the Twenty-Third {EACSL} Annual Conference on Computer
+               Science Logic {(CSL)} and the Twenty-Ninth Annual {ACM/IEEE} Symposium
+               on Logic in Computer Science (LICS), {CSL-LICS} '14, Vienna, Austria,
+               July 14 - 18, 2014},
+  pages     = {52:1--52:10},
+  publisher = {{ACM}},
+  year      = {2014},
+  url       = {https://doi.org/10.1145/2603088.2603124},
+  doi       = {10.1145/2603088.2603124},
+  timestamp = {Tue, 06 Nov 2018 11:07:36 +0100},
+  biburl    = {https://dblp.org/rec/conf/csl/HoshinoMH14.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{mimram13,
+  title={A categorical theory of patches},
+  author={Mimram, Samuel and Di Giusto, Cinzia},
+  journal={Electronic notes in theoretical computer science},
+  volume={298},
+  pages={283--307},
+  year={2013},
+  publisher={Elsevier}
+}
+@article{master19,
+   title={Open Petri nets},
+   volume={30},
+   ISSN={1469-8072},
+   url={http://dx.doi.org/10.1017/S0960129520000043},
+   DOI={10.1017/s0960129520000043},
+   number={3},
+   journal={Mathematical Structures in Computer Science},
+   publisher={Cambridge University Press (CUP)},
+   author={Baez, John C. and Master, Jade},
+   year={2020},
+   month={Mar},
+   pages={314–341}
+}
+@misc{garner13enriched,
+    title={Enriched categories as a free cocompletion},
+    author={Richard Garner and Michael Shulman},
+    year={2013},
+    eprint={1301.3191},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+@article{benton03,
+  author    = {Nick Benton and
+               Martin Hyland},
+  title     = {Traced Premonoidal Categories},
+  journal   = {{RAIRO} Theor. Informatics Appl.},
+  volume    = {37},
+  number    = {4},
+  pages     = {273--299},
+  year      = {2003},
+  url       = {https://doi.org/10.1051/ita:2003020},
+  doi       = {10.1051/ita:2003020},
+  timestamp = {Mon, 25 May 2020 09:15:53 +0200},
+  biburl    = {https://dblp.org/rec/journals/ita/BentonH03.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{street04,
+  title={Quantum categories, star autonomy, and quantum groupoids},
+  author={Street, Ross},
+  journal={Galois theory, Hopf algebras, and semiabelian categories},
+  volume={43},
+  pages={187},
+  year={2004},
+  publisher={American Mathematical Soc.}
+}
+@article{pastro08,
+  title={Doubles for monoidal categories},
+  author={Pastro, Craig and Street, Ross},
+  journal={Theory and applications of categories},
+  volume={21},
+  number={4},
+  pages={61--75},
+  year={2008}
+}
+@inproceedings{jay94,
+  title={Shapely types and shape polymorphism},
+  author={Jay, C Barry and Cockett, J Robin B},
+  booktitle={European Symposium on Programming},
+  pages={302--316},
+  year={1994},
+  organization={Springer}
+}
+@article{myers2016string,
+    title={String Diagrams For Double Categories and Equipments},
+    author={David Jaz Myers},
+    year={2016},
+    journal={arXiv preprint 1612.02762},
+    eprint={1612.02762},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+@article{gibbons09,
+  author    = {Jeremy Gibbons and
+               Bruno C. d. S. Oliveira},
+  title     = {The essence of the Iterator pattern},
+  journal   = {Journal of Functional Programming},
+  volume    = {19},
+  number    = {3-4},
+  pages     = {377--402},
+  year      = {2009},
+  url       = {https://doi.org/10.1017/S0956796809007291},
+  doi       = {10.1017/S0956796809007291},
+  timestamp = {Thu, 15 Jun 2017 21:30:55 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/jfp/GibbonsO09},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@book{borceux94,
+  title={Handbook of categorical algebra: volume 1, Basic category theory},
+  author={Borceux, Francis},
+  volume={1},
+  year={1994},
+  publisher={Cambridge University Press}
+}
+@inproceedings{ghani2016comprehensive,
+  title={Comprehensive parametric polymorphism: Categorical models and type theory},
+  author={Ghani, Neil and Nordvall Forsberg, Fredrik and Simpson, Alex},
+  booktitle={International Conference on Foundations of Software Science and Computation Structures},
+  pages={3--19},
+  year={2016},
+  organization={Springer}
+}
+@article{bartlett15,
+  title={Modular {Categories} as {Representations} of the {3-Dimensional} {Bordism} 2-category},
+  author={Bartlett, Bruce and Douglas, Christopher L and Schommer-Pries, Christopher J and Vicary, Jamie},
+  journal={arXiv preprint arXiv:1509.06811},
+  year={2015}
+}
+@article{mcbride08,
+  author    = {Conor McBride and
+               Ross Paterson},
+  title     = {Applicative programming with effects},
+  journal   = {Journal of Functional Programming},
+  volume    = {18},
+  number    = {1},
+  pages     = {1--13},
+  year      = {2008},
+  url       = {https://doi.org/10.1017/S0956796807006326},
+  doi       = {10.1017/S0956796807006326},
+  timestamp = {Fri, 02 Nov 2018 09:31:48 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/jfp/McbrideP08},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@misc{curien12,
+    title={Operads, clones, and distributive laws},
+    author={Pierre-Louis Curien},
+    year={2012},
+    eprint={1205.3050},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+@article{abramsky1994domain,
+  title={Domain theory},
+  author={Abramsky, Samson and Jung, Achim},
+  year={1994},
+  publisher={Oxford University Press}
+}
+@article{jacobs09,
+  title={Categorical semantics for arrows},
+  author={Jacobs, Bart and Heunen, Chris and Hasuo, Ichiro},
+  journal={Journal of functional programming},
+  volume={19},
+  number={3-4},
+  pages={403--438},
+  year={2009},
+  publisher={Cambridge University Press}
+}
+@article{hedges17,
+  author    = {Jules Hedges},
+  title     = {Coherence for lenses and open games},
+  journal   = {CoRR},
+  volume    = {abs/1704.02230},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1704.02230},
+  archivePrefix = {arXiv},
+  eprint    = {1704.02230},
+  timestamp = {Mon, 13 Aug 2018 16:47:47 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/Hedges17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@misc{shulman2010constructing,
+    title={Constructing symmetric monoidal bicategories},
+    author={Michael A. Shulman},
+    year={2010},
+    eprint={1004.0993},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+@article{faro08,
+  title={On the trace of an endofunctor of a small category},
+  author={Faro, Emilio},
+  year={2008},
+  publisher={Centre de Recerca Matem{\`a}tica}
+}
+@article{mason53,
+  author={S. J. {Mason}},
+  journal={Proceedings of the IRE},
+  title={Feedback Theory-Some Properties of Signal Flow Graphs},
+  year={1953},
+  volume={41},
+  number={9},
+  pages={1144-1156},}
+@article{albasini09,
+  title={The parallel composition of processes},
+  author={Luisa de Francesco Albasini and Nicoletta Sabadini and Robert F. C. Walters},
+  journal={arXiv: Category Theory},
+  year={2009}
+}
+@inproceedings{uustalu08,
+  author    = {Tarmo Uustalu and
+               Varmo Vene},
+  editor    = {Jir{\'{\i}} Ad{\'{a}}mek and
+               Clemens Kupke},
+  title     = {Comonadic Notions of Computation},
+  booktitle = {Proceedings of the Ninth Workshop on Coalgebraic Methods in Computer
+               Science, {CMCS} 2008, Budapest, Hungary, April 4-6, 2008},
+  series    = {Electronic Notes in Theoretical Computer Science},
+  volume    = {203},
+  number    = {5},
+  pages     = {263--284},
+  publisher = {Elsevier},
+  year      = {2008},
+  url       = {https://doi.org/10.1016/j.entcs.2008.05.029},
+  doi       = {10.1016/j.entcs.2008.05.029},
+  timestamp = {Thu, 16 Jan 2020 11:02:39 +0100},
+  biburl    = {https://dblp.org/rec/journals/entcs/UustaluV08.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{joyal96,
+author = {Joyal, Andr\'e and Street, Ross and Verity, Dominic},
+year = {1996},
+month = {04},
+pages = {447 - 468},
+title = {Traced monoidal categories},
+volume = {119},
+journal = {Mathematical Proceedings of the Cambridge Philosophical Society},
+doi = {10.1017/S0305004100074338}
+}
+@article{katis02,
+  author    = {Piergiulio Katis and
+               Nicoletta Sabadini and
+               Robert F. C. Walters},
+  title     = {Feedback, trace and fixed-point semantics},
+  journal   = {{ITA}},
+  volume    = {36},
+  number    = {2},
+  pages     = {181--194},
+  year      = {2002},
+  url       = {https://doi.org/10.1051/ita:2002009},
+  doi       = {10.1051/ita:2002009},
+  timestamp = {Sun, 28 May 2017 13:19:34 +0200},
+  biburl    = {https://dblp.org/rec/journals/ita/KatisSW02.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{sabadini95,
+  title={Bicategories of processes},
+  author={Katis, Piergiulio and Sabadini, Nicoletta and Walters, Robert FC},
+  journal={Journal of Pure and Applied Algebra},
+  volume={115},
+  number={2},
+  pages={141--178},
+  year={1997},
+  publisher={Elsevier}
+}
+@inproceedings{kelly74,
+  title={Doctrinal adjunction},
+  author={Kelly, G Max},
+  booktitle={Category Seminar},
+  pages={257--280},
+  year={1974},
+  organization={Springer}
+}
+@article{chiribella08,
+   title={Quantum {Circuits} {Architecture}},
+   volume={101},
+   ISSN={1079-7114},
+   url={http://dx.doi.org/10.1103/PhysRevLett.101.060401},
+   DOI={10.1103/physrevlett.101.060401},
+   number={6},
+   journal={Physical Review Letters},
+   publisher={American Physical Society (APS)},
+   author={Chiribella, G. and D’Ariano, G. M. and Perinotti, P.},
+   year={2008},
+   month={Aug},
+   abstract={
+     We present a method for optimizing quantum circuits architecture. The method is based on the
+     notion of quantum comb, which describes a circuit board in which one can insert variable subcircuits.
+     The method allows one to efficiently address novel kinds of quantum information processing tasks,
+     such as storing-retrieving, and cloning of channels.}
+}
+@article{delpeuch14a,
+  year = 2017,
+  month = {aug},
+  publisher = {Center for Open Science},
+  author = {Antonin Delpeuch},
+  title = {Autonomization of {{Monoidal Categories}}},
+  url = {https://doi.org/10.31219%2Fosf.io%2Fefs3b},
+  doi = {10.31219/osf.io/efs3b}
+}
+@book{riehl17,
+  title={Category theory in context},
+  author={Riehl, Emily},
+  year={2017},
+  publisher={Courier Dover Publications}
+}
+@article{abramsky14,
+  author    = {Samson Abramsky},
+  title     = {Retracing some paths in Process Algebra},
+  journal   = {CoRR},
+  volume    = {abs/1401.5113},
+  year      = {2014},
+  url       = {http://arxiv.org/abs/1401.5113},
+  archivePrefix = {arXiv},
+  eprint    = {1401.5113},
+  timestamp = {Mon, 13 Aug 2018 16:47:24 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/Abramsky14b.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@inproceedings{mellies06,
+  author    = {Paul{-}Andr{\'{e}} Melli{\`{e}}s},
+  title     = {Functorial Boxes in String Diagrams},
+  booktitle = {Computer Science Logic, 20th International Workshop, {CSL} 2006, 15th
+               Annual Conference of the EACSL, Szeged, Hungary, September 25-29,
+               2006, Proceedings},
+  pages     = {1--30},
+  year      = {2006},
+  doi       = {10.1007/11874683{\_}1},
+  timestamp = {Tue, 14 May 2019 10:00:42 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/csl/Mellies06},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@misc{cheng2011distributive,
+    title={Distributive laws for Lawvere theories},
+    author={Eugenia Cheng},
+    year={2011},
+    eprint={1112.3076},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+@misc{finster20,
+    title={A Type Theory for Strictly Unital $\infty$-Categories},
+    author={Eric Finster and David Reutter and Jamie Vicary},
+    year={2020},
+    eprint={2007.08307},
+    archivePrefix={arXiv},
+    primaryClass={cs.LO}
+}
+@book{mckeown14,
+  author = {Greg McKeown},
+  title = {Essentialism: the disciplined pursuit of less},
+  year = 2014
+}
+@book{shannon42,
+  title={The Theory and Design of Linear Differential Equation Machines},
+  author={Shannon, Claude E.},
+  publisher={Bell Telephone Laboratories},
+  year={1942}
+}
+@book{bloom93,
+  author    = {Stephen L. Bloom and
+               Zolt{\'{a}}n {\'{E}}sik},
+  title     = {Iteration Theories - The Equational Logic of Iterative Processes},
+  series    = {{EATCS} Monographs on Theoretical Computer Science},
+  publisher = {Springer},
+  year      = {1993},
+  url       = {https://doi.org/10.1007/978-3-642-78034-9},
+  doi       = {10.1007/978-3-642-78034-9},
+  isbn      = {978-3-642-78036-3},
+  timestamp = {Wed, 31 May 2017 10:38:21 +0200},
+  biburl    = {https://dblp.org/rec/series/eatcs/BloomE93.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{roman:combfeedback,
+    title={Comb {D}iagrams for {D}iscrete-{T}ime {F}eedback},
+    author={Mario Román},
+    year={2020},
+    journal={arXiv preprint arXiv:2003.06214},
+    eprint={2003.06214},
+    archivePrefix={arXiv},
+    primaryClass={cs.LO}
+}
+@misc{smithe20,
+    title={Bayesian Updates Compose Optically},
+    author={Toby St. Clere Smithe},
+    year={2020},
+    eprint={2006.01631},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+@article{carboni87,
+  title={Cartesian {B}icategories {I}},
+  author={Carboni, Aurelio and Walters, Robert FC},
+  journal={Journal of pure and applied algebra},
+  volume={49},
+  number={1-2},
+  pages={11--32},
+  year={1987},
+  publisher={North-Holland}
+}
+@article{homotopyio,
+  author = {Lukas Heidemann and Nick Hu and Jamie Vicary},
+  title = {\emph{homotopy.io}},
+  year = 2019,
+  doi = {10.5281/zenodo.2540764},
+  url = {https://doi.org/10.5281/zenodo.2540764}
+}
+@article{stay2013compact,
+    title={Compact Closed Bicategories},
+    author={Michael Stay},
+    year={2013},
+    journal={arXiv preprint arXiv:1301.1053},
+    eprint={1301.1053},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+@article{baez2019structured,
+    title={Structured Cospans},
+    author={John C. Baez and Kenny Courser},
+    year={2019},
+    journal={arXiv preprint 1911.04630},
+    url={http://arxiv.org/abs/1911.04630},
+    primaryClass={math.CT}
+}
+@incollection{selinger10,
+  title={A survey of graphical languages for monoidal categories},
+  author={Selinger, Peter},
+  booktitle={New structures for physics},
+  pages={289--355},
+  year={2010},
+  publisher={Springer}
+}
+@article{grandis17span,
+  title={Span and cospan representations of weak double categories},
+  author={Grandis, Marco and others},
+  journal={Categories and General Algebraic Structures with Applications},
+  volume={6},
+  number={Speical Issue on the Occasion of Banaschewski's 90th Birthday (I)},
+  pages={85--105},
+  year={2017},
+  publisher={Shahid Beheshti University}
+}
+@article{staton11,
+  author    = {Sam Staton},
+  title     = {Relating coalgebraic notions of bisimulation},
+  journal   = {Log. Methods Comput. Sci.},
+  volume    = {7},
+  number    = {1},
+  year      = {2011},
+  url       = {https://doi.org/10.2168/LMCS-7(1:13)2011},
+  doi       = {10.2168/LMCS-7(1:13)2011},
+  timestamp = {Thu, 25 Jun 2020 21:29:07 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1101-4223.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{yorgey14,
+  title={Combinatorial species and labelled structures},
+  author={Yorgey, Brent},
+  year={2014}
+}
+@article{garner16commutativity,
+   title={Commutativity},
+   volume={220},
+   ISSN={0022-4049},
+   url={http://dx.doi.org/10.1016/j.jpaa.2015.09.003},
+   DOI={10.1016/j.jpaa.2015.09.003},
+   number={5},
+   journal={Journal of Pure and Applied Algebra},
+   publisher={Elsevier BV},
+   author={Garner, Richard and López Franco, Ignacio},
+   year={2016},
+   month={May},
+   pages={1707–1751}
+}
+@inproceedings{gianola17,
+  author    = {Alessandro Gianola and
+               Stefano Kasangian and
+               Nicoletta Sabadini},
+  editor    = {Filippo Bonchi and
+               Barbara K{\"{o}}nig},
+  title     = {Cospan/{S}pan({G}raph): an {A}lgebra for {O}pen, {R}econfigurable {A}utomata {N}etworks},
+  booktitle = {7th Conference on Algebra and Coalgebra in Computer Science, {CALCO}
+               2017, June 12-16, 2017, Ljubljana, Slovenia},
+  series    = {LIPIcs},
+  volume    = {72},
+  pages     = {2:1--2:17},
+  publisher = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year      = {2017},
+  url       = {https://doi.org/10.4230/LIPIcs.CALCO.2017.2},
+  doi       = {10.4230/LIPIcs.CALCO.2017.2},
+  timestamp = {Tue, 11 Feb 2020 15:52:14 +0100},
+  biburl    = {https://dblp.org/rec/conf/calco/GianolaKS17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{bird84,
+  title={The promotion and accumulation strategies in transformational programming},
+  author={Bird, Richard S.},
+  journal={ACM Transactions on Programming Languages and Systems (TOPLAS)},
+  volume={6},
+  number={4},
+  pages={487--504},
+  year={1984},
+  publisher={ACM New York, NY, USA}
+}
+@article{fiore17,
+   title={Relative pseudomonads, {Kleisli} bicategories, and substitution monoidal structures},
+   volume={24},
+   ISSN={1420-9020},
+   url={http://dx.doi.org/10.1007/s00029-017-0361-3},
+   DOI={10.1007/s00029-017-0361-3},
+   number={3},
+   journal={Selecta Mathematica},
+   publisher={Springer Science and Business Media LLC},
+   author={Fiore, M. and Gambino, N. and Hyland, M. and Winskel, G.},
+   year={2017},
+   month={Nov},
+   pages={2791–2830}
+}
+@book{newport16,
+  added-at = {2018-04-21T14:16:23.000+0200},
+  address = {New York ; Boston},
+  author = {Newport, Cal},
+  biburl = {https://www.bibsonomy.org/bibtex/2a808b7eb5c2a8e5fdcc2f79d44a491a4/achakraborty},
+  edition = {1st ed.},
+  interhash = {1047c20f3f4f14a37ad402eb99077af9},
+  intrahash = {a808b7eb5c2a8e5fdcc2f79d44a491a4},
+  isbn = {978-1-4555-6386-9},
+  keywords = {2016 book literature work},
+  language = {eng},
+  month = jan,
+  publisher = {Grand Central Publishing},
+  timestamp = {2018-04-21T14:16:23.000+0200},
+  title = {Deep work : rules for focused success in a distracted world},
+  url = {http://calnewport.com/books/deep-work/},
+  year = 2016
+}
+@inproceedings{fong2019,
+  doi = {10.1109/lics.2019.8785665},
+  url = {https://doi.org/10.1109%2Flics.2019.8785665},
+  year = 2019,
+  month = {jun},
+  publisher = {{IEEE}},
+  author = {Brendan Fong and David Spivak and Remy Tuyeras},
+  title = {Backprop as Functor: A compositional perspective on supervised learning},
+  booktitle = {2019 34th Annual {ACM}/{IEEE} Symposium on Logic in Computer Science ({LICS})}
+}
+@inproceedings{katis97,
+  author    = {Piergiulio Katis and
+               Nicoletta Sabadini and
+               Robert F. C. Walters},
+  editor    = {Michael Johnson},
+  title     = {Span({G}raph): {A} {C}ategorial {A}lgebra of {T}ransition {S}ystems},
+  booktitle = {Algebraic Methodology and Software Technology, 6th International Conference,
+               {AMAST} '97, Sydney, Australia, December 13-17, 1997, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {1349},
+  pages     = {307--321},
+  publisher = {Springer},
+  year      = {1997},
+  url       = {https://doi.org/10.1007/BFb0000479},
+  doi       = {10.1007/BFb0000479},
+  timestamp = {Tue, 14 May 2019 10:00:38 +0200},
+  biburl    = {https://dblp.org/rec/conf/amast/KatisSW97.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@book{csikszentmihalyi91,
+  added-at = {2010-09-07T15:35:48.000+0200},
+  address = {New York, NY},
+  author = {Csikszentmihalyi, Mihaly},
+  biburl = {https://www.bibsonomy.org/bibtex/232076171f49c47cc51841ccca133fc25/yish},
+  howpublished = {Paperback},
+  interhash = {82aed741db390d495042525e214664e5},
+  intrahash = {32076171f49c47cc51841ccca133fc25},
+  isbn = {0060920432},
+  keywords = {affective design enjoyment experience games mathgamespatterns psychology},
+  month = {March},
+  priority = {2},
+  publisher = {Harper Perennial},
+  timestamp = {2010-09-07T15:35:48.000+0200},
+  title = {Flow: The Psychology of Optimal Experience},
+  url = {http://www.amazon.com/gp/product/0060920432/ref=si3_rdr_bb_product/104-4616565-4570345},
+  year = 1991
+}
+@inproceedings{caccamo2001higher,
+  title={A higher-order calculus for categories},
+  author={C{\'a}ccamo, Mario and Winskel, Glynn},
+  booktitle={International Conference on Theorem Proving in Higher Order Logics},
+  pages={136--153},
+  year={2001},
+  organization={Springer}
+}
+@inbook{kapranov:higherlinear,
+	title = {2-categories and Zamolodchikov tetrahedra equations},
+	booktitle = {Algebraic groups and their generalizations: quantum and infinite-dimensional methods (University Park, PA, 1991)},
+	series = {Proc. Sympos. Pure Math.},
+	volume = {56},
+	year = {1994},
+	pages = {177{\textendash}259},
+	publisher = {Amer. Math. Soc., Providence, RI},
+	organization = {Amer. Math. Soc., Providence, RI},
+	author = {Kapranov, M. M. and Voevodsky, V. A.},
+  doi = {10.1090/pspum/056.2/1278735}
+}
+@article{ponto14,
+   title={Traces in symmetric monoidal categories},
+   volume={32},
+   ISSN={0723-0869},
+   url={http://dx.doi.org/10.1016/J.EXMATH.2013.12.003},
+   DOI={10.1016/j.exmath.2013.12.003},
+   number={3},
+   journal={Expositiones Mathematicae},
+   publisher={Elsevier BV},
+   author={Ponto, Kate and Shulman, Michael},
+   year={2014},
+   pages={248–273}
+}
+@article{rosebrugh05,
+  title={Generic commutative separable algebras and cospans of graphs},
+  author={Rosebrugh, Robert and Sabadini, Nicoletta and Walters, Robert FC},
+  journal={Theory and applications of categories},
+  volume={15},
+  number={6},
+  pages={164--177},
+  year={2005}
+}
+@article{girard89,
+  title={Towards a geometry of interaction},
+  author={Girard, Jean-Yves},
+  journal={Contemporary Mathematics},
+  volume={92},
+  number={69-108},
+  pages={6},
+  year={1989}
+}
+@article{nathan:firstorderpierce,
+  author = {Nathan Haydon and Paweł Sobociński},
+  title = {Compositional Diagrammatic First-Order Logic},
+  journal = {In Peer Review},
+  year = 2020
+}
+@article{schultz16,
+	doi = {10.1007/s10485-019-09565-x},
+	year = 2019,
+	month = {apr},
+	publisher = {Springer Science and Business Media {LLC}},
+	volume = {28},
+	number = {1},
+	pages = {1--57},
+	author = {Patrick Schultz and David I. Spivak and Christina Vasilakopoulou},
+	title = {Dynamical Systems and Sheaves},
+	journal = {Applied Categorical Structures}
+}
+@article{bonchi19,
+  author    = {Filippo Bonchi and
+               Joshua Holland and
+               Robin Piedeleu and
+               Pawel Sobocinski and
+               Fabio Zanasi},
+  title     = {Diagrammatic algebra: from linear to concurrent systems},
+  journal   = {Proc. {ACM} Program. Lang.},
+  volume    = {3},
+  number    = {{POPL}},
+  pages     = {25:1--25:28},
+  year      = {2019},
+  url       = {https://doi.org/10.1145/3290338},
+  doi       = {10.1145/3290338},
+  timestamp = {Tue, 21 Apr 2020 10:56:16 +0200},
+  biburl    = {https://dblp.org/rec/journals/pacmpl/BonchiHPSZ19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@Misc{pratt99,
+    Author="Pratt, V.R.",
+    Title="Chu Spaces",
+    Comment="Course notes for the School in Category Theory and
+    Applications",
+    Address="Coimbra, Portugal", Month=July, Year=1999}
+@article{hermida00,
+  title={Representable multicategories},
+  author={Hermida, Claudio},
+  journal={Advances in Mathematics},
+  volume={151},
+  number={2},
+  pages={164--225},
+  year={2000},
+  publisher={Elsevier}
+}
+@article{janelidze02,
+  author = {Janelidze, George and Kelly, Max G.},
+  year = {2002},
+  month = {01},
+  pages = {},
+  title = {A Note on Actions of a Monoidal Category},
+  volume = {9},
+  journal = {Theory and Applications of Categories}
+}
+@article{street72,
+  title={The formal theory of monads},
+  author={Street, Ross},
+  journal={Journal of Pure and Applied Algebra},
+  volume={2},
+  number={2},
+  pages={149--168},
+  year={1972},
+  publisher={North-Holland}
+}
+@article{lack04,
+  title={Composing props},
+  author={Lack, Stephen},
+  journal={Theory and Applications of Categories},
+  volume={13},
+  number={9},
+  pages={147--163},
+  year={2004}
+}
+@article{willerton:hopf,
+  title={A {D}iagrammatic {A}pproach to {H}opf {M}onads},
+  author={Willerton, Simon},
+  journal={arXiv preprint arXiv:0807.0658},
+  year={2008}
+}
+@inproceedings{hasegawa97,
+    author = {Masahito Hasegawa},
+    title = {Recursion from Cyclic Sharing: Traced Monoidal Categories and Models of Cyclic Lambda Calculi},
+    booktitle = {},
+    year = {1997},
+    pages = {196--213},
+    publisher = {Springer Verlag}
+}
+@inproceedings{atkey09,
+  author    = {Robert Atkey},
+  title     = {Algebras for Parameterised Monads},
+  booktitle = {Algebra and Coalgebra in Computer Science, Third International Conference,
+               {CALCO} 2009, Udine, Italy, September 7-10, 2009. Proceedings},
+  pages     = {3--17},
+  year      = {2009},
+  crossref  = {DBLP:conf/calco/2009},
+  url       = {https://doi.org/10.1007/978-3-642-03741-2\_2},
+  doi       = {10.1007/978-3-642-03741-2\_2},
+  timestamp = {Tue, 14 May 2019 10:00:51 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/calco/Atkey09},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{escardooliva09,
+  author    = {Mart{\'{\i}}n H{\"{o}}tzel Escard{\'{o}} and
+               Paulo Oliva},
+  title     = {Selection functions, bar recursion and backward induction},
+  journal   = {Math. Struct. Comput. Sci.},
+  volume    = {20},
+  number    = {2},
+  pages     = {127--168},
+  year      = {2010},
+  doi       = {10.1017/S0960129509990351},
+  timestamp = {Wed, 01 Apr 2020 08:48:55 +0200},
+  biburl    = {https://dblp.org/rec/journals/mscs/EscardoO10.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{bonchi17,
+  author    = {Filippo Bonchi and
+               Pawe{\l} Soboci{\'{n}}ski and
+               Fabio Zanasi},
+  title     = {The {Calculus} of {Signal} {Flow} {Diagrams} {I:} {Linear} {Relations} on {Streams}},
+  journal   = {Information and Computation},
+  volume    = {252},
+  pages     = {2--29},
+  year      = {2017},
+  url       = {https://doi.org/10.1016/j.ic.2016.03.002},
+  doi       = {10.1016/j.ic.2016.03.002},
+  timestamp = {Thu, 18 May 2017 09:54:21 +0200},
+  biburl    = {https://dblp.org/rec/journals/iandc/BonchiSZ17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{riley18,
+  title={Categories of {Optics}},
+  author={Riley, Mitchell},
+  journal={arXiv preprint arXiv:1809.00738},
+  year={2018}
+}
+@misc{schommerpries2011classification,
+    title={The Classification of Two-Dimensional Extended Topological Field Theories},
+    author={Christopher J. Schommer-Pries},
+    year={2011},
+    eprint={1112.1000},
+    archivePrefix={arXiv},
+    primaryClass={math.AT}
+}
+@misc{fong2018graphical,
+    title={Graphical Regular Logic},
+    author={Brendan Fong and David I Spivak},
+    year={2018},
+    eprint={1812.05765},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+@article{girard87,
+  author    = {Jean{-}Yves Girard},
+  title     = {Linear Logic},
+  journal   = {Theor. Comput. Sci.},
+  volume    = {50},
+  pages     = {1--102},
+  year      = {1987},
+  url       = {https://doi.org/10.1016/0304-3975(87)90045-4},
+  doi       = {10.1016/0304-3975(87)90045-4},
+  timestamp = {Wed, 14 Nov 2018 10:33:33 +0100},
+  biburl    = {https://dblp.org/rec/journals/tcs/Girard87.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@inproceedings{katis00,
+  title={A formalization of the IWIM model},
+  author={Katis, Piergiulio and Sabadini, Nicoletta and Walters, Robert FC},
+  booktitle={International Conference on Coordination Languages and Models},
+  pages={267--283},
+  year={2000},
+  organization={Springer}
+}
+@article{boisseau18,
+  author    = {Guillaume Boisseau and
+               Jeremy Gibbons},
+  title     = {{W}hat {Y}ou {N}eeda {K}now {A}bout {Y}oneda: {P}rofunctor {O}ptics and the {Y}oneda
+               {L}emma ({F}unctional {P}earl)},
+  journal   = {{PACMPL}},
+  volume    = {2},
+  number    = {{ICFP}},
+  pages     = {84:1--84:27},
+  year      = {2018},
+  url       = {https://doi.org/10.1145/3236779},
+  doi       = {10.1145/3236779},
+  timestamp = {Wed, 21 Nov 2018 12:44:28 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/pacmpl/BoisseauG18},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{fong2015decorated,
+    title={Decorated {C}ospans},
+    author={Brendan Fong},
+    year={2015},
+    journal={arXiv preprint 1502.00872},
+    url={http://arxiv.org/abs/1502.00872},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+@Misc{willerton:twotraces,
+  author = {Simon Willerton},
+  title = {{Two} 2-{Traces}},
+  howpublished = {Slides from a talk, University of Sheffield, \url{http://www.simonwillerton.staff.shef.ac.uk/ftp/TwoTracesBeamerTalk.pdf}},
+  year = {2010}
+}
+@article{ahrens17,
+  title={How to take smart notes: One simple technique to boost writing, learning and thinking},
+  author={Ahrens, S},
+  journal={North Charleston, SC: CreateSpace Independent Publishing Platform},
+  year={2017}
+}
+@article{pickering17,
+  author    = {Matthew Pickering and
+               Jeremy Gibbons and
+               Nicolas Wu},
+  title     = {Profunctor {O}ptics: {M}odular {D}ata {A}ccessors},
+  journal   = {Programming Journal},
+  volume    = {1},
+  number    = {2},
+  pages     = {7},
+  year      = {2017},
+  url       = {https://doi.org/10.22152/programming-journal.org/2017/1/7},
+  doi       = {10.22152/programming-journal.org/2017/1/7},
+  timestamp = {Wed, 06 Sep 2017 14:38:09 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/programming/PickeringGW17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{HedgesLewis18,
+	doi = {10.4204/eptcs.283.7},
+	url = {https://doi.org/10.4204%2Feptcs.283.7},
+	year = 2018,
+	month = {nov},
+	publisher = {Open Publishing Association},
+	volume = {283},
+	pages = {89--102},
+	author = {Jules Hedges and Martha Lewis},
+	title = {Towards Functorial Language-Games},
+	journal = {Electronic Proceedings in Theoretical Computer Science}
+}
+
+@book{maclane78,
+  author = {Saunders, {Mac Lane}},
+  title = {Categories for the Working Mathematician},
+  year = 1978,
+  publisher = {Springer New York},
+  doi = {10.1007/978-1-4757-4721-8},
+  pages = {nil},
+  series = {Graduate Texts in Mathematics},
+}
+
+@article{janelidze01,
+  title={A note on actions of a monoidal category},
+  author={Janelidze, George and Kelly, Gregory M},
+  journal={Theory Appl. Categ},
+  volume={9},
+  number={61-91},
+  pages={02},
+  year={2001}
+}
+
+
+@article{shulman08,
+  title={Framed bicategories and monoidal fibrations},
+  author={Shulman, Michael},
+  journal={Theory and applications of categories},
+  volume={20},
+  number={18},
+  pages={650--738},
+  year={2008}
+}
+
+@article{spivak19,
+  title={Generalized {Lens} {Categories} via functors $\mathcal{C}^{\mathrm{op}} \to \mathsf{Cat}$},
+  author={Spivak, David I},
+  journal={arXiv preprint arXiv:1908.02202},
+  year={2019}
+}
+
+@book{lambek88,
+  title={Introduction to higher-order categorical logic},
+  author={Lambek, Joachim and Scott, Philip J},
+  volume={7},
+  year={1988},
+  publisher={Cambridge University Press}
+}
+
+Combinatorial species.  The foundations are HoTT, but they are not
+used in a particularly strong way.
+
+@book{bergeron98,
+  title={Combinatorial species and tree-like structures},
+  author={Bergeron, Fran{\c{c}}ois and Bergeron, F and Labelle, Gilbert and Leroux, Pierre},
+  volume={67},
+  year={1998},
+  publisher={Cambridge University Press}
+}
+@article{kock09,
+  title={Notes on polynomial functors},
+  author={Kock, Joachim},
+  journal={Manuscript, version},
+  pages={08--05},
+  year={2009}
+}
+
+@misc{nlab,
+  author = {{nLab authors}},
+  title = {{{H}}ome{{P}}age},
+  howpublished = {\url{http://ncatlab.org/nlab/show/HomePage}},
+  note = {\href{http://ncatlab.org/nlab/revision/HomePage/262}{Revision 262}},
+  month = may,
+  year = 2018
+}
+
+@article{marsden14,
+  title={Category theory using string diagrams},
+  author={Marsden, Daniel},
+  journal={arXiv preprint arXiv:1401.7220},
+  year={2014}
+}
+
+
+@inproceedings{pirog16,
+  title={String diagrams for free monads (functional pearl)},
+  author={Pir{\'o}g, Maciej and Wu, Nicolas},
+  booktitle={Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming},
+  pages={490--501},
+  year={2016}
+}
+
+
+
+@inproceedings{gamma93,
+  author    = {Erich Gamma and
+               Richard Helm and
+               Ralph E. Johnson and
+               John M. Vlissides},
+  title     = {Design Patterns: Abstraction and Reuse of Object-Oriented Design},
+  booktitle = {ECOOP'93 - Object-Oriented Programming, 7th European Conference, Kaiserslautern,
+               Germany, July 26-30, 1993, Proceedings},
+  pages     = {406--431},
+  year      = {1993},
+  crossref  = {DBLP:conf/ecoop/1993},
+  url       = {https://doi.org/10.1007/3-540-47910-4\_21},
+  doi       = {10.1007/3-540-47910-4\_21},
+  timestamp = {Sun, 02 Jun 2019 21:16:57 +0200},
+  biburl    = {https://dblp.org/rec/conf/ecoop/GammaHJV93.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{jaskelioff15,
+  author    = {Mauro Jaskelioff and
+               Russell O'Connor},
+  title     = {A representation theorem for second-order functionals},
+  journal   = {Journal of Functional Programming},
+  volume    = {25},
+  year      = {2015},
+  url       = {https://doi.org/10.1017/S0956796815000088},
+  doi       = {10.1017/S0956796815000088},
+  timestamp = {Sat, 27 May 2017 14:24:34 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/jfp/JaskelioffO15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@Misc{grenrus17,
+  author = {Oleg Grenrus},
+  title = {{Affine} {Traversal}},
+  howpublished = {\url{http://oleg.fi/gists/posts/2017-03-20-affine-traversal.html}},
+  year = {2017}
+}
+
+@article{profunctor20,
+    title={Profunctor optics, a categorical update},
+    author={Bryce Clarke and Derek Elkins and Jeremy Gibbons and Fosco Loregian and Bartosz Milewski and Emily Pillmore and Mario Román},
+    year={2020},
+    journal={arXiv preprint arXiv:1501.02503},
+    eprint={2001.07488},
+    archivePrefix={arXiv},
+    primaryClass={cs.PL}
+}
+
+@article{roman19,
+  title={Profunctor optics and traversals},
+  author={Román, Mario},
+  journal={Master's thesis, University of Oxford},
+  year={2019}
+}
+
+@inproceedings{AbouSaleh16,
+  author    = {Faris Abou{-}Saleh and
+               James Cheney and
+               Jeremy Gibbons and
+               James McKinna and
+               Perdita Stevens},
+  title     = {Reflections on Monadic Lenses},
+  booktitle = {A List of Successes That Can Change the World - Essays Dedicated to
+               Philip Wadler on the Occasion of His 60th Birthday},
+  pages     = {1--31},
+  year      = {2016},
+  crossref  = {DBLP:conf/birthday/2016wadler},
+  url       = {https://doi.org/10.1007/978-3-319-30936-1\_1},
+  doi       = {10.1007/978-3-319-30936-1\_1},
+  timestamp = {Tue, 14 May 2019 10:00:52 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/birthday/Abou-SalehCGMS16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{tambara06,
+  title={Distributors on a tensor category},
+  author={Tambara, Daisuke and others},
+  journal={Hokkaido mathematical journal},
+  volume={35},
+  number={2},
+  pages={379--425},
+  year={2006},
+  publisher={Hokkaido University, Department of Mathematics}
+}
+
+@article{hedges18l,
+  title={Limits of bimorphic lenses},
+  author={Hedges, Jules},
+  journal={arXiv preprint arXiv:1808.05545},
+  year={2018}
+}
+
+@Misc{kmett15,
+  author = {Edward Kmett},
+  title = {lens library, Version 4.16},
+  howpublished = {Hackage \url{https://hackage.haskell.org/package/lens-4.16}},
+  year = {2012--2018}
+}
+
+@Misc{oconnor15,
+  author = {Russell O'Connor},
+  title = {mezzolens: {P}ure {P}rofunctor {F}unctional {L}enses},
+  howpublished = {Hackage \url{https://hackage.haskell.org/package/mezzolens}},
+  year = {2015}
+}
+
+@MastersThesis{boisseau17,
+  author = 	 {Guillaume Boisseau},
+  title = 	 {Understanding Profunctor Optics: a representation theorem},
+  school = 	 {University of Oxford},
+  year = 	 2017}
+
+@article{fong19,
+  author    = {Brendan Fong and
+               Michael Johnson},
+  title     = {{Lenses} and {Learners}},
+  journal   = {CoRR},
+  volume    = {abs/1903.03671},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1903.03671},
+  archivePrefix = {arXiv},
+  eprint    = {1903.03671},
+  timestamp = {Sun, 31 Mar 2019 19:01:24 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1903-03671},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@phdthesis{oles82,
+ author = {Oles, Frank Joseph},
+ title = {A Category-theoretic Approach to the Semantics of Programming Languages},
+ year = {1982},
+ note = {AAI8301650},
+ publisher = {Syracuse University},
+ school = {Syracuse University},
+ address = {Syracuse, NY, USA},
+}
+
+@inproceedings{tuyeras19,
+  title={Backprop as {Functor}: A compositional perspective on supervised learning},
+  author={Fong, Brendan and Spivak, David and Tuy{\'e}ras, R{\'e}my},
+  booktitle={2019 34th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)},
+  pages={1--13},
+  year={2019},
+  organization={IEEE}
+}
+@article{hedges18,
+  author    = {Jules Hedges},
+  title     = {Morphisms of Open Games},
+  journal   = {Electr. Notes Theor. Comput. Sci.},
+  volume    = {341},
+  pages     = {151--177},
+  year      = {2018},
+  url       = {https://doi.org/10.1016/j.entcs.2018.11.008},
+  doi       = {10.1016/j.entcs.2018.11.008},
+  timestamp = {Fri, 21 Dec 2018 15:28:55 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/entcs/Hedges18},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{hedges19,
+  author    = {Jules Hedges},
+  title     = {The game semantics of game theory},
+  journal   = {CoRR},
+  volume    = {abs/1904.11287},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1904.11287},
+  archivePrefix = {arXiv},
+  eprint    = {1904.11287},
+  timestamp = {Thu, 02 May 2019 15:13:44 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1904-11287},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@Misc{case17,
+  author = {Nicky Case},
+  title = {The {Evolution} of {Trust}, a {Game} on the {Game} {Theory} of {Why} and {How} {We} {Trust}},
+  howpublished = {\url{http://ncase.me/trust/}},
+  year = {2017}
+}
+
+@MastersThesis{dilavore19,
+  author = 	 {Elena Di Lavore},
+  title = 	 {{Subgame} {Perfection} in {Compositional} {Game} {Theory}},
+  school = 	 {University of Oxford},
+  year = 	 2019}
+
+@misc{delpeuch:autonomization,
+    title={Autonomization of Monoidal Categories},
+    author={Antonin Delpeuch},
+    year={2014},
+    eprint={1411.3827},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+@article{fong:regularlogic,
+  author    = {Brendan Fong and
+               David I. Spivak},
+  title     = {Graphical Regular Logic},
+  journal   = {CoRR},
+  volume    = {abs/1812.05765},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1812.05765},
+  archivePrefix = {arXiv},
+  eprint    = {1812.05765},
+  timestamp = {Thu, 03 Jan 2019 09:29:38 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1812-05765.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{bonchi:relational,
+  author    = {Filippo Bonchi and
+               Dusko Pavlovic and
+               Pawe{\l} Soboci{\'{n}}ski},
+  title     = {Functorial Semantics for Relational Theories},
+  journal   = {CoRR},
+  volume    = {abs/1711.08699},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1711.08699},
+  archivePrefix = {arXiv},
+  eprint    = {1711.08699},
+  timestamp = {Mon, 13 Aug 2018 16:46:03 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1711-08699.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{bonchi:diagrammaticalgebra,
+  author    = {Filippo Bonchi and
+               Joshua Holland and
+               Robin Piedeleu and
+               Pawe{\l} Soboci{\'{n}}ski and
+               Fabio Zanasi},
+  title     = {Diagrammatic algebra: from linear to concurrent systems},
+  journal   = {{PACMPL}},
+  volume    = {3},
+  number    = {{POPL}},
+  pages     = {25:1--25:28},
+  year      = {2019},
+  url       = {https://doi.org/10.1145/3290338},
+  doi       = {10.1145/3290338},
+  timestamp = {Fri, 10 May 2019 11:01:57 +0200},
+  biburl    = {https://dblp.org/rec/journals/pacmpl/BonchiHPSZ19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@misc{schultz16,
+    title={Dynamical {S}ystems and {S}heaves},
+    author={Patrick Schultz and David I. Spivak and Christina Vasilakopoulou},
+    year={2016},
+    journal={arXiv preprint arXiv:1609.08086},
+    eprint={1609.08086},
+    archivePrefix={arXiv},
+    primaryClass={math.CT}
+}
+
+@article{fisher36,
+  title={The use of multiple measurements in taxonomic problems},
+  author={Fisher, Ronald A},
+  journal={Annals of eugenics},
+  volume={7},
+  number={2},
+  pages={179--188},
+  year={1936},
+  publisher={Wiley Online Library}
+}
+
+@book{wilf05,
+  title={generatingfunctionology},
+  author={Wilf, Herbert S},
+  year={2005},
+  publisher={AK Peters/CRC Press}
+}
+#+end_src

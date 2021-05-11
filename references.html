@@ -1,0 +1,1918 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-05-11 Tue 12:31 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>References</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Mario Román" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">References</h1>
+<p>
+This is a list of papers with their bibtex references. It is sometimes very time-consuming to look for the correct way to reference a paper, so I try to keep them organized here. They are not sorted in any particular way.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-bibtex"><span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">erbele14</span>,
+    <span style="color: #dcdccc;">title</span>={Categories in Control},
+    <span style="color: #dcdccc;">author</span>={John C. Baez and Jason Erbele},
+    <span style="color: #dcdccc;">year</span>={2014},
+    <span style="color: #dcdccc;">eprint</span>={1405.6881},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">sprits15</span>,
+  <span style="color: #dcdccc;">author</span>    = {Jules Hedges and
+               Paulo Oliva and
+               Evguenia Sprits and
+               Viktor Winschel and
+               Philipp Zahn},
+  <span style="color: #dcdccc;">title</span>     = {Higher-Order Game Theory},
+  <span style="color: #dcdccc;">journal</span>   = {CoRR},
+  <span style="color: #dcdccc;">volume</span>    = {abs/1506.01002},
+  <span style="color: #dcdccc;">year</span>      = {2015},
+  <span style="color: #dcdccc;">archivePrefix</span> = {arXiv},
+  <span style="color: #dcdccc;">eprint</span>    = {1506.01002},
+  <span style="color: #dcdccc;">timestamp</span> = {Mon, 13 Aug 2018 16:47:19 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/corr/HedgesOSWZ15.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">shulmanCatlog</span>,
+  <span style="color: #dcdccc;">author</span> = {Michael Shulman},
+  <span style="color: #dcdccc;">title</span> = {Categorical Logic from a Categorical Point of View},
+  <span style="color: #dcdccc;">howpublished</span> = {GitHub \url{https://mikeshulman.github.io/catlog/catlog.pdf}},
+  <span style="color: #dcdccc;">year</span> = {2019}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">uijlen17</span>,
+  <span style="color: #dcdccc;">author</span>    = {Aleks Kissinger and
+               Sander Uijlen},
+  <span style="color: #dcdccc;">title</span>     = {A categorical semantics for causal structure},
+  <span style="color: #dcdccc;">booktitle</span> = {32nd Annual {ACM/IEEE} Symposium on Logic in Computer Science, {LICS}
+               2017, Reykjavik, Iceland, June 20-23, 2017},
+  <span style="color: #dcdccc;">pages</span>     = {1--12},
+  <span style="color: #dcdccc;">publisher</span> = {{IEEE} Computer Society},
+  <span style="color: #dcdccc;">year</span>      = {2017},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1109/LICS.2017.8005095</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1109/LICS.2017.8005095</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Sat, 19 Oct 2019 20:00:56 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/conf/lics/KissingerU17.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@Misc</span>{<span style="color: #dca3a3;">milewski17</span>,
+  <span style="color: #dcdccc;">author</span> = {Bartosz Milewski},
+  <span style="color: #dcdccc;">title</span> = {Profunctor optics: the categorical view},
+  <span style="color: #dcdccc;">howpublished</span> = {\url{https://bartoszmilewski.com/2017/07/07/profunctor-optics-the-categorical-view/}},
+  <span style="color: #dcdccc;">year</span> = {2017}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">carboni2008cartesian</span>,
+  <span style="color: #dcdccc;">title</span>={Cartesian {Bicategories} {II}},
+  <span style="color: #dcdccc;">author</span>={Carboni, Aurelio and Kelly, G Max and Walters, Robert FC and Wood, Richard J},
+  <span style="color: #dcdccc;">journal</span>={Theory and Applications of Categories},
+  <span style="color: #dcdccc;">volume</span>={19},
+  <span style="color: #dcdccc;">number</span>={6},
+  <span style="color: #dcdccc;">pages</span>={93--124},
+  <span style="color: #dcdccc;">year</span>={2008}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">abbott03</span>,
+  <span style="color: #dcdccc;">author</span>    = {Michael Gordon Abbott and
+               Thorsten Altenkirch and
+               Neil Ghani},
+  <span style="color: #dcdccc;">title</span>     = {Categories of Containers},
+  <span style="color: #dcdccc;">booktitle</span> = {Foundations of Software Science and Computational Structures},
+  <span style="color: #dcdccc;">longbooktitle</span> = {Foundations of Software Science and Computational Structures, 6th
+               International Conference, {FOSSACS} 2003 Held as Part of the Joint
+               European Conference on Theory and Practice of Software, {ETAPS} 2003,
+               Warsaw, Poland, April 7-11, 2003, Proceedings},
+  <span style="color: #dcdccc;">pages</span>     = {23--38},
+  <span style="color: #dcdccc;">year</span>      = {2003},
+  <span style="color: #dcdccc;">crossref</span>  = {<span style="color: #dca3a3;">DBLP:conf/fossacs/2003</span>},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1007/3-540-36576-1\_2</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1007/3-540-36576-1\_2</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Tue, 14 May 2019 10:00:55 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/conf/fossacs/AbbottAG03},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@unpublished</span>{<span style="color: #dca3a3;">coecke:discocirc</span>,
+  <span style="color: #dcdccc;">author</span>  = {Bob Coecke},
+  <span style="color: #dcdccc;">title</span>   = {The {Mathematics} of {Text} {Structure}},
+  <span style="color: #dcdccc;">note</span>    = {Unpublished manuscript},
+  <span style="color: #dcdccc;">year</span>    = {2019}
+}
+<span style="color: #dcdccc;">@incollection</span>{<span style="color: #dca3a3;">kleene56</span>,
+  <span style="color: #dcdccc;">added-at</span> = {2008-03-17T11:27:54.000+0100},
+  <span style="color: #dcdccc;">address</span> = {Princeton, NJ},
+  <span style="color: #dcdccc;">author</span> = {Kleene, S. C.},
+  <span style="color: #dcdccc;">biburl</span> = {https://www.bibsonomy.org/bibtex/2cc51c86a4093c3f989db80fb8d7831be/nlp},
+  <span style="color: #dcdccc;">booktitle</span> = {Automata Studies},
+  <span style="color: #dcdccc;">editor</span> = {Shannon, Claude and McCarthy, John},
+  <span style="color: #dcdccc;">interhash</span> = {e9ce8516d977ec88fa380222354b3980},
+  <span style="color: #dcdccc;">intrahash</span> = {cc51c86a4093c3f989db80fb8d7831be},
+  <span style="color: #dcdccc;">keywords</span> = {2000 book nlp},
+  <span style="color: #dcdccc;">pages</span> = {3--41},
+  <span style="color: #dcdccc;">publisher</span> = {Princeton University Press},
+  <span style="color: #dcdccc;">timestamp</span> = {2008-03-17T11:32:49.000+0100},
+  <span style="color: #dcdccc;">title</span> = {Representation of events in nerve nets and finite automata},
+  <span style="color: #dcdccc;">year</span> = 1956
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">abramsky14</span>,
+  <span style="color: #dcdccc;">author</span>    = {Samson Abramsky},
+  <span style="color: #dcdccc;">title</span>     = {What are the fundamental structures of concurrency? We still don't
+               know!},
+  <span style="color: #dcdccc;">journal</span>   = {CoRR},
+  <span style="color: #dcdccc;">volume</span>    = {abs/1401.4973},
+  <span style="color: #dcdccc;">year</span>      = {2014},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">http://arxiv.org/abs/1401.4973</span>},
+  <span style="color: #dcdccc;">archivePrefix</span> = {arXiv},
+  <span style="color: #dcdccc;">eprint</span>    = {1401.4973},
+  <span style="color: #dcdccc;">timestamp</span> = {Mon, 13 Aug 2018 16:45:59 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/corr/Abramsky14a.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">benabou67</span>,
+  <span style="color: #dcdccc;">title</span>={Introduction to bicategories},
+  <span style="color: #dcdccc;">author</span>={B{\'e}nabou, Jean},
+  <span style="color: #dcdccc;">booktitle</span>={Reports of the midwest category seminar},
+  <span style="color: #dcdccc;">pages</span>={1--77},
+  <span style="color: #dcdccc;">year</span>={1967},
+  <span style="color: #dcdccc;">organization</span>={Springer}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">boisseau19</span>,
+    <span style="color: #dcdccc;">title</span>={String {D}iagrams for {O}ptics},
+    <span style="color: #dcdccc;">author</span>={Guillaume Boisseau},
+    <span style="color: #dcdccc;">year</span>={2020},
+    <span style="color: #dcdccc;">eprint</span>={2002.11480},
+    <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:2002.11480},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">moeller18</span>,
+  <span style="color: #dcdccc;">title</span>={Monoidal grothendieck construction},
+  <span style="color: #dcdccc;">author</span>={Moeller, Joe and Vasilakopoulou, Christina},
+  <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:1809.00727},
+  <span style="color: #dcdccc;">year</span>={2018}
+}
+<span style="color: #dcdccc;">@book</span>{<span style="color: #dca3a3;">coecke:picturing</span>,
+  <span style="color: #dcdccc;">title</span>={Picturing quantum processes},
+  <span style="color: #dcdccc;">author</span>={Coecke, Bob and Kissinger, Aleks},
+  <span style="color: #dcdccc;">year</span>={2017},
+  <span style="color: #dcdccc;">publisher</span>={Cambridge University Press}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">santamaria20</span>,
+    <span style="color: #dcdccc;">title</span>={A Calculus of Substitution for Dinatural Transformations, I},
+    <span style="color: #dcdccc;">author</span>={Guy McCusker and Alessio Santamaria},
+    <span style="color: #dcdccc;">year</span>={2020},
+    <span style="color: #dcdccc;">eprint</span>={2007.07576},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">ghani18</span>,
+  <span style="color: #dcdccc;">author</span>    = {Neil Ghani and
+               Jules Hedges and
+               Viktor Winschel and
+               Philipp Zahn},
+  <span style="color: #dcdccc;">title</span>     = {Compositional Game Theory},
+  <span style="color: #dcdccc;">booktitle</span> = {Proceedings of the 33rd Annual {ACM/IEEE} Symposium on Logic in Computer
+               Science, {LICS} 2018, Oxford, UK, July 09-12, 2018},
+  <span style="color: #dcdccc;">pages</span>     = {472--481},
+  <span style="color: #dcdccc;">year</span>      = {2018},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1145/3209108.3209165</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1145/3209108.3209165</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Wed, 21 Nov 2018 12:44:18 +0100},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/conf/lics/GhaniHWZ18},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">shulman2018linear</span>,
+    <span style="color: #dcdccc;">title</span>={Linear logic for constructive mathematics},
+    <span style="color: #dcdccc;">author</span>={Michael Shulman},
+    <span style="color: #dcdccc;">year</span>={2018},
+    <span style="color: #dcdccc;">eprint</span>={1805.07518},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.LO}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">aguiar2017monads</span>,
+    <span style="color: #dcdccc;">title</span>={Monads on higher monoidal categories},
+    <span style="color: #dcdccc;">author</span>={Marcelo Aguiar and Mariana Haim and Ignacio Lopez Franco},
+    <span style="color: #dcdccc;">year</span>={2017},
+    <span style="color: #dcdccc;">eprint</span>={1701.03028},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">street07centres</span>,
+<span style="color: #dcdccc;">author</span> = {Day, Brian and Street, Ross},
+<span style="color: #dcdccc;">year</span> = {2007},
+<span style="color: #dcdccc;">month</span> = {01},
+<span style="color: #dcdccc;">pages</span> = {},
+<span style="color: #dcdccc;">title</span> = {Centres of monoidal categories of functors},
+<span style="color: #dcdccc;">volume</span> = {431},
+<span style="color: #dcdccc;">journal</span> = {Contemporary Mathematics},
+<span style="color: #dcdccc;">doi</span> = {<span style="color: #dca3a3;">10.1090/conm/431/08273</span>}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">rivas14</span>,
+  <span style="color: #dcdccc;">author</span>    = {Exequiel Rivas and
+               Mauro Jaskelioff},
+  <span style="color: #dcdccc;">title</span>     = {Notions of Computation as Monoids},
+  <span style="color: #dcdccc;">journal</span>   = {CoRR},
+  <span style="color: #dcdccc;">volume</span>    = {abs/1406.4823},
+  <span style="color: #dcdccc;">year</span>      = {2014},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">http://arxiv.org/abs/1406.4823</span>},
+  <span style="color: #dcdccc;">archivePrefix</span> = {arXiv},
+  <span style="color: #dcdccc;">eprint</span>    = {1406.4823},
+  <span style="color: #dcdccc;">timestamp</span> = {Mon, 13 Aug 2018 16:48:44 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/corr/RivasJ14.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">hughes00</span>,
+  <span style="color: #dcdccc;">author</span>    = {John Hughes},
+  <span style="color: #dcdccc;">title</span>     = {Generalising monads to arrows},
+  <span style="color: #dcdccc;">journal</span>   = {Sci. Comput. Program.},
+  <span style="color: #dcdccc;">volume</span>    = {37},
+  <span style="color: #dcdccc;">number</span>    = {1-3},
+  <span style="color: #dcdccc;">pages</span>     = {67--111},
+  <span style="color: #dcdccc;">year</span>      = {2000},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1016/S0167-6423(99)00023-4</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1016/S0167-6423(99)00023-4</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Wed, 14 Nov 2018 10:21:27 +0100},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/journals/scp/Hughes00},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">bartlett2014quasistrict</span>,
+    <span style="color: #dcdccc;">title</span>={Quasistrict {Symmetric} {Monoidal} {2-Categories} {Via} {Wire} {Diagrams}},
+    <span style="color: #dcdccc;">author</span>={Bruce Bartlett},
+    <span style="color: #dcdccc;">year</span>={2014},
+    <span style="color: #dcdccc;">journal</span>={arXiv preprint 1409.2148},
+    <span style="color: #dcdccc;">eprint</span>={1409.2148},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">gibbons98</span>,
+<span style="color: #dcdccc;">author</span> = {Gibbons, Jeremy and Jones, Geraint},
+<span style="color: #dcdccc;">title</span> = {The Under-Appreciated Unfold},
+<span style="color: #dcdccc;">year</span> = {1998},
+<span style="color: #dcdccc;">issue_date</span> = {Jan. 1999},
+<span style="color: #dcdccc;">publisher</span> = {Association for Computing Machinery},
+<span style="color: #dcdccc;">address</span> = {New York, NY, USA},
+<span style="color: #dcdccc;">volume</span> = {34},
+<span style="color: #dcdccc;">number</span> = {1},
+<span style="color: #dcdccc;">issn</span> = {0362-1340},
+<span style="color: #dcdccc;">url</span> = {<span style="color: #dca3a3;">https://doi.org/10.1145/291251.289455</span>},
+<span style="color: #dcdccc;">doi</span> = {<span style="color: #dca3a3;">10.1145/291251.289455</span>},
+<span style="color: #dcdccc;">journal</span> = {SIGPLAN Not.},
+<span style="color: #dcdccc;">month</span> = sep,
+<span style="color: #dcdccc;">pages</span> = {273&#8211;279},
+<span style="color: #dcdccc;">numpages</span> = {7},
+<span style="color: #dcdccc;">keywords</span> = {breadth-first, co-induction, level-order, program calculation, traversal, unfold, anamorphism, fold, functional programing}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">day97</span>,
+  <span style="color: #dcdccc;">title</span>={Monoidal bicategories and {Hopf} algebroids},
+  <span style="color: #dcdccc;">author</span>={Day, Brian and Street, Ross},
+  <span style="color: #dcdccc;">journal</span>={Advances in Mathematics},
+  <span style="color: #dcdccc;">volume</span>={129},
+  <span style="color: #dcdccc;">number</span>={1},
+  <span style="color: #dcdccc;">pages</span>={99--157},
+  <span style="color: #dcdccc;">year</span>={1997},
+  <span style="color: #dcdccc;">publisher</span>={Academic Press}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">katis2008partita</span>,
+    <span style="color: #dcdccc;">title</span>={On partita doppia},
+    <span style="color: #dcdccc;">author</span>={Piergiulio Katis and N. Sabadini and R. F. C. Walters},
+    <span style="color: #dcdccc;">year</span>={2008},
+    <span style="color: #dcdccc;">journal</span>={arXiv preprint 0803.2429},
+    <span style="color: #dcdccc;">url</span>={<span style="color: #dca3a3;">http://arxiv.org/abs/0803.2429</span>},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@incollection</span>{<span style="color: #dca3a3;">elgot75</span>,
+  <span style="color: #dcdccc;">title</span>={Monadic computation and iterative algebraic theories},
+  <span style="color: #dcdccc;">author</span>={Elgot, Calvin C.},
+  <span style="color: #dcdccc;">booktitle</span>={Studies in Logic and the Foundations of Mathematics},
+  <span style="color: #dcdccc;">volume</span>={80},
+  <span style="color: #dcdccc;">pages</span>={175--230},
+  <span style="color: #dcdccc;">year</span>={1975},
+  <span style="color: #dcdccc;">publisher</span>={Elsevier}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">sabadini18</span>,
+  <span style="color: #dcdccc;">title</span>={A {P}rocess {A}lgebra for the {S}pan({G}raph) {M}odel of {C}oncurrency},
+  <span style="color: #dcdccc;">author</span>={Piergiulio Katis and
+               Nicoletta Sabadini and
+               Robert F. C. Walters},
+  <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:0904.3964},
+  <span style="color: #dcdccc;">year</span>={2009}
+}
+<span style="color: #dcdccc;">@incollection</span>{<span style="color: #dca3a3;">winskel95</span>,
+  <span style="color: #dcdccc;">title</span>={Models for {C}oncurrency},
+  <span style="color: #dcdccc;">author</span>={Winskel, Glynn and Nielsen, Mogens},
+  <span style="color: #dcdccc;">booktitle</span>={Handbook of {L}ogic in {C}omputer {S}cience (vol. 4) {S}emantic {M}odelling},
+  <span style="color: #dcdccc;">pages</span>={1--148},
+  <span style="color: #dcdccc;">year</span>={1995},
+  <span style="color: #dcdccc;">organization</span>={Oxford University Press, Inc.}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">bloom96</span>,
+  <span style="color: #dcdccc;">author</span>    = {Stephen L. Bloom and
+               Nicoletta Sabadini and
+               Robert F. C. Walters},
+  <span style="color: #dcdccc;">title</span>     = {Matrices, machines and behaviors},
+  <span style="color: #dcdccc;">journal</span>   = {Appl. Categorical Struct.},
+  <span style="color: #dcdccc;">volume</span>    = {4},
+  <span style="color: #dcdccc;">number</span>    = {4},
+  <span style="color: #dcdccc;">pages</span>     = {343--360},
+  <span style="color: #dcdccc;">year</span>      = {1996},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1007/BF00122683</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1007/BF00122683</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Tue, 29 Sep 2020 10:59:17 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/acs/BloomSW96.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@book</span>{<span style="color: #dca3a3;">bailey16</span>,
+  <span style="color: #dcdccc;">author</span> = {Bailey, Chris},
+  <span style="color: #dcdccc;">title</span> = {The productivity project},
+  <span style="color: #dcdccc;">year</span> = 2016
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">capriotti14</span>,
+  <span style="color: #dcdccc;">author</span>    = {Paolo Capriotti and
+               Ambrus Kaposi},
+  <span style="color: #dcdccc;">title</span>     = {Free Applicative Functors},
+  <span style="color: #dcdccc;">booktitle</span> = {Proceedings 5th Workshop on Mathematically Structured Functional Programming,
+               MSFP@ETAPS 2014, Grenoble, France, 12 April 2014.},
+  <span style="color: #dcdccc;">pages</span>     = {2--30},
+  <span style="color: #dcdccc;">year</span>      = {2014},
+  <span style="color: #dcdccc;">crossref</span>  = {<span style="color: #dca3a3;">DBLP:journals/corr/LevyK14</span>},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.4204/EPTCS.153.2</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.4204/EPTCS.153.2</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Wed, 12 Sep 2018 01:05:13 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/journals/corr/CapriottiK14},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">roman20opendiagrams</span>,
+    <span style="color: #dcdccc;">title</span>={Open Diagrams via Coend Calculus},
+    <span style="color: #dcdccc;">author</span>={Mario Rom&#225;n},
+    <span style="color: #dcdccc;">year</span>={2020},
+    <span style="color: #dcdccc;">eprint</span>={2004.04526},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">hansen19</span>,
+  <span style="color: #dcdccc;">title</span>={Constructing symmetric monoidal bicategories functorially},
+  <span style="color: #dcdccc;">author</span>={Hansen, Linde Wester and Shulman, Michael},
+  <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:1910.09240},
+  <span style="color: #dcdccc;">year</span>={2019}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">buckley2012fibred</span>,
+    <span style="color: #dcdccc;">title</span>={Fibred 2-categories and bicategories},
+    <span style="color: #dcdccc;">author</span>={Mitchell Buckley},
+    <span style="color: #dcdccc;">year</span>={2012},
+    <span style="color: #dcdccc;">eprint</span>={1212.6283},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">loregian15</span>,
+  <span style="color: #dcdccc;">title</span>={This is the (co)end, my only (co)friend},
+  <span style="color: #dcdccc;">author</span>={Loregian, Fosco},
+  <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:1501.02503},
+  <span style="color: #dcdccc;">year</span>={2015}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">loregian19</span>,
+    <span style="color: #dcdccc;">title</span>={Coend calculus},
+    <span style="color: #dcdccc;">author</span>={Fosco Loregian},
+    <span style="color: #dcdccc;">year</span>={2019},
+    <span style="color: #dcdccc;">eprint</span>={1501.02503},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:1501.02503},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">rypacek12</span>,
+  <span style="color: #dcdccc;">author</span>    = {Mauro Jaskelioff and
+               Ondrej Rypacek},
+  <span style="color: #dcdccc;">title</span>     = {An Investigation of the Laws of Traversals},
+  <span style="color: #dcdccc;">booktitle</span> = {Proceedings Fourth Workshop on Mathematically Structured Functional
+               Programming, MSFP@ETAPS 2012, Tallinn, Estonia, 25 March 2012.},
+  <span style="color: #dcdccc;">pages</span>     = {40--49},
+  <span style="color: #dcdccc;">year</span>      = {2012},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.4204/EPTCS.76.5</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.4204/EPTCS.76.5</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Wed, 12 Sep 2018 01:05:15 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/journals/corr/abs-1202-2919},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">petric00</span>,
+    <span style="color: #dcdccc;">title</span>={G-dinaturality},
+    <span style="color: #dcdccc;">author</span>={Z. Petric},
+    <span style="color: #dcdccc;">year</span>={2000},
+    <span style="color: #dcdccc;">eprint</span>={math/0012019},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@MastersThesis</span>{<span style="color: #dca3a3;">nickhu19</span>,
+  <span style="color: #dcdccc;">author</span> = {Nick Hu},
+  <span style="color: #dcdccc;">title</span> = {External Traced Monoidal Categories},
+  <span style="color: #dcdccc;">school</span> = {University of Oxford},
+  <span style="color: #dcdccc;">year</span> = 2019}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">bird13</span>,
+  <span style="color: #dcdccc;">author</span>    = {Richard S. Bird and
+               Jeremy Gibbons and
+               Stefan Mehner and
+               Janis Voigtl{\"{a}}nder and
+               Tom Schrijvers},
+  <span style="color: #dcdccc;">title</span>     = {Understanding idiomatic traversals backwards and forwards},
+  <span style="color: #dcdccc;">booktitle</span> = {Proceedings of the 2013 {ACM} {SIGPLAN} Symposium on Haskell, Boston,
+               MA, USA, September 23-24, 2013},
+  <span style="color: #dcdccc;">pages</span>     = {25--36},
+  <span style="color: #dcdccc;">year</span>      = {2013},
+  <span style="color: #dcdccc;">crossref</span>  = {<span style="color: #dca3a3;">DBLP:conf/haskell/2013</span>},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1145/2503778.2503781</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1145/2503778.2503781</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Tue, 06 Nov 2018 16:58:22 +0100},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/conf/haskell/BirdGMVS13},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">pronk04</span>,
+  <span style="color: #dcdccc;">title</span>={Universal properties of {S}pan},
+  <span style="color: #dcdccc;">author</span>={Dawson, Robert {J}. {M}ac{G}. and Par{\'e}, Robert and Pronk, Dorette {A}.},
+  <span style="color: #dcdccc;">journal</span>={Theory and Applications of Categories},
+  <span style="color: #dcdccc;">volume</span>={13},
+  <span style="color: #dcdccc;">number</span>={4},
+  <span style="color: #dcdccc;">pages</span>={61--85},
+  <span style="color: #dcdccc;">year</span>={2004}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">seeber18</span>,
+  <span style="color: #dcdccc;">author</span>    = {Filippo Bonchi and
+               Jens Seeber and
+               Pawel Sobocinski},
+  <span style="color: #dcdccc;">title</span>     = {Graphical Conjunctive Queries},
+  <span style="color: #dcdccc;">journal</span>   = {CoRR},
+  <span style="color: #dcdccc;">volume</span>    = {abs/1804.07626},
+  <span style="color: #dcdccc;">year</span>      = {2018},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">http://arxiv.org/abs/1804.07626</span>},
+  <span style="color: #dcdccc;">archivePrefix</span> = {arXiv},
+  <span style="color: #dcdccc;">eprint</span>    = {1804.07626},
+  <span style="color: #dcdccc;">timestamp</span> = {Tue, 21 Apr 2020 10:56:16 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/corr/abs-1804-07626.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">hoshino14</span>,
+  <span style="color: #dcdccc;">author</span>    = {Naohiko Hoshino and
+               Koko Muroya and
+               Ichiro Hasuo},
+  <span style="color: #dcdccc;">editor</span>    = {Thomas A. Henzinger and
+               Dale Miller},
+  <span style="color: #dcdccc;">title</span>     = {Memoryful geometry of interaction: from coalgebraic components to
+               algebraic effects},
+  <span style="color: #dcdccc;">booktitle</span> = {Joint Meeting of the Twenty-Third {EACSL} Annual Conference on Computer
+               Science Logic {(CSL)} and the Twenty-Ninth Annual {ACM/IEEE} Symposium
+               on Logic in Computer Science (LICS), {CSL-LICS} '14, Vienna, Austria,
+               July 14 - 18, 2014},
+  <span style="color: #dcdccc;">pages</span>     = {52:1--52:10},
+  <span style="color: #dcdccc;">publisher</span> = {{ACM}},
+  <span style="color: #dcdccc;">year</span>      = {2014},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1145/2603088.2603124</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1145/2603088.2603124</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Tue, 06 Nov 2018 11:07:36 +0100},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/conf/csl/HoshinoMH14.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">mimram13</span>,
+  <span style="color: #dcdccc;">title</span>={A categorical theory of patches},
+  <span style="color: #dcdccc;">author</span>={Mimram, Samuel and Di Giusto, Cinzia},
+  <span style="color: #dcdccc;">journal</span>={Electronic notes in theoretical computer science},
+  <span style="color: #dcdccc;">volume</span>={298},
+  <span style="color: #dcdccc;">pages</span>={283--307},
+  <span style="color: #dcdccc;">year</span>={2013},
+  <span style="color: #dcdccc;">publisher</span>={Elsevier}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">master19</span>,
+   <span style="color: #dcdccc;">title</span>={Open Petri nets},
+   <span style="color: #dcdccc;">volume</span>={30},
+   <span style="color: #dcdccc;">ISSN</span>={1469-8072},
+   <span style="color: #dcdccc;">url</span>={<span style="color: #dca3a3;">http://dx.doi.org/10.1017/S0960129520000043</span>},
+   <span style="color: #dcdccc;">DOI</span>={<span style="color: #dca3a3;">10.1017/s0960129520000043</span>},
+   <span style="color: #dcdccc;">number</span>={3},
+   <span style="color: #dcdccc;">journal</span>={Mathematical Structures in Computer Science},
+   <span style="color: #dcdccc;">publisher</span>={Cambridge University Press (CUP)},
+   <span style="color: #dcdccc;">author</span>={Baez, John C. and Master, Jade},
+   <span style="color: #dcdccc;">year</span>={2020},
+   <span style="color: #dcdccc;">month</span>={Mar},
+   <span style="color: #dcdccc;">pages</span>={314&#8211;341}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">garner13enriched</span>,
+    <span style="color: #dcdccc;">title</span>={Enriched categories as a free cocompletion},
+    <span style="color: #dcdccc;">author</span>={Richard Garner and Michael Shulman},
+    <span style="color: #dcdccc;">year</span>={2013},
+    <span style="color: #dcdccc;">eprint</span>={1301.3191},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">benton03</span>,
+  <span style="color: #dcdccc;">author</span>    = {Nick Benton and
+               Martin Hyland},
+  <span style="color: #dcdccc;">title</span>     = {Traced Premonoidal Categories},
+  <span style="color: #dcdccc;">journal</span>   = {{RAIRO} Theor. Informatics Appl.},
+  <span style="color: #dcdccc;">volume</span>    = {37},
+  <span style="color: #dcdccc;">number</span>    = {4},
+  <span style="color: #dcdccc;">pages</span>     = {273--299},
+  <span style="color: #dcdccc;">year</span>      = {2003},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1051/ita:2003020</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1051/ita:2003020</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Mon, 25 May 2020 09:15:53 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/ita/BentonH03.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">street04</span>,
+  <span style="color: #dcdccc;">title</span>={Quantum categories, star autonomy, and quantum groupoids},
+  <span style="color: #dcdccc;">author</span>={Street, Ross},
+  <span style="color: #dcdccc;">journal</span>={Galois theory, Hopf algebras, and semiabelian categories},
+  <span style="color: #dcdccc;">volume</span>={43},
+  <span style="color: #dcdccc;">pages</span>={187},
+  <span style="color: #dcdccc;">year</span>={2004},
+  <span style="color: #dcdccc;">publisher</span>={American Mathematical Soc.}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">pastro08</span>,
+  <span style="color: #dcdccc;">title</span>={Doubles for monoidal categories},
+  <span style="color: #dcdccc;">author</span>={Pastro, Craig and Street, Ross},
+  <span style="color: #dcdccc;">journal</span>={Theory and applications of categories},
+  <span style="color: #dcdccc;">volume</span>={21},
+  <span style="color: #dcdccc;">number</span>={4},
+  <span style="color: #dcdccc;">pages</span>={61--75},
+  <span style="color: #dcdccc;">year</span>={2008}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">jay94</span>,
+  <span style="color: #dcdccc;">title</span>={Shapely types and shape polymorphism},
+  <span style="color: #dcdccc;">author</span>={Jay, C Barry and Cockett, J Robin B},
+  <span style="color: #dcdccc;">booktitle</span>={European Symposium on Programming},
+  <span style="color: #dcdccc;">pages</span>={302--316},
+  <span style="color: #dcdccc;">year</span>={1994},
+  <span style="color: #dcdccc;">organization</span>={Springer}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">myers2016string</span>,
+    <span style="color: #dcdccc;">title</span>={String Diagrams For Double Categories and Equipments},
+    <span style="color: #dcdccc;">author</span>={David Jaz Myers},
+    <span style="color: #dcdccc;">year</span>={2016},
+    <span style="color: #dcdccc;">journal</span>={arXiv preprint 1612.02762},
+    <span style="color: #dcdccc;">eprint</span>={1612.02762},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">gibbons09</span>,
+  <span style="color: #dcdccc;">author</span>    = {Jeremy Gibbons and
+               Bruno C. d. S. Oliveira},
+  <span style="color: #dcdccc;">title</span>     = {The essence of the Iterator pattern},
+  <span style="color: #dcdccc;">journal</span>   = {Journal of Functional Programming},
+  <span style="color: #dcdccc;">volume</span>    = {19},
+  <span style="color: #dcdccc;">number</span>    = {3-4},
+  <span style="color: #dcdccc;">pages</span>     = {377--402},
+  <span style="color: #dcdccc;">year</span>      = {2009},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1017/S0956796809007291</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1017/S0956796809007291</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Thu, 15 Jun 2017 21:30:55 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/journals/jfp/GibbonsO09},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@book</span>{<span style="color: #dca3a3;">borceux94</span>,
+  <span style="color: #dcdccc;">title</span>={Handbook of categorical algebra: volume 1, Basic category theory},
+  <span style="color: #dcdccc;">author</span>={Borceux, Francis},
+  <span style="color: #dcdccc;">volume</span>={1},
+  <span style="color: #dcdccc;">year</span>={1994},
+  <span style="color: #dcdccc;">publisher</span>={Cambridge University Press}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">ghani2016comprehensive</span>,
+  <span style="color: #dcdccc;">title</span>={Comprehensive parametric polymorphism: Categorical models and type theory},
+  <span style="color: #dcdccc;">author</span>={Ghani, Neil and Nordvall Forsberg, Fredrik and Simpson, Alex},
+  <span style="color: #dcdccc;">booktitle</span>={International Conference on Foundations of Software Science and Computation Structures},
+  <span style="color: #dcdccc;">pages</span>={3--19},
+  <span style="color: #dcdccc;">year</span>={2016},
+  <span style="color: #dcdccc;">organization</span>={Springer}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">bartlett15</span>,
+  <span style="color: #dcdccc;">title</span>={Modular {Categories} as {Representations} of the {3-Dimensional} {Bordism} 2-category},
+  <span style="color: #dcdccc;">author</span>={Bartlett, Bruce and Douglas, Christopher L and Schommer-Pries, Christopher J and Vicary, Jamie},
+  <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:1509.06811},
+  <span style="color: #dcdccc;">year</span>={2015}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">mcbride08</span>,
+  <span style="color: #dcdccc;">author</span>    = {Conor McBride and
+               Ross Paterson},
+  <span style="color: #dcdccc;">title</span>     = {Applicative programming with effects},
+  <span style="color: #dcdccc;">journal</span>   = {Journal of Functional Programming},
+  <span style="color: #dcdccc;">volume</span>    = {18},
+  <span style="color: #dcdccc;">number</span>    = {1},
+  <span style="color: #dcdccc;">pages</span>     = {1--13},
+  <span style="color: #dcdccc;">year</span>      = {2008},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1017/S0956796807006326</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1017/S0956796807006326</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Fri, 02 Nov 2018 09:31:48 +0100},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/journals/jfp/McbrideP08},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">curien12</span>,
+    <span style="color: #dcdccc;">title</span>={Operads, clones, and distributive laws},
+    <span style="color: #dcdccc;">author</span>={Pierre-Louis Curien},
+    <span style="color: #dcdccc;">year</span>={2012},
+    <span style="color: #dcdccc;">eprint</span>={1205.3050},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">abramsky1994domain</span>,
+  <span style="color: #dcdccc;">title</span>={Domain theory},
+  <span style="color: #dcdccc;">author</span>={Abramsky, Samson and Jung, Achim},
+  <span style="color: #dcdccc;">year</span>={1994},
+  <span style="color: #dcdccc;">publisher</span>={Oxford University Press}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">jacobs09</span>,
+  <span style="color: #dcdccc;">title</span>={Categorical semantics for arrows},
+  <span style="color: #dcdccc;">author</span>={Jacobs, Bart and Heunen, Chris and Hasuo, Ichiro},
+  <span style="color: #dcdccc;">journal</span>={Journal of functional programming},
+  <span style="color: #dcdccc;">volume</span>={19},
+  <span style="color: #dcdccc;">number</span>={3-4},
+  <span style="color: #dcdccc;">pages</span>={403--438},
+  <span style="color: #dcdccc;">year</span>={2009},
+  <span style="color: #dcdccc;">publisher</span>={Cambridge University Press}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">hedges17</span>,
+  <span style="color: #dcdccc;">author</span>    = {Jules Hedges},
+  <span style="color: #dcdccc;">title</span>     = {Coherence for lenses and open games},
+  <span style="color: #dcdccc;">journal</span>   = {CoRR},
+  <span style="color: #dcdccc;">volume</span>    = {abs/1704.02230},
+  <span style="color: #dcdccc;">year</span>      = {2017},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">http://arxiv.org/abs/1704.02230</span>},
+  <span style="color: #dcdccc;">archivePrefix</span> = {arXiv},
+  <span style="color: #dcdccc;">eprint</span>    = {1704.02230},
+  <span style="color: #dcdccc;">timestamp</span> = {Mon, 13 Aug 2018 16:47:47 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/journals/corr/Hedges17},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">shulman2010constructing</span>,
+    <span style="color: #dcdccc;">title</span>={Constructing symmetric monoidal bicategories},
+    <span style="color: #dcdccc;">author</span>={Michael A. Shulman},
+    <span style="color: #dcdccc;">year</span>={2010},
+    <span style="color: #dcdccc;">eprint</span>={1004.0993},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">faro08</span>,
+  <span style="color: #dcdccc;">title</span>={On the trace of an endofunctor of a small category},
+  <span style="color: #dcdccc;">author</span>={Faro, Emilio},
+  <span style="color: #dcdccc;">year</span>={2008},
+  <span style="color: #dcdccc;">publisher</span>={Centre de Recerca Matem{\`a}tica}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">mason53</span>,
+  <span style="color: #dcdccc;">author</span>={S. J. {Mason}},
+  <span style="color: #dcdccc;">journal</span>={Proceedings of the IRE},
+  <span style="color: #dcdccc;">title</span>={Feedback Theory-Some Properties of Signal Flow Graphs},
+  <span style="color: #dcdccc;">year</span>={1953},
+  <span style="color: #dcdccc;">volume</span>={41},
+  <span style="color: #dcdccc;">number</span>={9},
+  <span style="color: #dcdccc;">pages</span>={1144-1156},}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">albasini09</span>,
+  <span style="color: #dcdccc;">title</span>={The parallel composition of processes},
+  <span style="color: #dcdccc;">author</span>={Luisa de Francesco Albasini and Nicoletta Sabadini and Robert F. C. Walters},
+  <span style="color: #dcdccc;">journal</span>={arXiv: Category Theory},
+  <span style="color: #dcdccc;">year</span>={2009}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">uustalu08</span>,
+  <span style="color: #dcdccc;">author</span>    = {Tarmo Uustalu and
+               Varmo Vene},
+  <span style="color: #dcdccc;">editor</span>    = {Jir{\'{\i}} Ad{\'{a}}mek and
+               Clemens Kupke},
+  <span style="color: #dcdccc;">title</span>     = {Comonadic Notions of Computation},
+  <span style="color: #dcdccc;">booktitle</span> = {Proceedings of the Ninth Workshop on Coalgebraic Methods in Computer
+               Science, {CMCS} 2008, Budapest, Hungary, April 4-6, 2008},
+  <span style="color: #dcdccc;">series</span>    = {Electronic Notes in Theoretical Computer Science},
+  <span style="color: #dcdccc;">volume</span>    = {203},
+  <span style="color: #dcdccc;">number</span>    = {5},
+  <span style="color: #dcdccc;">pages</span>     = {263--284},
+  <span style="color: #dcdccc;">publisher</span> = {Elsevier},
+  <span style="color: #dcdccc;">year</span>      = {2008},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1016/j.entcs.2008.05.029</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1016/j.entcs.2008.05.029</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Thu, 16 Jan 2020 11:02:39 +0100},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/entcs/UustaluV08.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">joyal96</span>,
+<span style="color: #dcdccc;">author</span> = {Joyal, Andr\'e and Street, Ross and Verity, Dominic},
+<span style="color: #dcdccc;">year</span> = {1996},
+<span style="color: #dcdccc;">month</span> = {04},
+<span style="color: #dcdccc;">pages</span> = {447 - 468},
+<span style="color: #dcdccc;">title</span> = {Traced monoidal categories},
+<span style="color: #dcdccc;">volume</span> = {119},
+<span style="color: #dcdccc;">journal</span> = {Mathematical Proceedings of the Cambridge Philosophical Society},
+<span style="color: #dcdccc;">doi</span> = {<span style="color: #dca3a3;">10.1017/S0305004100074338</span>}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">katis02</span>,
+  <span style="color: #dcdccc;">author</span>    = {Piergiulio Katis and
+               Nicoletta Sabadini and
+               Robert F. C. Walters},
+  <span style="color: #dcdccc;">title</span>     = {Feedback, trace and fixed-point semantics},
+  <span style="color: #dcdccc;">journal</span>   = {{ITA}},
+  <span style="color: #dcdccc;">volume</span>    = {36},
+  <span style="color: #dcdccc;">number</span>    = {2},
+  <span style="color: #dcdccc;">pages</span>     = {181--194},
+  <span style="color: #dcdccc;">year</span>      = {2002},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1051/ita:2002009</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1051/ita:2002009</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Sun, 28 May 2017 13:19:34 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/ita/KatisSW02.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">sabadini95</span>,
+  <span style="color: #dcdccc;">title</span>={Bicategories of processes},
+  <span style="color: #dcdccc;">author</span>={Katis, Piergiulio and Sabadini, Nicoletta and Walters, Robert FC},
+  <span style="color: #dcdccc;">journal</span>={Journal of Pure and Applied Algebra},
+  <span style="color: #dcdccc;">volume</span>={115},
+  <span style="color: #dcdccc;">number</span>={2},
+  <span style="color: #dcdccc;">pages</span>={141--178},
+  <span style="color: #dcdccc;">year</span>={1997},
+  <span style="color: #dcdccc;">publisher</span>={Elsevier}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">kelly74</span>,
+  <span style="color: #dcdccc;">title</span>={Doctrinal adjunction},
+  <span style="color: #dcdccc;">author</span>={Kelly, G Max},
+  <span style="color: #dcdccc;">booktitle</span>={Category Seminar},
+  <span style="color: #dcdccc;">pages</span>={257--280},
+  <span style="color: #dcdccc;">year</span>={1974},
+  <span style="color: #dcdccc;">organization</span>={Springer}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">chiribella08</span>,
+   <span style="color: #dcdccc;">title</span>={Quantum {Circuits} {Architecture}},
+   <span style="color: #dcdccc;">volume</span>={101},
+   <span style="color: #dcdccc;">ISSN</span>={1079-7114},
+   <span style="color: #dcdccc;">url</span>={<span style="color: #dca3a3;">http://dx.doi.org/10.1103/PhysRevLett.101.060401</span>},
+   <span style="color: #dcdccc;">DOI</span>={<span style="color: #dca3a3;">10.1103/physrevlett.101.060401</span>},
+   <span style="color: #dcdccc;">number</span>={6},
+   <span style="color: #dcdccc;">journal</span>={Physical Review Letters},
+   <span style="color: #dcdccc;">publisher</span>={American Physical Society (APS)},
+   <span style="color: #dcdccc;">author</span>={Chiribella, G. and D&#8217;Ariano, G. M. and Perinotti, P.},
+   <span style="color: #dcdccc;">year</span>={2008},
+   <span style="color: #dcdccc;">month</span>={Aug},
+   <span style="color: #dcdccc;">abstract</span>={
+     We present a method for optimizing quantum circuits architecture. The method is based on the
+     notion of quantum comb, which describes a circuit board in which one can insert variable subcircuits.
+     The method allows one to efficiently address novel kinds of quantum information processing tasks,
+     such as storing-retrieving, and cloning of channels.}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">delpeuch14a</span>,
+  <span style="color: #dcdccc;">year</span> = 2017,
+  <span style="color: #dcdccc;">month</span> = {aug},
+  <span style="color: #dcdccc;">publisher</span> = {Center for Open Science},
+  <span style="color: #dcdccc;">author</span> = {Antonin Delpeuch},
+  <span style="color: #dcdccc;">title</span> = {Autonomization of {{Monoidal Categories}}},
+  <span style="color: #dcdccc;">url</span> = {<span style="color: #dca3a3;">https://doi.org/10.31219</span><span style="color: #777767;">%2Fosf.io%2Fefs3b},</span>
+  <span style="color: #dcdccc;">doi</span> = {<span style="color: #dca3a3;">10.31219/osf.io/efs3b</span>}
+}
+<span style="color: #dcdccc;">@book</span>{<span style="color: #dca3a3;">riehl17</span>,
+  <span style="color: #dcdccc;">title</span>={Category theory in context},
+  <span style="color: #dcdccc;">author</span>={Riehl, Emily},
+  <span style="color: #dcdccc;">year</span>={2017},
+  <span style="color: #dcdccc;">publisher</span>={Courier Dover Publications}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">abramsky14</span>,
+  <span style="color: #dcdccc;">author</span>    = {Samson Abramsky},
+  <span style="color: #dcdccc;">title</span>     = {Retracing some paths in Process Algebra},
+  <span style="color: #dcdccc;">journal</span>   = {CoRR},
+  <span style="color: #dcdccc;">volume</span>    = {abs/1401.5113},
+  <span style="color: #dcdccc;">year</span>      = {2014},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">http://arxiv.org/abs/1401.5113</span>},
+  <span style="color: #dcdccc;">archivePrefix</span> = {arXiv},
+  <span style="color: #dcdccc;">eprint</span>    = {1401.5113},
+  <span style="color: #dcdccc;">timestamp</span> = {Mon, 13 Aug 2018 16:47:24 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/corr/Abramsky14b.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">mellies06</span>,
+  <span style="color: #dcdccc;">author</span>    = {Paul{-}Andr{\'{e}} Melli{\`{e}}s},
+  <span style="color: #dcdccc;">title</span>     = {Functorial Boxes in String Diagrams},
+  <span style="color: #dcdccc;">booktitle</span> = {Computer Science Logic, 20th International Workshop, {CSL} 2006, 15th
+               Annual Conference of the EACSL, Szeged, Hungary, September 25-29,
+               2006, Proceedings},
+  <span style="color: #dcdccc;">pages</span>     = {1--30},
+  <span style="color: #dcdccc;">year</span>      = {2006},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1007/11874683{\_}1</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Tue, 14 May 2019 10:00:42 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/conf/csl/Mellies06},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">cheng2011distributive</span>,
+    <span style="color: #dcdccc;">title</span>={Distributive laws for Lawvere theories},
+    <span style="color: #dcdccc;">author</span>={Eugenia Cheng},
+    <span style="color: #dcdccc;">year</span>={2011},
+    <span style="color: #dcdccc;">eprint</span>={1112.3076},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">finster20</span>,
+    <span style="color: #dcdccc;">title</span>={A Type Theory for Strictly Unital <span style="color: #f0dfaf;">$\infty$</span>-Categories},
+    <span style="color: #dcdccc;">author</span>={Eric Finster and David Reutter and Jamie Vicary},
+    <span style="color: #dcdccc;">year</span>={2020},
+    <span style="color: #dcdccc;">eprint</span>={2007.08307},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={cs.LO}
+}
+<span style="color: #dcdccc;">@book</span>{<span style="color: #dca3a3;">mckeown14</span>,
+  <span style="color: #dcdccc;">author</span> = {Greg McKeown},
+  <span style="color: #dcdccc;">title</span> = {Essentialism: the disciplined pursuit of less},
+  <span style="color: #dcdccc;">year</span> = 2014
+}
+<span style="color: #dcdccc;">@book</span>{<span style="color: #dca3a3;">shannon42</span>,
+  <span style="color: #dcdccc;">title</span>={The Theory and Design of Linear Differential Equation Machines},
+  <span style="color: #dcdccc;">author</span>={Shannon, Claude E.},
+  <span style="color: #dcdccc;">publisher</span>={Bell Telephone Laboratories},
+  <span style="color: #dcdccc;">year</span>={1942}
+}
+<span style="color: #dcdccc;">@book</span>{<span style="color: #dca3a3;">bloom93</span>,
+  <span style="color: #dcdccc;">author</span>    = {Stephen L. Bloom and
+               Zolt{\'{a}}n {\'{E}}sik},
+  <span style="color: #dcdccc;">title</span>     = {Iteration Theories - The Equational Logic of Iterative Processes},
+  <span style="color: #dcdccc;">series</span>    = {{EATCS} Monographs on Theoretical Computer Science},
+  <span style="color: #dcdccc;">publisher</span> = {Springer},
+  <span style="color: #dcdccc;">year</span>      = {1993},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1007/978-3-642-78034-9</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1007/978-3-642-78034-9</span>},
+  <span style="color: #dcdccc;">isbn</span>      = {978-3-642-78036-3},
+  <span style="color: #dcdccc;">timestamp</span> = {Wed, 31 May 2017 10:38:21 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/series/eatcs/BloomE93.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">roman:combfeedback</span>,
+    <span style="color: #dcdccc;">title</span>={Comb {D}iagrams for {D}iscrete-{T}ime {F}eedback},
+    <span style="color: #dcdccc;">author</span>={Mario Rom&#225;n},
+    <span style="color: #dcdccc;">year</span>={2020},
+    <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:2003.06214},
+    <span style="color: #dcdccc;">eprint</span>={2003.06214},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={cs.LO}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">smithe20</span>,
+    <span style="color: #dcdccc;">title</span>={Bayesian Updates Compose Optically},
+    <span style="color: #dcdccc;">author</span>={Toby St. Clere Smithe},
+    <span style="color: #dcdccc;">year</span>={2020},
+    <span style="color: #dcdccc;">eprint</span>={2006.01631},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">carboni87</span>,
+  <span style="color: #dcdccc;">title</span>={Cartesian {B}icategories {I}},
+  <span style="color: #dcdccc;">author</span>={Carboni, Aurelio and Walters, Robert FC},
+  <span style="color: #dcdccc;">journal</span>={Journal of pure and applied algebra},
+  <span style="color: #dcdccc;">volume</span>={49},
+  <span style="color: #dcdccc;">number</span>={1-2},
+  <span style="color: #dcdccc;">pages</span>={11--32},
+  <span style="color: #dcdccc;">year</span>={1987},
+  <span style="color: #dcdccc;">publisher</span>={North-Holland}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">homotopyio</span>,
+  <span style="color: #dcdccc;">author</span> = {Lukas Heidemann and Nick Hu and Jamie Vicary},
+  <span style="color: #dcdccc;">title</span> = {\emph{homotopy.io}},
+  <span style="color: #dcdccc;">year</span> = 2019,
+  <span style="color: #dcdccc;">doi</span> = {<span style="color: #dca3a3;">10.5281/zenodo.2540764</span>},
+  <span style="color: #dcdccc;">url</span> = {<span style="color: #dca3a3;">https://doi.org/10.5281/zenodo.2540764</span>}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">stay2013compact</span>,
+    <span style="color: #dcdccc;">title</span>={Compact Closed Bicategories},
+    <span style="color: #dcdccc;">author</span>={Michael Stay},
+    <span style="color: #dcdccc;">year</span>={2013},
+    <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:1301.1053},
+    <span style="color: #dcdccc;">eprint</span>={1301.1053},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">baez2019structured</span>,
+    <span style="color: #dcdccc;">title</span>={Structured Cospans},
+    <span style="color: #dcdccc;">author</span>={John C. Baez and Kenny Courser},
+    <span style="color: #dcdccc;">year</span>={2019},
+    <span style="color: #dcdccc;">journal</span>={arXiv preprint 1911.04630},
+    <span style="color: #dcdccc;">url</span>={<span style="color: #dca3a3;">http://arxiv.org/abs/1911.04630</span>},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@incollection</span>{<span style="color: #dca3a3;">selinger10</span>,
+  <span style="color: #dcdccc;">title</span>={A survey of graphical languages for monoidal categories},
+  <span style="color: #dcdccc;">author</span>={Selinger, Peter},
+  <span style="color: #dcdccc;">booktitle</span>={New structures for physics},
+  <span style="color: #dcdccc;">pages</span>={289--355},
+  <span style="color: #dcdccc;">year</span>={2010},
+  <span style="color: #dcdccc;">publisher</span>={Springer}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">grandis17span</span>,
+  <span style="color: #dcdccc;">title</span>={Span and cospan representations of weak double categories},
+  <span style="color: #dcdccc;">author</span>={Grandis, Marco and others},
+  <span style="color: #dcdccc;">journal</span>={Categories and General Algebraic Structures with Applications},
+  <span style="color: #dcdccc;">volume</span>={6},
+  <span style="color: #dcdccc;">number</span>={Speical Issue on the Occasion of Banaschewski's 90th Birthday (I)},
+  <span style="color: #dcdccc;">pages</span>={85--105},
+  <span style="color: #dcdccc;">year</span>={2017},
+  <span style="color: #dcdccc;">publisher</span>={Shahid Beheshti University}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">staton11</span>,
+  <span style="color: #dcdccc;">author</span>    = {Sam Staton},
+  <span style="color: #dcdccc;">title</span>     = {Relating coalgebraic notions of bisimulation},
+  <span style="color: #dcdccc;">journal</span>   = {Log. Methods Comput. Sci.},
+  <span style="color: #dcdccc;">volume</span>    = {7},
+  <span style="color: #dcdccc;">number</span>    = {1},
+  <span style="color: #dcdccc;">year</span>      = {2011},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.2168/LMCS-7(1:13)2011</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.2168/LMCS-7(1:13)2011</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Thu, 25 Jun 2020 21:29:07 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/corr/abs-1101-4223.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">yorgey14</span>,
+  <span style="color: #dcdccc;">title</span>={Combinatorial species and labelled structures},
+  <span style="color: #dcdccc;">author</span>={Yorgey, Brent},
+  <span style="color: #dcdccc;">year</span>={2014}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">garner16commutativity</span>,
+   <span style="color: #dcdccc;">title</span>={Commutativity},
+   <span style="color: #dcdccc;">volume</span>={220},
+   <span style="color: #dcdccc;">ISSN</span>={0022-4049},
+   <span style="color: #dcdccc;">url</span>={<span style="color: #dca3a3;">http://dx.doi.org/10.1016/j.jpaa.2015.09.003</span>},
+   <span style="color: #dcdccc;">DOI</span>={<span style="color: #dca3a3;">10.1016/j.jpaa.2015.09.003</span>},
+   <span style="color: #dcdccc;">number</span>={5},
+   <span style="color: #dcdccc;">journal</span>={Journal of Pure and Applied Algebra},
+   <span style="color: #dcdccc;">publisher</span>={Elsevier BV},
+   <span style="color: #dcdccc;">author</span>={Garner, Richard and L&#243;pez Franco, Ignacio},
+   <span style="color: #dcdccc;">year</span>={2016},
+   <span style="color: #dcdccc;">month</span>={May},
+   <span style="color: #dcdccc;">pages</span>={1707&#8211;1751}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">gianola17</span>,
+  <span style="color: #dcdccc;">author</span>    = {Alessandro Gianola and
+               Stefano Kasangian and
+               Nicoletta Sabadini},
+  <span style="color: #dcdccc;">editor</span>    = {Filippo Bonchi and
+               Barbara K{\"{o}}nig},
+  <span style="color: #dcdccc;">title</span>     = {Cospan/{S}pan({G}raph): an {A}lgebra for {O}pen, {R}econfigurable {A}utomata {N}etworks},
+  <span style="color: #dcdccc;">booktitle</span> = {7th Conference on Algebra and Coalgebra in Computer Science, {CALCO}
+               2017, June 12-16, 2017, Ljubljana, Slovenia},
+  <span style="color: #dcdccc;">series</span>    = {LIPIcs},
+  <span style="color: #dcdccc;">volume</span>    = {72},
+  <span style="color: #dcdccc;">pages</span>     = {2:1--2:17},
+  <span style="color: #dcdccc;">publisher</span> = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  <span style="color: #dcdccc;">year</span>      = {2017},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.4230/LIPIcs.CALCO.2017.2</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.4230/LIPIcs.CALCO.2017.2</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Tue, 11 Feb 2020 15:52:14 +0100},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/conf/calco/GianolaKS17.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">bird84</span>,
+  <span style="color: #dcdccc;">title</span>={The promotion and accumulation strategies in transformational programming},
+  <span style="color: #dcdccc;">author</span>={Bird, Richard S.},
+  <span style="color: #dcdccc;">journal</span>={ACM Transactions on Programming Languages and Systems (TOPLAS)},
+  <span style="color: #dcdccc;">volume</span>={6},
+  <span style="color: #dcdccc;">number</span>={4},
+  <span style="color: #dcdccc;">pages</span>={487--504},
+  <span style="color: #dcdccc;">year</span>={1984},
+  <span style="color: #dcdccc;">publisher</span>={ACM New York, NY, USA}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">fiore17</span>,
+   <span style="color: #dcdccc;">title</span>={Relative pseudomonads, {Kleisli} bicategories, and substitution monoidal structures},
+   <span style="color: #dcdccc;">volume</span>={24},
+   <span style="color: #dcdccc;">ISSN</span>={1420-9020},
+   <span style="color: #dcdccc;">url</span>={<span style="color: #dca3a3;">http://dx.doi.org/10.1007/s00029-017-0361-3</span>},
+   <span style="color: #dcdccc;">DOI</span>={<span style="color: #dca3a3;">10.1007/s00029-017-0361-3</span>},
+   <span style="color: #dcdccc;">number</span>={3},
+   <span style="color: #dcdccc;">journal</span>={Selecta Mathematica},
+   <span style="color: #dcdccc;">publisher</span>={Springer Science and Business Media LLC},
+   <span style="color: #dcdccc;">author</span>={Fiore, M. and Gambino, N. and Hyland, M. and Winskel, G.},
+   <span style="color: #dcdccc;">year</span>={2017},
+   <span style="color: #dcdccc;">month</span>={Nov},
+   <span style="color: #dcdccc;">pages</span>={2791&#8211;2830}
+}
+<span style="color: #dcdccc;">@book</span>{<span style="color: #dca3a3;">newport16</span>,
+  <span style="color: #dcdccc;">added-at</span> = {2018-04-21T14:16:23.000+0200},
+  <span style="color: #dcdccc;">address</span> = {New York ; Boston},
+  <span style="color: #dcdccc;">author</span> = {Newport, Cal},
+  <span style="color: #dcdccc;">biburl</span> = {https://www.bibsonomy.org/bibtex/2a808b7eb5c2a8e5fdcc2f79d44a491a4/achakraborty},
+  <span style="color: #dcdccc;">edition</span> = {1st ed.},
+  <span style="color: #dcdccc;">interhash</span> = {1047c20f3f4f14a37ad402eb99077af9},
+  <span style="color: #dcdccc;">intrahash</span> = {a808b7eb5c2a8e5fdcc2f79d44a491a4},
+  <span style="color: #dcdccc;">isbn</span> = {978-1-4555-6386-9},
+  <span style="color: #dcdccc;">keywords</span> = {2016 book literature work},
+  <span style="color: #dcdccc;">language</span> = {eng},
+  <span style="color: #dcdccc;">month</span> = jan,
+  <span style="color: #dcdccc;">publisher</span> = {Grand Central Publishing},
+  <span style="color: #dcdccc;">timestamp</span> = {2018-04-21T14:16:23.000+0200},
+  <span style="color: #dcdccc;">title</span> = {Deep work : rules for focused success in a distracted world},
+  <span style="color: #dcdccc;">url</span> = {<span style="color: #dca3a3;">http://calnewport.com/books/deep-work/</span>},
+  <span style="color: #dcdccc;">year</span> = 2016
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">fong2019</span>,
+  <span style="color: #dcdccc;">doi</span> = {<span style="color: #dca3a3;">10.1109/lics.2019.8785665</span>},
+  <span style="color: #dcdccc;">url</span> = {<span style="color: #dca3a3;">https://doi.org/10.1109</span><span style="color: #777767;">%2Flics.2019.8785665},</span>
+  <span style="color: #dcdccc;">year</span> = 2019,
+  <span style="color: #dcdccc;">month</span> = {jun},
+  <span style="color: #dcdccc;">publisher</span> = {{IEEE}},
+  <span style="color: #dcdccc;">author</span> = {Brendan Fong and David Spivak and Remy Tuyeras},
+  <span style="color: #dcdccc;">title</span> = {Backprop as Functor: A compositional perspective on supervised learning},
+  <span style="color: #dcdccc;">booktitle</span> = {2019 34th Annual {ACM}/{IEEE} Symposium on Logic in Computer Science ({LICS})}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">katis97</span>,
+  <span style="color: #dcdccc;">author</span>    = {Piergiulio Katis and
+               Nicoletta Sabadini and
+               Robert F. C. Walters},
+  <span style="color: #dcdccc;">editor</span>    = {Michael Johnson},
+  <span style="color: #dcdccc;">title</span>     = {Span({G}raph): {A} {C}ategorial {A}lgebra of {T}ransition {S}ystems},
+  <span style="color: #dcdccc;">booktitle</span> = {Algebraic Methodology and Software Technology, 6th International Conference,
+               {AMAST} '97, Sydney, Australia, December 13-17, 1997, Proceedings},
+  <span style="color: #dcdccc;">series</span>    = {Lecture Notes in Computer Science},
+  <span style="color: #dcdccc;">volume</span>    = {1349},
+  <span style="color: #dcdccc;">pages</span>     = {307--321},
+  <span style="color: #dcdccc;">publisher</span> = {Springer},
+  <span style="color: #dcdccc;">year</span>      = {1997},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1007/BFb0000479</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1007/BFb0000479</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Tue, 14 May 2019 10:00:38 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/conf/amast/KatisSW97.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@book</span>{<span style="color: #dca3a3;">csikszentmihalyi91</span>,
+  <span style="color: #dcdccc;">added-at</span> = {2010-09-07T15:35:48.000+0200},
+  <span style="color: #dcdccc;">address</span> = {New York, NY},
+  <span style="color: #dcdccc;">author</span> = {Csikszentmihalyi, Mihaly},
+  <span style="color: #dcdccc;">biburl</span> = {https://www.bibsonomy.org/bibtex/232076171f49c47cc51841ccca133fc25/yish},
+  <span style="color: #dcdccc;">howpublished</span> = {Paperback},
+  <span style="color: #dcdccc;">interhash</span> = {82aed741db390d495042525e214664e5},
+  <span style="color: #dcdccc;">intrahash</span> = {32076171f49c47cc51841ccca133fc25},
+  <span style="color: #dcdccc;">isbn</span> = {0060920432},
+  <span style="color: #dcdccc;">keywords</span> = {affective design enjoyment experience games mathgamespatterns psychology},
+  <span style="color: #dcdccc;">month</span> = {March},
+  <span style="color: #dcdccc;">priority</span> = {2},
+  <span style="color: #dcdccc;">publisher</span> = {Harper Perennial},
+  <span style="color: #dcdccc;">timestamp</span> = {2010-09-07T15:35:48.000+0200},
+  <span style="color: #dcdccc;">title</span> = {Flow: The Psychology of Optimal Experience},
+  <span style="color: #dcdccc;">url</span> = {<span style="color: #dca3a3;">http://www.amazon.com/gp/product/0060920432/ref=si3_rdr_bb_product/104-4616565-4570345</span>},
+  <span style="color: #dcdccc;">year</span> = 1991
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">caccamo2001higher</span>,
+  <span style="color: #dcdccc;">title</span>={A higher-order calculus for categories},
+  <span style="color: #dcdccc;">author</span>={C{\'a}ccamo, Mario and Winskel, Glynn},
+  <span style="color: #dcdccc;">booktitle</span>={International Conference on Theorem Proving in Higher Order Logics},
+  <span style="color: #dcdccc;">pages</span>={136--153},
+  <span style="color: #dcdccc;">year</span>={2001},
+  <span style="color: #dcdccc;">organization</span>={Springer}
+}
+<span style="color: #dcdccc;">@inbook</span>{<span style="color: #dca3a3;">kapranov:higherlinear</span>,
+    <span style="color: #dcdccc;">title</span> = {2-categories and Zamolodchikov tetrahedra equations},
+    <span style="color: #dcdccc;">booktitle</span> = {Algebraic groups and their generalizations: quantum and infinite-dimensional methods (University Park, PA, 1991)},
+    <span style="color: #dcdccc;">series</span> = {Proc. Sympos. Pure Math.},
+    <span style="color: #dcdccc;">volume</span> = {56},
+    <span style="color: #dcdccc;">year</span> = {1994},
+    <span style="color: #dcdccc;">pages</span> = {177{\textendash}259},
+    <span style="color: #dcdccc;">publisher</span> = {Amer. Math. Soc., Providence, RI},
+    <span style="color: #dcdccc;">organization</span> = {Amer. Math. Soc., Providence, RI},
+    <span style="color: #dcdccc;">author</span> = {Kapranov, M. M. and Voevodsky, V. A.},
+  <span style="color: #dcdccc;">doi</span> = {<span style="color: #dca3a3;">10.1090/pspum/056.2/1278735</span>}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">ponto14</span>,
+   <span style="color: #dcdccc;">title</span>={Traces in symmetric monoidal categories},
+   <span style="color: #dcdccc;">volume</span>={32},
+   <span style="color: #dcdccc;">ISSN</span>={0723-0869},
+   <span style="color: #dcdccc;">url</span>={<span style="color: #dca3a3;">http://dx.doi.org/10.1016/J.EXMATH.2013.12.003</span>},
+   <span style="color: #dcdccc;">DOI</span>={<span style="color: #dca3a3;">10.1016/j.exmath.2013.12.003</span>},
+   <span style="color: #dcdccc;">number</span>={3},
+   <span style="color: #dcdccc;">journal</span>={Expositiones Mathematicae},
+   <span style="color: #dcdccc;">publisher</span>={Elsevier BV},
+   <span style="color: #dcdccc;">author</span>={Ponto, Kate and Shulman, Michael},
+   <span style="color: #dcdccc;">year</span>={2014},
+   <span style="color: #dcdccc;">pages</span>={248&#8211;273}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">rosebrugh05</span>,
+  <span style="color: #dcdccc;">title</span>={Generic commutative separable algebras and cospans of graphs},
+  <span style="color: #dcdccc;">author</span>={Rosebrugh, Robert and Sabadini, Nicoletta and Walters, Robert FC},
+  <span style="color: #dcdccc;">journal</span>={Theory and applications of categories},
+  <span style="color: #dcdccc;">volume</span>={15},
+  <span style="color: #dcdccc;">number</span>={6},
+  <span style="color: #dcdccc;">pages</span>={164--177},
+  <span style="color: #dcdccc;">year</span>={2005}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">girard89</span>,
+  <span style="color: #dcdccc;">title</span>={Towards a geometry of interaction},
+  <span style="color: #dcdccc;">author</span>={Girard, Jean-Yves},
+  <span style="color: #dcdccc;">journal</span>={Contemporary Mathematics},
+  <span style="color: #dcdccc;">volume</span>={92},
+  <span style="color: #dcdccc;">number</span>={69-108},
+  <span style="color: #dcdccc;">pages</span>={6},
+  <span style="color: #dcdccc;">year</span>={1989}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">nathan:firstorderpierce</span>,
+  <span style="color: #dcdccc;">author</span> = {Nathan Haydon and Pawe&#322; Soboci&#324;ski},
+  <span style="color: #dcdccc;">title</span> = {Compositional Diagrammatic First-Order Logic},
+  <span style="color: #dcdccc;">journal</span> = {In Peer Review},
+  <span style="color: #dcdccc;">year</span> = 2020
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">schultz16</span>,
+    <span style="color: #dcdccc;">doi</span> = {<span style="color: #dca3a3;">10.1007/s10485-019-09565-x</span>},
+    <span style="color: #dcdccc;">year</span> = 2019,
+    <span style="color: #dcdccc;">month</span> = {apr},
+    <span style="color: #dcdccc;">publisher</span> = {Springer Science and Business Media {LLC}},
+    <span style="color: #dcdccc;">volume</span> = {28},
+    <span style="color: #dcdccc;">number</span> = {1},
+    <span style="color: #dcdccc;">pages</span> = {1--57},
+    <span style="color: #dcdccc;">author</span> = {Patrick Schultz and David I. Spivak and Christina Vasilakopoulou},
+    <span style="color: #dcdccc;">title</span> = {Dynamical Systems and Sheaves},
+    <span style="color: #dcdccc;">journal</span> = {Applied Categorical Structures}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">bonchi19</span>,
+  <span style="color: #dcdccc;">author</span>    = {Filippo Bonchi and
+               Joshua Holland and
+               Robin Piedeleu and
+               Pawel Sobocinski and
+               Fabio Zanasi},
+  <span style="color: #dcdccc;">title</span>     = {Diagrammatic algebra: from linear to concurrent systems},
+  <span style="color: #dcdccc;">journal</span>   = {Proc. {ACM} Program. Lang.},
+  <span style="color: #dcdccc;">volume</span>    = {3},
+  <span style="color: #dcdccc;">number</span>    = {{POPL}},
+  <span style="color: #dcdccc;">pages</span>     = {25:1--25:28},
+  <span style="color: #dcdccc;">year</span>      = {2019},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1145/3290338</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1145/3290338</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Tue, 21 Apr 2020 10:56:16 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/pacmpl/BonchiHPSZ19.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@Misc</span>{<span style="color: #dca3a3;">pratt99</span>,
+    <span style="color: #dcdccc;">Author</span>="Pratt, V.R.",
+    <span style="color: #dcdccc;">Title</span>="Chu Spaces",
+    <span style="color: #dcdccc;">Comment</span>="Course notes for the School in Category Theory and
+    Applications",
+    <span style="color: #dcdccc;">Address</span>="Coimbra, Portugal", Month=July, Year=1999}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">hermida00</span>,
+  <span style="color: #dcdccc;">title</span>={Representable multicategories},
+  <span style="color: #dcdccc;">author</span>={Hermida, Claudio},
+  <span style="color: #dcdccc;">journal</span>={Advances in Mathematics},
+  <span style="color: #dcdccc;">volume</span>={151},
+  <span style="color: #dcdccc;">number</span>={2},
+  <span style="color: #dcdccc;">pages</span>={164--225},
+  <span style="color: #dcdccc;">year</span>={2000},
+  <span style="color: #dcdccc;">publisher</span>={Elsevier}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">janelidze02</span>,
+  <span style="color: #dcdccc;">author</span> = {Janelidze, George and Kelly, Max G.},
+  <span style="color: #dcdccc;">year</span> = {2002},
+  <span style="color: #dcdccc;">month</span> = {01},
+  <span style="color: #dcdccc;">pages</span> = {},
+  <span style="color: #dcdccc;">title</span> = {A Note on Actions of a Monoidal Category},
+  <span style="color: #dcdccc;">volume</span> = {9},
+  <span style="color: #dcdccc;">journal</span> = {Theory and Applications of Categories}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">street72</span>,
+  <span style="color: #dcdccc;">title</span>={The formal theory of monads},
+  <span style="color: #dcdccc;">author</span>={Street, Ross},
+  <span style="color: #dcdccc;">journal</span>={Journal of Pure and Applied Algebra},
+  <span style="color: #dcdccc;">volume</span>={2},
+  <span style="color: #dcdccc;">number</span>={2},
+  <span style="color: #dcdccc;">pages</span>={149--168},
+  <span style="color: #dcdccc;">year</span>={1972},
+  <span style="color: #dcdccc;">publisher</span>={North-Holland}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">lack04</span>,
+  <span style="color: #dcdccc;">title</span>={Composing props},
+  <span style="color: #dcdccc;">author</span>={Lack, Stephen},
+  <span style="color: #dcdccc;">journal</span>={Theory and Applications of Categories},
+  <span style="color: #dcdccc;">volume</span>={13},
+  <span style="color: #dcdccc;">number</span>={9},
+  <span style="color: #dcdccc;">pages</span>={147--163},
+  <span style="color: #dcdccc;">year</span>={2004}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">willerton:hopf</span>,
+  <span style="color: #dcdccc;">title</span>={A {D}iagrammatic {A}pproach to {H}opf {M}onads},
+  <span style="color: #dcdccc;">author</span>={Willerton, Simon},
+  <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:0807.0658},
+  <span style="color: #dcdccc;">year</span>={2008}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">hasegawa97</span>,
+    <span style="color: #dcdccc;">author</span> = {Masahito Hasegawa},
+    <span style="color: #dcdccc;">title</span> = {Recursion from Cyclic Sharing: Traced Monoidal Categories and Models of Cyclic Lambda Calculi},
+    <span style="color: #dcdccc;">booktitle</span> = {},
+    <span style="color: #dcdccc;">year</span> = {1997},
+    <span style="color: #dcdccc;">pages</span> = {196--213},
+    <span style="color: #dcdccc;">publisher</span> = {Springer Verlag}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">atkey09</span>,
+  <span style="color: #dcdccc;">author</span>    = {Robert Atkey},
+  <span style="color: #dcdccc;">title</span>     = {Algebras for Parameterised Monads},
+  <span style="color: #dcdccc;">booktitle</span> = {Algebra and Coalgebra in Computer Science, Third International Conference,
+               {CALCO} 2009, Udine, Italy, September 7-10, 2009. Proceedings},
+  <span style="color: #dcdccc;">pages</span>     = {3--17},
+  <span style="color: #dcdccc;">year</span>      = {2009},
+  <span style="color: #dcdccc;">crossref</span>  = {<span style="color: #dca3a3;">DBLP:conf/calco/2009</span>},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1007/978-3-642-03741-2\_2</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1007/978-3-642-03741-2\_2</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Tue, 14 May 2019 10:00:51 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/conf/calco/Atkey09},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">escardooliva09</span>,
+  <span style="color: #dcdccc;">author</span>    = {Mart{\'{\i}}n H{\"{o}}tzel Escard{\'{o}} and
+               Paulo Oliva},
+  <span style="color: #dcdccc;">title</span>     = {Selection functions, bar recursion and backward induction},
+  <span style="color: #dcdccc;">journal</span>   = {Math. Struct. Comput. Sci.},
+  <span style="color: #dcdccc;">volume</span>    = {20},
+  <span style="color: #dcdccc;">number</span>    = {2},
+  <span style="color: #dcdccc;">pages</span>     = {127--168},
+  <span style="color: #dcdccc;">year</span>      = {2010},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1017/S0960129509990351</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Wed, 01 Apr 2020 08:48:55 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/mscs/EscardoO10.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">bonchi17</span>,
+  <span style="color: #dcdccc;">author</span>    = {Filippo Bonchi and
+               Pawe{\l} Soboci{\'{n}}ski and
+               Fabio Zanasi},
+  <span style="color: #dcdccc;">title</span>     = {The {Calculus} of {Signal} {Flow} {Diagrams} {I:} {Linear} {Relations} on {Streams}},
+  <span style="color: #dcdccc;">journal</span>   = {Information and Computation},
+  <span style="color: #dcdccc;">volume</span>    = {252},
+  <span style="color: #dcdccc;">pages</span>     = {2--29},
+  <span style="color: #dcdccc;">year</span>      = {2017},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1016/j.ic.2016.03.002</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1016/j.ic.2016.03.002</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Thu, 18 May 2017 09:54:21 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/iandc/BonchiSZ17.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">riley18</span>,
+  <span style="color: #dcdccc;">title</span>={Categories of {Optics}},
+  <span style="color: #dcdccc;">author</span>={Riley, Mitchell},
+  <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:1809.00738},
+  <span style="color: #dcdccc;">year</span>={2018}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">schommerpries2011classification</span>,
+    <span style="color: #dcdccc;">title</span>={The Classification of Two-Dimensional Extended Topological Field Theories},
+    <span style="color: #dcdccc;">author</span>={Christopher J. Schommer-Pries},
+    <span style="color: #dcdccc;">year</span>={2011},
+    <span style="color: #dcdccc;">eprint</span>={1112.1000},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.AT}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">fong2018graphical</span>,
+    <span style="color: #dcdccc;">title</span>={Graphical Regular Logic},
+    <span style="color: #dcdccc;">author</span>={Brendan Fong and David I Spivak},
+    <span style="color: #dcdccc;">year</span>={2018},
+    <span style="color: #dcdccc;">eprint</span>={1812.05765},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">girard87</span>,
+  <span style="color: #dcdccc;">author</span>    = {Jean{-}Yves Girard},
+  <span style="color: #dcdccc;">title</span>     = {Linear Logic},
+  <span style="color: #dcdccc;">journal</span>   = {Theor. Comput. Sci.},
+  <span style="color: #dcdccc;">volume</span>    = {50},
+  <span style="color: #dcdccc;">pages</span>     = {1--102},
+  <span style="color: #dcdccc;">year</span>      = {1987},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1016/0304-3975(87)90045-4</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1016/0304-3975(87)90045-4</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Wed, 14 Nov 2018 10:33:33 +0100},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/tcs/Girard87.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">katis00</span>,
+  <span style="color: #dcdccc;">title</span>={A formalization of the IWIM model},
+  <span style="color: #dcdccc;">author</span>={Katis, Piergiulio and Sabadini, Nicoletta and Walters, Robert FC},
+  <span style="color: #dcdccc;">booktitle</span>={International Conference on Coordination Languages and Models},
+  <span style="color: #dcdccc;">pages</span>={267--283},
+  <span style="color: #dcdccc;">year</span>={2000},
+  <span style="color: #dcdccc;">organization</span>={Springer}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">boisseau18</span>,
+  <span style="color: #dcdccc;">author</span>    = {Guillaume Boisseau and
+               Jeremy Gibbons},
+  <span style="color: #dcdccc;">title</span>     = {{W}hat {Y}ou {N}eeda {K}now {A}bout {Y}oneda: {P}rofunctor {O}ptics and the {Y}oneda
+               {L}emma ({F}unctional {P}earl)},
+  <span style="color: #dcdccc;">journal</span>   = {{PACMPL}},
+  <span style="color: #dcdccc;">volume</span>    = {2},
+  <span style="color: #dcdccc;">number</span>    = {{ICFP}},
+  <span style="color: #dcdccc;">pages</span>     = {84:1--84:27},
+  <span style="color: #dcdccc;">year</span>      = {2018},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1145/3236779</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1145/3236779</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Wed, 21 Nov 2018 12:44:28 +0100},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/journals/pacmpl/BoisseauG18},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">fong2015decorated</span>,
+    <span style="color: #dcdccc;">title</span>={Decorated {C}ospans},
+    <span style="color: #dcdccc;">author</span>={Brendan Fong},
+    <span style="color: #dcdccc;">year</span>={2015},
+    <span style="color: #dcdccc;">journal</span>={arXiv preprint 1502.00872},
+    <span style="color: #dcdccc;">url</span>={<span style="color: #dca3a3;">http://arxiv.org/abs/1502.00872</span>},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@Misc</span>{<span style="color: #dca3a3;">willerton:twotraces</span>,
+  <span style="color: #dcdccc;">author</span> = {Simon Willerton},
+  <span style="color: #dcdccc;">title</span> = {{Two} 2-{Traces}},
+  <span style="color: #dcdccc;">howpublished</span> = {Slides from a talk, University of Sheffield, \url{http://www.simonwillerton.staff.shef.ac.uk/ftp/TwoTracesBeamerTalk.pdf}},
+  <span style="color: #dcdccc;">year</span> = {2010}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">ahrens17</span>,
+  <span style="color: #dcdccc;">title</span>={How to take smart notes: One simple technique to boost writing, learning and thinking},
+  <span style="color: #dcdccc;">author</span>={Ahrens, S},
+  <span style="color: #dcdccc;">journal</span>={North Charleston, SC: CreateSpace Independent Publishing Platform},
+  <span style="color: #dcdccc;">year</span>={2017}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">pickering17</span>,
+  <span style="color: #dcdccc;">author</span>    = {Matthew Pickering and
+               Jeremy Gibbons and
+               Nicolas Wu},
+  <span style="color: #dcdccc;">title</span>     = {Profunctor {O}ptics: {M}odular {D}ata {A}ccessors},
+  <span style="color: #dcdccc;">journal</span>   = {Programming Journal},
+  <span style="color: #dcdccc;">volume</span>    = {1},
+  <span style="color: #dcdccc;">number</span>    = {2},
+  <span style="color: #dcdccc;">pages</span>     = {7},
+  <span style="color: #dcdccc;">year</span>      = {2017},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.22152/programming-journal.org/2017/1/7</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.22152/programming-journal.org/2017/1/7</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Wed, 06 Sep 2017 14:38:09 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/journals/programming/PickeringGW17},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">HedgesLewis18</span>,
+    <span style="color: #dcdccc;">doi</span> = {<span style="color: #dca3a3;">10.4204/eptcs.283.7</span>},
+    <span style="color: #dcdccc;">url</span> = {<span style="color: #dca3a3;">https://doi.org/10.4204</span><span style="color: #777767;">%2Feptcs.283.7},</span>
+    <span style="color: #dcdccc;">year</span> = 2018,
+    <span style="color: #dcdccc;">month</span> = {nov},
+    <span style="color: #dcdccc;">publisher</span> = {Open Publishing Association},
+    <span style="color: #dcdccc;">volume</span> = {283},
+    <span style="color: #dcdccc;">pages</span> = {89--102},
+    <span style="color: #dcdccc;">author</span> = {Jules Hedges and Martha Lewis},
+    <span style="color: #dcdccc;">title</span> = {Towards Functorial Language-Games},
+    <span style="color: #dcdccc;">journal</span> = {Electronic Proceedings in Theoretical Computer Science}
+}
+<span style="color: #dcdccc;">@book</span>{<span style="color: #dca3a3;">maclane78</span>,
+  <span style="color: #dcdccc;">author</span> = {Saunders, {Mac Lane}},
+  <span style="color: #dcdccc;">title</span> = {Categories for the Working Mathematician},
+  <span style="color: #dcdccc;">year</span> = 1978,
+  <span style="color: #dcdccc;">publisher</span> = {Springer New York},
+  <span style="color: #dcdccc;">doi</span> = {<span style="color: #dca3a3;">10.1007/978-1-4757-4721-8</span>},
+  <span style="color: #dcdccc;">pages</span> = {nil},
+  <span style="color: #dcdccc;">series</span> = {Graduate Texts in Mathematics},
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">janelidze01</span>,
+  <span style="color: #dcdccc;">title</span>={A note on actions of a monoidal category},
+  <span style="color: #dcdccc;">author</span>={Janelidze, George and Kelly, Gregory M},
+  <span style="color: #dcdccc;">journal</span>={Theory Appl. Categ},
+  <span style="color: #dcdccc;">volume</span>={9},
+  <span style="color: #dcdccc;">number</span>={61-91},
+  <span style="color: #dcdccc;">pages</span>={02},
+  <span style="color: #dcdccc;">year</span>={2001}
+}
+
+
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">shulman08</span>,
+  <span style="color: #dcdccc;">title</span>={Framed bicategories and monoidal fibrations},
+  <span style="color: #dcdccc;">author</span>={Shulman, Michael},
+  <span style="color: #dcdccc;">journal</span>={Theory and applications of categories},
+  <span style="color: #dcdccc;">volume</span>={20},
+  <span style="color: #dcdccc;">number</span>={18},
+  <span style="color: #dcdccc;">pages</span>={650--738},
+  <span style="color: #dcdccc;">year</span>={2008}
+}
+
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">spivak19</span>,
+  <span style="color: #dcdccc;">title</span>={Generalized {Lens} {Categories} via functors <span style="color: #f0dfaf;">$\mathcal{C}^{\mathrm{op}} \to \mathsf{Cat}$</span>},
+  <span style="color: #dcdccc;">author</span>={Spivak, David I},
+  <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:1908.02202},
+  <span style="color: #dcdccc;">year</span>={2019}
+}
+
+<span style="color: #dcdccc;">@book</span>{<span style="color: #dca3a3;">lambek88</span>,
+  <span style="color: #dcdccc;">title</span>={Introduction to higher-order categorical logic},
+  <span style="color: #dcdccc;">author</span>={Lambek, Joachim and Scott, Philip J},
+  <span style="color: #dcdccc;">volume</span>={7},
+  <span style="color: #dcdccc;">year</span>={1988},
+  <span style="color: #dcdccc;">publisher</span>={Cambridge University Press}
+}
+
+Combinatorial species.  The foundations are HoTT, but they are not
+used in a particularly strong way.
+
+<span style="color: #dcdccc;">@book</span>{<span style="color: #dca3a3;">bergeron98</span>,
+  <span style="color: #dcdccc;">title</span>={Combinatorial species and tree-like structures},
+  <span style="color: #dcdccc;">author</span>={Bergeron, Fran{\c{c}}ois and Bergeron, F and Labelle, Gilbert and Leroux, Pierre},
+  <span style="color: #dcdccc;">volume</span>={67},
+  <span style="color: #dcdccc;">year</span>={1998},
+  <span style="color: #dcdccc;">publisher</span>={Cambridge University Press}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">kock09</span>,
+  <span style="color: #dcdccc;">title</span>={Notes on polynomial functors},
+  <span style="color: #dcdccc;">author</span>={Kock, Joachim},
+  <span style="color: #dcdccc;">journal</span>={Manuscript, version},
+  <span style="color: #dcdccc;">pages</span>={08--05},
+  <span style="color: #dcdccc;">year</span>={2009}
+}
+
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">nlab</span>,
+  <span style="color: #dcdccc;">author</span> = {{nLab authors}},
+  <span style="color: #dcdccc;">title</span> = {{{H}}ome{{P}}age},
+  <span style="color: #dcdccc;">howpublished</span> = {\url{http://ncatlab.org/nlab/show/HomePage}},
+  <span style="color: #dcdccc;">note</span> = {\href{http://ncatlab.org/nlab/revision/HomePage/262}{Revision 262}},
+  <span style="color: #dcdccc;">month</span> = may,
+  <span style="color: #dcdccc;">year</span> = 2018
+}
+
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">marsden14</span>,
+  <span style="color: #dcdccc;">title</span>={Category theory using string diagrams},
+  <span style="color: #dcdccc;">author</span>={Marsden, Daniel},
+  <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:1401.7220},
+  <span style="color: #dcdccc;">year</span>={2014}
+}
+
+
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">pirog16</span>,
+  <span style="color: #dcdccc;">title</span>={String diagrams for free monads (functional pearl)},
+  <span style="color: #dcdccc;">author</span>={Pir{\'o}g, Maciej and Wu, Nicolas},
+  <span style="color: #dcdccc;">booktitle</span>={Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming},
+  <span style="color: #dcdccc;">pages</span>={490--501},
+  <span style="color: #dcdccc;">year</span>={2016}
+}
+
+
+
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">gamma93</span>,
+  <span style="color: #dcdccc;">author</span>    = {Erich Gamma and
+               Richard Helm and
+               Ralph E. Johnson and
+               John M. Vlissides},
+  <span style="color: #dcdccc;">title</span>     = {Design Patterns: Abstraction and Reuse of Object-Oriented Design},
+  <span style="color: #dcdccc;">booktitle</span> = {ECOOP'93 - Object-Oriented Programming, 7th European Conference, Kaiserslautern,
+               Germany, July 26-30, 1993, Proceedings},
+  <span style="color: #dcdccc;">pages</span>     = {406--431},
+  <span style="color: #dcdccc;">year</span>      = {1993},
+  <span style="color: #dcdccc;">crossref</span>  = {<span style="color: #dca3a3;">DBLP:conf/ecoop/1993</span>},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1007/3-540-47910-4\_21</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1007/3-540-47910-4\_21</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Sun, 02 Jun 2019 21:16:57 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/conf/ecoop/GammaHJV93.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">jaskelioff15</span>,
+  <span style="color: #dcdccc;">author</span>    = {Mauro Jaskelioff and
+               Russell O'Connor},
+  <span style="color: #dcdccc;">title</span>     = {A representation theorem for second-order functionals},
+  <span style="color: #dcdccc;">journal</span>   = {Journal of Functional Programming},
+  <span style="color: #dcdccc;">volume</span>    = {25},
+  <span style="color: #dcdccc;">year</span>      = {2015},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1017/S0956796815000088</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1017/S0956796815000088</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Sat, 27 May 2017 14:24:34 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/journals/jfp/JaskelioffO15},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+
+<span style="color: #dcdccc;">@Misc</span>{<span style="color: #dca3a3;">grenrus17</span>,
+  <span style="color: #dcdccc;">author</span> = {Oleg Grenrus},
+  <span style="color: #dcdccc;">title</span> = {{Affine} {Traversal}},
+  <span style="color: #dcdccc;">howpublished</span> = {\url{http://oleg.fi/gists/posts/2017-03-20-affine-traversal.html}},
+  <span style="color: #dcdccc;">year</span> = {2017}
+}
+
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">profunctor20</span>,
+    <span style="color: #dcdccc;">title</span>={Profunctor optics, a categorical update},
+    <span style="color: #dcdccc;">author</span>={Bryce Clarke and Derek Elkins and Jeremy Gibbons and Fosco Loregian and Bartosz Milewski and Emily Pillmore and Mario Rom&#225;n},
+    <span style="color: #dcdccc;">year</span>={2020},
+    <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:1501.02503},
+    <span style="color: #dcdccc;">eprint</span>={2001.07488},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={cs.PL}
+}
+
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">roman19</span>,
+  <span style="color: #dcdccc;">title</span>={Profunctor optics and traversals},
+  <span style="color: #dcdccc;">author</span>={Rom&#225;n, Mario},
+  <span style="color: #dcdccc;">journal</span>={Master's thesis, University of Oxford},
+  <span style="color: #dcdccc;">year</span>={2019}
+}
+
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">AbouSaleh16</span>,
+  <span style="color: #dcdccc;">author</span>    = {Faris Abou{-}Saleh and
+               James Cheney and
+               Jeremy Gibbons and
+               James McKinna and
+               Perdita Stevens},
+  <span style="color: #dcdccc;">title</span>     = {Reflections on Monadic Lenses},
+  <span style="color: #dcdccc;">booktitle</span> = {A List of Successes That Can Change the World - Essays Dedicated to
+               Philip Wadler on the Occasion of His 60th Birthday},
+  <span style="color: #dcdccc;">pages</span>     = {1--31},
+  <span style="color: #dcdccc;">year</span>      = {2016},
+  <span style="color: #dcdccc;">crossref</span>  = {<span style="color: #dca3a3;">DBLP:conf/birthday/2016wadler</span>},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1007/978-3-319-30936-1\_1</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1007/978-3-319-30936-1\_1</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Tue, 14 May 2019 10:00:52 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/conf/birthday/Abou-SalehCGMS16},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">tambara06</span>,
+  <span style="color: #dcdccc;">title</span>={Distributors on a tensor category},
+  <span style="color: #dcdccc;">author</span>={Tambara, Daisuke and others},
+  <span style="color: #dcdccc;">journal</span>={Hokkaido mathematical journal},
+  <span style="color: #dcdccc;">volume</span>={35},
+  <span style="color: #dcdccc;">number</span>={2},
+  <span style="color: #dcdccc;">pages</span>={379--425},
+  <span style="color: #dcdccc;">year</span>={2006},
+  <span style="color: #dcdccc;">publisher</span>={Hokkaido University, Department of Mathematics}
+}
+
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">hedges18l</span>,
+  <span style="color: #dcdccc;">title</span>={Limits of bimorphic lenses},
+  <span style="color: #dcdccc;">author</span>={Hedges, Jules},
+  <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:1808.05545},
+  <span style="color: #dcdccc;">year</span>={2018}
+}
+
+<span style="color: #dcdccc;">@Misc</span>{<span style="color: #dca3a3;">kmett15</span>,
+  <span style="color: #dcdccc;">author</span> = {Edward Kmett},
+  <span style="color: #dcdccc;">title</span> = {lens library, Version 4.16},
+  <span style="color: #dcdccc;">howpublished</span> = {Hackage \url{https://hackage.haskell.org/package/lens-4.16}},
+  <span style="color: #dcdccc;">year</span> = {2012--2018}
+}
+
+<span style="color: #dcdccc;">@Misc</span>{<span style="color: #dca3a3;">oconnor15</span>,
+  <span style="color: #dcdccc;">author</span> = {Russell O'Connor},
+  <span style="color: #dcdccc;">title</span> = {mezzolens: {P}ure {P}rofunctor {F}unctional {L}enses},
+  <span style="color: #dcdccc;">howpublished</span> = {Hackage \url{https://hackage.haskell.org/package/mezzolens}},
+  <span style="color: #dcdccc;">year</span> = {2015}
+}
+
+<span style="color: #dcdccc;">@MastersThesis</span>{<span style="color: #dca3a3;">boisseau17</span>,
+  <span style="color: #dcdccc;">author</span> =   {Guillaume Boisseau},
+  <span style="color: #dcdccc;">title</span> =    {Understanding Profunctor Optics: a representation theorem},
+  <span style="color: #dcdccc;">school</span> =   {University of Oxford},
+  <span style="color: #dcdccc;">year</span> =     2017}
+
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">fong19</span>,
+  <span style="color: #dcdccc;">author</span>    = {Brendan Fong and
+               Michael Johnson},
+  <span style="color: #dcdccc;">title</span>     = {{Lenses} and {Learners}},
+  <span style="color: #dcdccc;">journal</span>   = {CoRR},
+  <span style="color: #dcdccc;">volume</span>    = {abs/1903.03671},
+  <span style="color: #dcdccc;">year</span>      = {2019},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">http://arxiv.org/abs/1903.03671</span>},
+  <span style="color: #dcdccc;">archivePrefix</span> = {arXiv},
+  <span style="color: #dcdccc;">eprint</span>    = {1903.03671},
+  <span style="color: #dcdccc;">timestamp</span> = {Sun, 31 Mar 2019 19:01:24 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/journals/corr/abs-1903-03671},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+
+<span style="color: #dcdccc;">@phdthesis</span>{<span style="color: #dca3a3;">oles82</span>,
+ <span style="color: #dcdccc;">author</span> = {Oles, Frank Joseph},
+ <span style="color: #dcdccc;">title</span> = {A Category-theoretic Approach to the Semantics of Programming Languages},
+ <span style="color: #dcdccc;">year</span> = {1982},
+ <span style="color: #dcdccc;">note</span> = {AAI8301650},
+ <span style="color: #dcdccc;">publisher</span> = {Syracuse University},
+ <span style="color: #dcdccc;">school</span> = {Syracuse University},
+ <span style="color: #dcdccc;">address</span> = {Syracuse, NY, USA},
+}
+
+<span style="color: #dcdccc;">@inproceedings</span>{<span style="color: #dca3a3;">tuyeras19</span>,
+  <span style="color: #dcdccc;">title</span>={Backprop as {Functor}: A compositional perspective on supervised learning},
+  <span style="color: #dcdccc;">author</span>={Fong, Brendan and Spivak, David and Tuy{\'e}ras, R{\'e}my},
+  <span style="color: #dcdccc;">booktitle</span>={2019 34th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)},
+  <span style="color: #dcdccc;">pages</span>={1--13},
+  <span style="color: #dcdccc;">year</span>={2019},
+  <span style="color: #dcdccc;">organization</span>={IEEE}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">hedges18</span>,
+  <span style="color: #dcdccc;">author</span>    = {Jules Hedges},
+  <span style="color: #dcdccc;">title</span>     = {Morphisms of Open Games},
+  <span style="color: #dcdccc;">journal</span>   = {Electr. Notes Theor. Comput. Sci.},
+  <span style="color: #dcdccc;">volume</span>    = {341},
+  <span style="color: #dcdccc;">pages</span>     = {151--177},
+  <span style="color: #dcdccc;">year</span>      = {2018},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1016/j.entcs.2018.11.008</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1016/j.entcs.2018.11.008</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Fri, 21 Dec 2018 15:28:55 +0100},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/journals/entcs/Hedges18},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">hedges19</span>,
+  <span style="color: #dcdccc;">author</span>    = {Jules Hedges},
+  <span style="color: #dcdccc;">title</span>     = {The game semantics of game theory},
+  <span style="color: #dcdccc;">journal</span>   = {CoRR},
+  <span style="color: #dcdccc;">volume</span>    = {abs/1904.11287},
+  <span style="color: #dcdccc;">year</span>      = {2019},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">http://arxiv.org/abs/1904.11287</span>},
+  <span style="color: #dcdccc;">archivePrefix</span> = {arXiv},
+  <span style="color: #dcdccc;">eprint</span>    = {1904.11287},
+  <span style="color: #dcdccc;">timestamp</span> = {Thu, 02 May 2019 15:13:44 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/bib/journals/corr/abs-1904-11287},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+<span style="color: #dcdccc;">@Misc</span>{<span style="color: #dca3a3;">case17</span>,
+  <span style="color: #dcdccc;">author</span> = {Nicky Case},
+  <span style="color: #dcdccc;">title</span> = {The {Evolution} of {Trust}, a {Game} on the {Game} {Theory} of {Why} and {How} {We} {Trust}},
+  <span style="color: #dcdccc;">howpublished</span> = {\url{http://ncase.me/trust/}},
+  <span style="color: #dcdccc;">year</span> = {2017}
+}
+
+<span style="color: #dcdccc;">@MastersThesis</span>{<span style="color: #dca3a3;">dilavore19</span>,
+  <span style="color: #dcdccc;">author</span> =   {Elena Di Lavore},
+  <span style="color: #dcdccc;">title</span> =    {{Subgame} {Perfection} in {Compositional} {Game} {Theory}},
+  <span style="color: #dcdccc;">school</span> =   {University of Oxford},
+  <span style="color: #dcdccc;">year</span> =     2019}
+
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">delpeuch:autonomization</span>,
+    <span style="color: #dcdccc;">title</span>={Autonomization of Monoidal Categories},
+    <span style="color: #dcdccc;">author</span>={Antonin Delpeuch},
+    <span style="color: #dcdccc;">year</span>={2014},
+    <span style="color: #dcdccc;">eprint</span>={1411.3827},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">fong:regularlogic</span>,
+  <span style="color: #dcdccc;">author</span>    = {Brendan Fong and
+               David I. Spivak},
+  <span style="color: #dcdccc;">title</span>     = {Graphical Regular Logic},
+  <span style="color: #dcdccc;">journal</span>   = {CoRR},
+  <span style="color: #dcdccc;">volume</span>    = {abs/1812.05765},
+  <span style="color: #dcdccc;">year</span>      = {2018},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">http://arxiv.org/abs/1812.05765</span>},
+  <span style="color: #dcdccc;">archivePrefix</span> = {arXiv},
+  <span style="color: #dcdccc;">eprint</span>    = {1812.05765},
+  <span style="color: #dcdccc;">timestamp</span> = {Thu, 03 Jan 2019 09:29:38 +0100},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/corr/abs-1812-05765.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">bonchi:relational</span>,
+  <span style="color: #dcdccc;">author</span>    = {Filippo Bonchi and
+               Dusko Pavlovic and
+               Pawe{\l} Soboci{\'{n}}ski},
+  <span style="color: #dcdccc;">title</span>     = {Functorial Semantics for Relational Theories},
+  <span style="color: #dcdccc;">journal</span>   = {CoRR},
+  <span style="color: #dcdccc;">volume</span>    = {abs/1711.08699},
+  <span style="color: #dcdccc;">year</span>      = {2017},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">http://arxiv.org/abs/1711.08699</span>},
+  <span style="color: #dcdccc;">archivePrefix</span> = {arXiv},
+  <span style="color: #dcdccc;">eprint</span>    = {1711.08699},
+  <span style="color: #dcdccc;">timestamp</span> = {Mon, 13 Aug 2018 16:46:03 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/corr/abs-1711-08699.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">bonchi:diagrammaticalgebra</span>,
+  <span style="color: #dcdccc;">author</span>    = {Filippo Bonchi and
+               Joshua Holland and
+               Robin Piedeleu and
+               Pawe{\l} Soboci{\'{n}}ski and
+               Fabio Zanasi},
+  <span style="color: #dcdccc;">title</span>     = {Diagrammatic algebra: from linear to concurrent systems},
+  <span style="color: #dcdccc;">journal</span>   = {{PACMPL}},
+  <span style="color: #dcdccc;">volume</span>    = {3},
+  <span style="color: #dcdccc;">number</span>    = {{POPL}},
+  <span style="color: #dcdccc;">pages</span>     = {25:1--25:28},
+  <span style="color: #dcdccc;">year</span>      = {2019},
+  <span style="color: #dcdccc;">url</span>       = {<span style="color: #dca3a3;">https://doi.org/10.1145/3290338</span>},
+  <span style="color: #dcdccc;">doi</span>       = {<span style="color: #dca3a3;">10.1145/3290338</span>},
+  <span style="color: #dcdccc;">timestamp</span> = {Fri, 10 May 2019 11:01:57 +0200},
+  <span style="color: #dcdccc;">biburl</span>    = {https://dblp.org/rec/journals/pacmpl/BonchiHPSZ19.bib},
+  <span style="color: #dcdccc;">bibsource</span> = {dblp computer science bibliography, https://dblp.org}
+}
+<span style="color: #dcdccc;">@misc</span>{<span style="color: #dca3a3;">schultz16</span>,
+    <span style="color: #dcdccc;">title</span>={Dynamical {S}ystems and {S}heaves},
+    <span style="color: #dcdccc;">author</span>={Patrick Schultz and David I. Spivak and Christina Vasilakopoulou},
+    <span style="color: #dcdccc;">year</span>={2016},
+    <span style="color: #dcdccc;">journal</span>={arXiv preprint arXiv:1609.08086},
+    <span style="color: #dcdccc;">eprint</span>={1609.08086},
+    <span style="color: #dcdccc;">archivePrefix</span>={arXiv},
+    <span style="color: #dcdccc;">primaryClass</span>={math.CT}
+}
+
+<span style="color: #dcdccc;">@article</span>{<span style="color: #dca3a3;">fisher36</span>,
+  <span style="color: #dcdccc;">title</span>={The use of multiple measurements in taxonomic problems},
+  <span style="color: #dcdccc;">author</span>={Fisher, Ronald A},
+  <span style="color: #dcdccc;">journal</span>={Annals of eugenics},
+  <span style="color: #dcdccc;">volume</span>={7},
+  <span style="color: #dcdccc;">number</span>={2},
+  <span style="color: #dcdccc;">pages</span>={179--188},
+  <span style="color: #dcdccc;">year</span>={1936},
+  <span style="color: #dcdccc;">publisher</span>={Wiley Online Library}
+}
+
+<span style="color: #dcdccc;">@book</span>{<span style="color: #dca3a3;">wilf05</span>,
+  <span style="color: #dcdccc;">title</span>={generatingfunctionology},
+  <span style="color: #dcdccc;">author</span>={Wilf, Herbert S},
+  <span style="color: #dcdccc;">year</span>={2005},
+  <span style="color: #dcdccc;">publisher</span>={AK Peters/CRC Press}
+}
+</pre>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Mario Román</p>
+<p class="date">Created: 2021-05-11 Tue 12:31</p>
+</div>
+</body>
+</html>

@@ -27,6 +27,8 @@ supervision of [[https://www.ioc.ee/~pawel/][Pawel Sobociński]]; my main intere
  * [[file:publications/opendiagrams.pdf][Open Diagrams via Coend Calculus]]. /Mario Román/. ArXiv preprint
    [[https://arxiv.org/abs/2004.04526][2004.04526]], April 2020.
 
+   * [[file:talks/opendiagrams-act20.pdf][Slides]] for [[http://act2020.mit.edu/][Applied Category Theory 2020]] /(7th July 2020, MIT, online)/.
+
  * [[file:publications/combdiagramsfeedback.pdf][Comb Diagrams for Discrete-Time Feedback]]. /Mario Román/. ArXiv preprint
    [[https://arxiv.org/abs/2003.06214][2003.06214]], March 2020.
 
@@ -37,7 +39,7 @@ supervision of [[https://www.ioc.ee/~pawel/][Pawel Sobociński]]; my main intere
    * [[file:publications/profunctoropticsacategoricalupdateAbstract.pdf][Extended abstract]] for [[http://act2020.mit.edu/][Applied Category Theory 2020]].
    * [[file:talks/profunctoroptics-act20.pdf][Slides]] for [[http://act2020.mit.edu/][Applied Category Theory 2020]] /(7th July 2020, MIT, online)/.
    * [[file:talks/profunctoroptics-nwpt19.pdf][Slides]] for NWPT'19 /(15th November 2019, Taltech)/.
-   * [[file:talks/profunctoroptics-syco5.pdf][Slides]] for SYCO5 /(5th September 2019, Birmingham)/.
+   * [[file:talks/profunctoroptics-syco5.pdf][Slides]] for [[http://events.cs.bham.ac.uk/syco/strings3-syco5/][SYCO5]] /(5th September 2019, Birmingham, [[https://bham.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=96ed220b-578c-4d09-bf19-aad40098b317][video]])/.
 
  * [[file:publications/profunctoropticsandtraversals.pdf][Profunctor optics and traversals]]. /Mario Román/. ArXiv preprint [[https://arxiv.org/abs/2001.08045][2001.08045]],
    January 2020. MSc Dissertation at the University of Oxford, supervised by
@@ -89,12 +91,30 @@ I upload notes on ideas that have not made into an article yet. These are not me
 # * Reviewing
 # I have acted as reviewer for SYCO and Compositionality. I have acted as subreviewer for LiCS.
 
+* Videos
+
+** Open Diagrams via Coend calculus (ACT 2020, MIT)
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qnkDtBkHdHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+
+** Profunctor optics, a categorical update (ACT 2020, MIT)
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SsS7ZBYRcw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+** Profunctor optics, a categorical update (SYCO 5, Birmingham)
+ - https://bham.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=96ed220b-578c-4d09-bf19-aad40098b317
+
 * Working notes
 These are pieces of paper I collect and write while studying some topic. They are not meant to be definitive and many of them do not contain original material. Think of these as atomic ideas.
 
 *** Automata and bicategories of processes
 
- * [[file:pieces/quotient-of-io-transition-systems.jpg][Quotient of IO transitiion systems]]. #nov20 #automata #bicategory
+ * [[file:pieces/quotient-of-io-transition-systems.jpg][Quotient of IO transition systems]]. #nov20 #automata #bicategory
  * [[file:pieces/bicategories-of-processes-and-lax-dinaturality.jpg][Bicategories of processes and lax dinaturality]]. #nov20 #automata #bicategory
  * [[file:pieces/loop-space-of-a-bicategory.jpg][Loop space of a bicategory]]. #nov20 #automata #bicategory
  * [[file:pieces/decorating-bicategories-of-processes.jpg][Decorating bicategories of processes]]. #nov20 #automata #bicategory
@@ -194,16 +214,7 @@ These are pieces of paper I collect and write while studying some topic. They ar
  * [[file:pieces/monad-properties-via-do-notation.jpg][Monad properties via do-notation]]. #donotation #discardablemonad #commutativemonad #copyablemonad #strongmonad
  * [[file:pieces/discardable-monads-and-marginalization.jpg][Discardable monads and marginalization]]. #discardablemonad
 
-* Videos
+* Misc
 
-** Open Diagrams via Coend calculus (ACT 2020, MIT)
-
-#+begin_export html
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qnkDtBkHdHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-#+end_export
-** Profunctor optics, a categorical update (ACT 2020, MIT)
-
-#+begin_export html
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SsS7ZBYRcw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-#+end_export
-
+ - [[file:references.org][List of references]].
+ - [[file:books.org][List of books]].
