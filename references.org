@@ -372,6 +372,7 @@ keywords = {breadth-first, co-induction, level-order, program calculation, trave
   journal={arXiv preprint arXiv:1910.09240},
   year={2019}
 }
+
 @misc{buckley2012fibred,
     title={Fibred 2-categories and bicategories},
     author={Mitchell Buckley},
@@ -380,12 +381,14 @@ keywords = {breadth-first, co-induction, level-order, program calculation, trave
     archivePrefix={arXiv},
     primaryClass={math.CT}
 }
+
 @article{loregian15,
   title={This is the (co)end, my only (co)friend},
   author={Loregian, Fosco},
   journal={arXiv preprint arXiv:1501.02503},
   year={2015}
 }
+
 @article{loregian19,
     title={Coend calculus},
     author={Fosco Loregian},
@@ -395,6 +398,7 @@ keywords = {breadth-first, co-induction, level-order, program calculation, trave
     journal={arXiv preprint arXiv:1501.02503},
     primaryClass={math.CT}
 }
+
 @inproceedings{rypacek12,
   author    = {Mauro Jaskelioff and
                Ondrej Rypacek},
@@ -855,7 +859,8 @@ doi = {10.1017/S0305004100074338}
     archivePrefix={arXiv},
     primaryClass={cs.LO}
 }
-@misc{smithe20,
+
+@misc{smithe:bayesian,
     title={Bayesian Updates Compose Optically},
     author={Toby St. Clere Smithe},
     year={2020},
@@ -863,6 +868,14 @@ doi = {10.1017/S0305004100074338}
     archivePrefix={arXiv},
     primaryClass={math.CT}
 }
+
+@article{smithe:cyberkittens,
+  title={Cyber Kittens, or Some First Steps Towards Categorical Cybernetics},
+  author={Smithe, Toby St Clere},
+  journal={arXiv preprint arXiv:2101.10483},
+  year={2021}
+}
+
 @article{carboni87,
   title={Cartesian {B}icategories {I}},
   author={Carboni, Aurelio and Walters, Robert FC},
@@ -880,7 +893,8 @@ doi = {10.1017/S0305004100074338}
   doi = {10.5281/zenodo.2540764},
   url = {https://doi.org/10.5281/zenodo.2540764}
 }
-@article{stay2013compact,
+
+@article{stay:compact,
     title={Compact Closed Bicategories},
     author={Michael Stay},
     year={2013},
@@ -889,6 +903,7 @@ doi = {10.1017/S0305004100074338}
     archivePrefix={arXiv},
     primaryClass={math.CT}
 }
+
 @article{baez2019structured,
     title={Structured Cospans},
     author={John C. Baez and Kenny Courser},
@@ -1279,6 +1294,7 @@ doi = {10.1017/S0305004100074338}
   biburl    = {https://dblp.org/rec/journals/tcs/Girard87.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
 @inproceedings{katis00,
   title={A formalization of the IWIM model},
   author={Katis, Piergiulio and Sabadini, Nicoletta and Walters, Robert FC},
@@ -1287,6 +1303,7 @@ doi = {10.1017/S0305004100074338}
   year={2000},
   organization={Springer}
 }
+
 @article{boisseau18,
   author    = {Guillaume Boisseau and
                Jeremy Gibbons},
@@ -1303,6 +1320,7 @@ doi = {10.1017/S0305004100074338}
   biburl    = {https://dblp.org/rec/bib/journals/pacmpl/BoisseauG18},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
 @article{fong2015decorated,
     title={Decorated {C}ospans},
     author={Brendan Fong},
@@ -1312,18 +1330,21 @@ doi = {10.1017/S0305004100074338}
     archivePrefix={arXiv},
     primaryClass={math.CT}
 }
+
 @Misc{willerton:twotraces,
   author = {Simon Willerton},
   title = {{Two} 2-{Traces}},
   howpublished = {Slides from a talk, University of Sheffield, \url{http://www.simonwillerton.staff.shef.ac.uk/ftp/TwoTracesBeamerTalk.pdf}},
   year = {2010}
 }
+
 @article{ahrens17,
   title={How to take smart notes: One simple technique to boost writing, learning and thinking},
   author={Ahrens, S},
   journal={North Charleston, SC: CreateSpace Independent Publishing Platform},
   year={2017}
 }
+
 @article{pickering17,
   author    = {Matthew Pickering and
                Jeremy Gibbons and
@@ -1340,6 +1361,7 @@ doi = {10.1017/S0305004100074338}
   biburl    = {https://dblp.org/rec/bib/journals/programming/PickeringGW17},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
 @article{HedgesLewis18,
 	doi = {10.4204/eptcs.283.7},
 	url = {https://doi.org/10.4204%2Feptcs.283.7},
