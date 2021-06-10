@@ -9,7 +9,9 @@
 
 I am currently a PhD student at [[https://www.ttu.ee/][Tallinn University of Technology]] under the
 supervision of [[https://www.ioc.ee/~pawel/][Pawel Sobociński]]; my main interests being [[https://en.wikipedia.org/wiki/Category_theory][category theory]] and
-[[https://en.wikipedia.org/wiki/Functional_programming][functional programming]] ([[https://github.com/mroman42][GitHub]], [[https://mroman42.github.io/friggeri-cv-a4/cv.pdf][CV]]).
+[[https://en.wikipedia.org/wiki/Functional_programming][functional programming]] ([[https://github.com/mroman42][GitHub]], [[https://mroman42.github.io/friggeri-cv-a4/cv.pdf][CV]]). I have studied /lenses/ in functional programming and developed a theory of /incomplete string diagrams/ that allows us to reason with many constructions in applied category theory in a formal and purely diagrammatic way.
+
+Since December 2020, I suffer from some [[file:illness.org][health conditions]] that have affected how I work.
 
 #+attr_html: :align center
 #+attr_html: :width 200px

@@ -1,0 +1,7 @@
+#+TITLE: On health and illness
+
+I have been diagnosed with [[https://www.visualsnowinitiative.org/learn/][Visual Snow Syndrome]], and the comorbid conditions of [[https://www.mayoclinic.org/diseases-conditions/migraine-with-aura/symptoms-causes/syc-20352072][Migraines with Aura]], [[https://www.mayoclinic.org/diseases-conditions/tinnitus/diagnosis-treatment/drc-20350162][Tinnitus]] and [[https://www.mayoclinic.org/diseases-conditions/generalized-anxiety-disorder/symptoms-causes/syc-20360803][Anxiety]].  It started after a long covid infection, and thus I am also diagnosed with [[https://www.mayoclinicproceedings.org/article/S0025-6196(21)00356-6/fulltext][Post Covid-19 Syndrome]]. Finally, I present a bunch of symptoms for which there is no current explanation. This had profound implications on my personal life, but I will focus here only on the part related to my research.
+
+As a mathematician, this illness has been devastating for my academic work:
+I find extremely difficult to focus, I have problems reading, and I have
+problems understanding or learning new things.
