@@ -1,0 +1,44 @@
+#+TITLE: FAQ on my Health
+
+I have received some questions about my health. It does affect my
+research and I commonly find myself having to explain my current
+situation, so I have decided to write this note on my webpage.
+
+I got infected with COVID-19 on december 2020, with a low-grade fever
+and general tiredness that lasted for two months. In january, I started
+developing paresthesias and bilateral tinnitus, around march, I started
+presenting all the symptoms of a neurological disorder called "visual snow
+syndrome".
+
+* What is visual snow syndrome?
+Quoting the [[https://www.visualsnowinitiative.org/learn/][Visual Snow Initiative]]:
+
+#+begin_quote
+Visual Snow Syndrome (VSS), is a neurological condition that has
+devastating effects on an individual’s vision, hearing, and cognitive
+functioning. Once believed to be rare, it now known that thousands of
+people from around the world of all ages and walks of life are
+affected by it. Most often, the condition causes people to process
+visual information abnormally, making normal life more difficult for
+them. Patients see flashing lights, flickering dots, and static, all
+of which obstruct their visual field 24/7. There is no relief for
+them, even when their eyes are closed. What differentiates Visual Snow
+symptoms from other fleeting phenomena is that they are constant, not
+temporary, meaning that they do no go away on their own. The condition
+also has an array of non-visual symptoms.
+#+end_quote
+  
+Visual snow syndrome is an (uncommon) neurological disorder catalogued
+on the [[https://journals.sagepub.com/doi/10.1177/0333102417738202][International Classification of Headache Disorders]] (ICHD-3). I
+can give a very simplified (and possibly incorrect) explanation of it.
+Our brains filter out a lot of sensory noise and disturbances on our
+ears, sight and touch. Visual snow syndrome occurs when the brain has
+difficulties filtering this information out. This makes the patient
+have to deal consciously and constantly with a lot of abnormal sensory
+inputs.
+
+
+  
+
+
+

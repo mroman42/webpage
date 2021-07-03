@@ -1,0 +1,86 @@
+#+TITLE: Books
+#+Options: toc:nil num:nil
+
+* Books
+
+|------------------------------------------------+-------------------------+---------+-------+------+-------------------------|
+| Title                                          | Author                  | Status  | Stars | Year | Tags                    |
+|------------------------------------------------+-------------------------+---------+-------+------+-------------------------|
+| The Scout Mindset                              | Julia Galef             |         |       |      |                         |
+| How to Change your Mind                        | Michael Pollan          | TOREAD  |       |      |                         |
+| The Brain's Way of Healing                     | Normal Doige            | TOREAD  |       |      |                         |
+| The Healing Journey                            | Claudio Naranjo         | TOREAD  |       |      |                         |
+| Hallucinations                                 | Oliver Sacks            | TOREAD  |       |      |                         |
+| Steal like an artist                           | Austin Kleon            | TOREAD  |       |      |                         |
+| Show your work                                 | Austin Kleon            | TOREAD  |       |      |                         |
+| Migraines                                      | Oliver Sacks            | TOREAD  |       |      |                         |
+| Musicophilia                                   | Oliver Sacks            | TOREAD  |       |      |                         |
+| Meditations                                    | Marcus Aurelius         | TOREAD  |       |      |                         |
+| A Velocity of Being: letters to a young reader | Maria Popova            | TOREAD  |       |      |                         |
+| The Precipice                                  | Toby Ord                | READING |       |      |                         |
+| Full Catastrophe Living                        | Kabat-Zinn              | READING |       |      | :psychology:            |
+| Generalized Anxiety Disorder Workbook          | Robichaud, Dugas        | READING |       |      | :psychology:            |
+| La Scienza della Cucina                        | Stuart Farrimond        | READING |       |      |                         |
+| Ensayo sobre la lucidez                        | Jose Saramago           | READ    |     5 | 2012 | :fiction:politics:      |
+| Ensayo sobre la ceguera                        | Jose Saramago           | READ    |     4 | 2013 | :fiction:politics:      |
+| Las 13 vidas y media del Capitan Osoazul       | Walter Moers            | READ    |     4 | 2006 | :fiction:               |
+| Harry Potter and the methods of rationality    | Eliezer Yudkowsky       | READ    |     4 | 2018 | :fiction:science:       |
+| Rationality: from AI to Zombies                | Eliezer Yudkowsky       | READ    |     4 | 2018 | :science:personal:      |
+| The Elephant in the Brain                      | Robin Hanson            | READ    |       |      |                         |
+| The Hero of Ages                               | Brandon Sanderson       | READ    |       |      |                         |
+| The Well of Ascension                          | Brandon Sanderson       |         |       |      |                         |
+| Mistborn                                       | Brandon Sanderson       |         |       |      |                         |
+| La boutique del mistero                        | Dino Buzzati            |         |       |      |                         |
+| Logicomix                                      | Apostolos Doxiadis      |         |       |      |                         |
+| Digital Minimalism                             | Cal Newport             |         |       |      |                         |
+| The Non-Designers Design Book                  | Robin Williams          |         |       |      |                         |
+| Atomic Habits                                  | James Clear             |         |       |      |                         |
+| Ego is the Enemy                               | Ryan Holiday            |         |       |      | :philosophy:psychology: |
+| Conspiracy                                     | Ryan Holiday            |         |       |      |                         |
+| Lives of the Stoics                            | Ryan Holiday            |         |       |      | :philosophy:            |
+| [[id:51f47ca3-1d6b-45fb-98ed-f625c39b7d8a][Stillness is the key]]                           | Ryan Holiday            |         |       |      | :philosophy:            |
+| The Adventure of the Blue Carbuncle            | Arthur Conan Doyle      |         |       |      |                         |
+| Stories of your life and others                | Ted Chiang              |         |       |      |                         |
+| Letter to Meneceus                             | Epicurus                |         |       |      |                         |
+| Come comida real                               | Carlos Rios             |         |       |      |                         |
+| Mi dieta ya no cojea                           | Aitor Sanchez           |         |       |      |                         |
+| Dime que comes y te dire que bacterias tienes  |                         |         |       |      |                         |
+| Exhalation                                     | Ted Chiang              |         |       |      |                         |
+| Que le doy de comer                            | Aitor Sanchez, Martinez |         |       |      |                         |
+|------------------------------------------------+-------------------------+---------+-------+------+-------------------------|
+
+
+** Stillness is the Key, by Ryan Holiday
+:PROPERTIES:
+:ID:       51f47ca3-1d6b-45fb-98ed-f625c39b7d8a
+:END:
+
+: Anyone who has concentrated so deeply that a flash of insight or inspiration suddenly visited him knows stillness.  Anyone who has walked out alone on a quiet street as the snow fell, warmed by the contentment of being alive knows stillness. — Ryan Holiday
+
+Stillness gives us vision to think clearly, take the correct decisions, manage
+our emotions and excel on what we do. The plan of this book is to seek that
+inner peace. Every religion agrees on the importance of stillness: ataraxia for the epicureans, aequanimitas for the Christians, samatuam, uppekha, aslama, apatheia.
+
+
+* Films
+
+|------------------------------------+--------|
+| Title                              | Status |
+|------------------------------------+--------|
+| La Grande Bellezza                 | TOSEE  |
+| Cuba and the Cameraman             | SEEN   |
+| Food Markets                       | SEEN   |
+| Salt, Fat, Acid, Heat              | SEEN   |
+| The Game Changers                  | SEEN   |
+| Inside Bill's brain                | SEEN   |
+| Princess Mononoke                  | SEEN   |
+| Young Frankenstein                 | SEEN   |
+| My Neighbor Totoro                 | SEEN   |
+| Le Prenom                          | SEEN   |
+| 2001: A Space Odyssey              | SEEN   |
+| Blade Runner                       | SEEN   |
+| West Side Story                    | SEEN   |
+| Spirited Away                      | SEEN   |
+| The Man from Earth                 | SEEN   |
+| Nausicaa of the Valley of the Wind | SEEN   |
+|------------------------------------+--------|
