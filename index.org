@@ -14,7 +14,7 @@ programming and developed a theory of /incomplete string diagrams/ that allows u
 to reason with many constructions in applied category theory in a formal and
 purely diagrammatic way.
 
-Since December 2020, I suffer from /visual snow syndrome/, which has affected
+Since December 2020, I suffer from /visual snow syndrome/, which has impacted
 my life and my work. Please consider supporting research on [[https://www.visualsnowinitiative.org/][visual snow
 syndrome]].
 
@@ -220,6 +220,7 @@ These are pieces of paper I collect and write while studying some topic. They ar
  * [[file:pieces/do-notation-for-strong-monads.jpg][Do-notation for strong monads]]. #donotation
  * [[file:pieces/monad-properties-via-do-notation.jpg][Monad properties via do-notation]]. #donotation #discardablemonad #commutativemonad #copyablemonad #strongmonad
  * [[file:pieces/discardable-monads-and-marginalization.jpg][Discardable monads and marginalization]]. #discardablemonad
+ * [[file:pieces/adamek-theorem-for-combs.jpg][Adamek's theorem for combs]]. #coalgebra #combs
 
 * Misc
 
