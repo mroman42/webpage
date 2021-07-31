@@ -72,6 +72,7 @@ syndrome]].
 * Notes
 I upload notes on ideas that have not made into an article yet. These are not meant to be definitive, but if you want to use them or cite them in a more final form, please let me know. I will probably be happy to discuss about them and it is likely that I have been working on expanding them.
 
+ * [[file:notes/iterative-processes.pdf][Iterative processes]], 31 July 2021.
  * [[file:notes/wiringdiagramsfeedback.pdf][Wiring diagrams and feedback]], 5 November 2020.
  * [[file:notes/notes-on-categories-with-feedback.pdf][Notes on Categories with Feedback]], 24 August 2020.
  * [[file:notes/distributive-laws-of-data-accessors.pdf][Distributive laws of data accessors]], 7 August 2020.
